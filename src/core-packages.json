@@ -720,16 +720,6 @@
 		"sbu2": 0
 	},
 	{
-		"name": "tcl-html",
-		"fileName": "tcl8.6.11-html.tar.gz",
-		"description": "",
-		"url": "https://downloads.sourceforge.net/tcl/tcl8.6.11-html.tar.gz",
-		"version": "8.6.11",
-		"md5": "",
-		"sbu": 0,
-		"sbu2": 0
-	},
-	{
 		"name": "texinfo",
 		"fileName": "texinfo-6.7.tar.xz",
 		"description": "",
