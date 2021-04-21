@@ -231,10 +231,10 @@
 	},
 	{
 		"name": "gcc",
-		"fileName": "gcc-10.2.0.tar.xz",
+		"fileName": "gcc-10.3.0.tar.xz",
 		"description": "",
-		"url": "https://ftp.gnu.org/gnu/gcc/gcc-10.2.0/gcc-10.2.0.tar.xz",
-		"version": "10.2.0",
+		"url": "https://ftp.gnu.org/gnu/gcc/gcc-10.3.0/gcc-10.3.0.tar.xz",
+		"version": "10.3.0",
 		"md5": "",
 		"sbu": 0,
 		"sbu2": 0
