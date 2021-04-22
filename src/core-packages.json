@@ -928,7 +928,7 @@
 		"description": "Пакет SQlite предостовляет библиотеку реализующею базу данных SQL",
 		"url": "https://sqlite.org/2021/sqlite-autoconf-3350500.tar.gz",
 		"version": "3.35.5",
-		"releasesUrl": "",
+		"releasesUrl": " https://sqlite.org/download.html",
 		"priority": "optional",
 		"md5": "d1d1aba394c8e0443077dc9f1a681bb8",
 		"size": "2.8",
