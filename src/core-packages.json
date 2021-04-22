@@ -923,6 +923,20 @@
 		"sbu2": 0
 	},
 	{
+		"name": "sqlite",
+		"fileName": "sqlite-autoconf-3350500.tar.gz",
+		"description": "Пакет SQlite предостовляет библиотеку реализующею базу данных SQL",
+		"url": "https://sqlite.org/2021/sqlite-autoconf-3350500.tar.gz",
+		"version": "3.35.5",
+		"releasesUrl": " https://sqlite.org/download.html",
+		"priority": "optional",
+		"md5": "d1d1aba394c8e0443077dc9f1a681bb8",
+		"size": "2.8",
+		"installedSize": 0,
+		"sbu": 0,
+		"sbu2": 0
+	},
+	{
 		"name": "sysklogd",
 		"fileName": "sysklogd-1.5.1.tar.gz",
 		"description": "Системные утилиты, которые обеспечивают поддержку журналирования системы и перехват сообщений ядра. Поддержка доменных гнёзд интернет и unix позволяет этому пакету утилит поддерживать и локальное и удалённое журналирование.",
