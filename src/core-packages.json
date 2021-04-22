@@ -1,7 +1,7 @@
 [{
 		"name": "acl",
 		"fileName": "acl-2.3.1.tar.xz",
-		"description": "",
+		"description": "Access Control List или ACL — список управления доступом, который определяет, кто или что может получать доступ к объекту (программе, процессу или файлу), и какие именно операции разрешено или запрещено выполнять субъекту (пользователю, группе пользователей).Данный пакет содержит утилиты для администрирования списками управления доступом (ACL).",
 		"url": "https://download.savannah.gnu.org/releases/acl/acl-2.3.1.tar.xz",
 		"version": "2.3.1",
 		"releasesUrl": "",
@@ -15,7 +15,7 @@
 	{
 		"name": "attr",
 		"fileName": "attr-2.5.1.tar.gz",
-		"description": "",
+		"description": "Программы для администрирования расширенных атрибутов объектов файловой системы.",
 		"url": "https://download.savannah.gnu.org/releases/attr/attr-2.5.1.tar.gz",
 		"version": "2.5.1",
 		"releasesUrl": "",
@@ -29,7 +29,7 @@
 	{
 		"name": "autoconf",
 		"fileName": "autoconf-2.71.tar.xz",
-		"description": "",
+		"description": "Программы для воспроизведения сценариев командной оболочки которые могут выполнять автоматическую настройку исходного кода из определенного пользовательского файла-шаблона. Они также необходимы для повторной компиляции пакета после обновления процедур сборки.",
 		"url": "https://ftp.gnu.org/gnu/autoconf/autoconf-2.71.tar.xz",
 		"version": "2.71",
 		"releasesUrl": "",
@@ -43,7 +43,7 @@
 	{
 		"name": "automake",
 		"fileName": "automake-1.16.3.tar.xz",
-		"description": "",
+		"description": "Программы для создания файлов Makefile для использования его программой Autoconf. Он также необходим для повторной компиляции пакета после обновления процедур сборки.",
 		"url": "https://ftp.gnu.org/gnu/automake/automake-1.16.3.tar.xz",
 		"version": "1.16.3",
 		"releasesUrl": "",
@@ -57,7 +57,7 @@
 	{
 		"name": "bash",
 		"fileName": "bash-5.1.tar.gz",
-		"description": "",
+		"description": "Усовершенствованная и модернизированная вариация командной оболочки Bourne shell. Этот пакет выполняет требования стандарта LSB Core для обеспечения интерфейса Bourne Shell в системе. Он был выбран из числа других оболочек из-за широкого распространения, возможностей которые выходят далеко за пределы базовых функций программ-оболочек.",
 		"url": "https://ftp.gnu.org/gnu/bash/bash-5.1.tar.gz",
 		"version": "5.1",
 		"releasesUrl": "",
@@ -71,7 +71,7 @@
 	{
 		"name": "bc",
 		"fileName": "bc-4.0.1.tar.xz",
-		"description": "",
+		"description": "BC (basic calculator) — интерактивный интерпретатор Си-подобного языка, позволяет выполнять вычисления с произвольно заданной точностью. Часто используется как калькулятор в командной строке UNIX-подобных операционных систем.",
 		"url": "https://github.com/gavinhoward/bc/releases/download/4.0.1/bc-4.0.1.tar.xz",
 		"version": "4.0.1",
 		"releasesUrl": "",
@@ -85,7 +85,7 @@
 	{
 		"name": "binutils",
 		"fileName": "binutils-2.36.1.tar.xz",
-		"description": "",
+		"description": "Пакет содержит компоновщик, ассемблер, и другие утилиты и инструменты для работы с объектными файлам. Программы в этом пакете необходимы для компиляции большинства пакетов.",
 		"url": "https://ftp.gnu.org/gnu/binutils/binutils-2.36.1.tar.xz",
 		"version": "2.36.1",
 		"releasesUrl": "",
@@ -99,7 +99,7 @@
 	{
 		"name": "bison",
 		"fileName": "bison-3.7.6.tar.xz",
-		"description": "",
+		"description": "Пакет содержит GNU версию yacc (Ещё один компилятор компиляторов) необходимый для сборки некоторых пакетов",
 		"url": "https://ftp.gnu.org/gnu/bison/bison-3.7.6.tar.xz",
 		"version": "3.7.6",
 		"releasesUrl": "",
@@ -113,7 +113,7 @@
 	{
 		"name": "bzip2",
 		"fileName": "bzip2-1.0.8.tar.gz",
-		"description": "",
+		"description": "Пакет содержит программы для сжатия и распаковки файлов. Он необходим для распаковки многих пакетов. Сжатие текстовых файлов при помощи программы bzip2 даёт больший процент сжатия чем gzip.",
 		"url": "https://www.sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
 		"version": "1.0.8",
 		"releasesUrl": "",
@@ -127,7 +127,7 @@
 	{
 		"name": "check",
 		"fileName": "check-0.15.2.tar.gz",
-		"description": "",
+		"description": "Check - платформа для работы с модульными тестами для языка программирования Си",
 		"url": "https://github.com/libcheck/check/releases/download/0.15.2/check-0.15.2.tar.gz",
 		"version": "0.15.2",
 		"releasesUrl": "",
@@ -141,7 +141,7 @@
 	{
 		"name": "coreutils",
 		"fileName": "coreutils-8.32.tar.xz",
-		"description": "",
+		"description": "Coreutils - пакет программного обеспечения GNU, содержащий большое количество основных утилит, таких как cat, ls и rm, необходимых для UNIX-подобных операционных систем. Пакет включает несколько более ранних пакетов — textutils, shellutils, fileutils и другие различные утилиты.",
 		"url": "https://ftp.gnu.org/gnu/coreutils/coreutils-8.32.tar.xz",
 		"version": "8.32",
 		"releasesUrl": "",
@@ -155,7 +155,7 @@
 	{
 		"name": "dbus",
 		"fileName": "dbus-1.12.20.tar.gz",
-		"description": "",
+		"description": "D-Bus - система межпроцессного взаимодействия, которая позволяет приложениям в операционной системе сообщаться друг с другом. D-Bus предоставляет собой системную службу (для обработки таких событий, как 'Добавлено новое аппаратное устройство' или 'очередь принтеров изменена') и системную службу сеанса для каждого пользователя (для общих потребностей IPC среди пользовательских приложений.) Кроме того, D-Bus построен поверх общей платформы передачи сообщений от одного к другому, которая может использоваться любыми двумя приложениями для связки (в обход шины сообщений).",
 		"url": "https://dbus.freedesktop.org/releases/dbus/dbus-1.12.20.tar.gz",
 		"version": "1.12.20",
 		"releasesUrl": "",
@@ -169,7 +169,7 @@
 	{
 		"name": "dejagnu",
 		"fileName": "dejagnu-1.6.2.tar.gz",
-		"description": "",
+		"description": "Плфтформа для тестирования",
 		"url": "https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.2.tar.gz",
 		"version": "1.6.2",
 		"releasesUrl": "",
@@ -183,7 +183,7 @@
 	{
 		"name": "diffutils",
 		"fileName": "diffutils-3.7.tar.xz",
-		"description": "",
+		"description": "Пакет содержит программы, которые отображают разницу в содержимом между файлами и каталогами. Эти программы могут быть использованы, для создания патчей, а также они используются в процедурах сборки для большинства пакетов.",
 		"url": "https://ftp.gnu.org/gnu/diffutils/diffutils-3.7.tar.xz",
 		"version": "3.7",
 		"releasesUrl": "",
@@ -197,7 +197,7 @@
 	{
 		"name": "e2fsprogs",
 		"fileName": "e2fsprogs-1.46.2.tar.gz",
-		"description": "",
+		"description": "Утилиты для работы с файловыми системами ext2, ext3 и ext4. Это наиболее распространенные и тщательно протестированные файловые системы, поддерживаемые в Linux.",
 		"url": "https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.46.2/e2fsprogs-1.46.2.tar.gz",
 		"version": "1.46.2",
 		"releasesUrl": "",
@@ -211,7 +211,7 @@
 	{
 		"name": "elfutils",
 		"fileName": "elfutils-0.183.tar.bz2",
-		"description": "",
+		"description": "Библиотека для обработки файлов формата ELF (Executable and Linkable Format — формат исполнимых и компонуемых файлов). Формат двоичных файлов, используемый во многих современных UNIX-подобных операционных системах, таких как FreeBSD, Linux, Solaris и др. Также этот формат используется и во многих других системах. Большинство утилит доступны в других пакетах, но эта библиотека необходима для сборки ядра Linux используя конфигурацию по умолчанию (и наиболее эффективную).",
 		"url": "https://sourceware.org/ftp/elfutils/0.183/elfutils-0.183.tar.bz2",
 		"version": "0.183",
 		"releasesUrl": "",
@@ -225,7 +225,7 @@
 	{
 		"name": "eudev",
 		"fileName": "eudev-3.2.10.tar.gz",
-		"description": "",
+		"description": "Eudev - диспетчер устройств. Он контролирует записи в каталоге /dev, так как устройства добавляются или удаляются из системы динамически.",
 		"url": "https://dev.gentoo.org/~blueness/eudev/eudev-3.2.10.tar.gz",
 		"version": "3.2.10",
 		"releasesUrl": "",
@@ -239,7 +239,7 @@
 	{
 		"name": "expat",
 		"fileName": "expat-2.3.0.tar.xz",
-		"description": "",
+		"description": "Expat потокоориентированная библиотека парсинга XML, написанная на C. Как один из наиболее доступных XML парсеров, широко используется в открытом программном обеспечении.",
 		"url": "https://prdownloads.sourceforge.net/expat/expat-2.3.0.tar.xz",
 		"version": "2.3.0",
 		"releasesUrl": "",
@@ -253,7 +253,7 @@
 	{
 		"name": "expect",
 		"fileName": "expect5.45.4.tar.gz",
-		"description": "",
+		"description": "Пакет содержит инструменты для автоматизации и тестирования, и является расширением к скрипт-языку Tcl для многих интерактивных приложений. Он будет установлен только во временный инструментарий.",
 		"url": "https://prdownloads.sourceforge.net/expect/expect5.45.4.tar.gz",
 		"version": "5.45.4",
 		"releasesUrl": "",
@@ -267,7 +267,7 @@
 	{
 		"name": "file",
 		"fileName": "file-5.40.tar.gz",
-		"description": "",
+		"description": "Пакет содержит утилиты для определения типов файлов. Некоторым пакетам требуется, чтобы этот пакет был установлен.",
 		"url": "https://astron.com/pub/file/file-5.40.tar.gz",
 		"version": "5.40",
 		"releasesUrl": "",
@@ -281,7 +281,7 @@
 	{
 		"name": "findutils",
 		"fileName": "findutils-4.8.0.tar.xz",
-		"description": "",
+		"description": "Пакет содержит программы для поиска файлов. Программы предоставляют способы для рекурсивного поиска файлов по дереву каталогов, создания, обслуживания и поиска в базе данных (как правильно поиск выполняется быстрее, чем рекурсивный поиск, но менее надёжен, если база данных не в актуальном состоянии).",
 		"url": "https://ftp.gnu.org/gnu/findutils/findutils-4.8.0.tar.xz",
 		"version": "4.8.0",
 		"releasesUrl": "",
@@ -295,7 +295,7 @@
 	{
 		"name": "flex",
 		"fileName": "flex-2.6.4.tar.gz",
-		"description": "",
+		"description": "Flex (Fast Lexical Analyzer) — генератор лексических анализаторов. Это инструмент для лексического анализа, который может использоваться для выделения из исходного текста определенных строк заранее заданным способом.",
 		"url": "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz",
 		"version": "2.6.4",
 		"releasesUrl": "",
@@ -309,7 +309,7 @@
 	{
 		"name": "gawk",
 		"fileName": "gawk-5.1.0.tar.xz",
-		"description": "",
+		"description": "Пакет содержит программы для манипуляции с текстовыми файлами. Это GNU версия awk (Aho-Weinberg-Kernighan). Он используется в процедурах сборки для большинства пакетов.",
 		"url": "https://ftp.gnu.org/gnu/gawk/gawk-5.1.0.tar.xz",
 		"version": "5.1.0",
 		"releasesUrl": "",
@@ -323,7 +323,7 @@
 	{
 		"name": "gcc",
 		"fileName": "gcc-10.3.0.tar.xz",
-		"description": "",
+		"description": "Пакет содержит набор компиляторов GNU, для таких языков как Си и Си++.",
 		"url": "https://ftp.gnu.org/gnu/gcc/gcc-10.3.0/gcc-10.3.0.tar.xz",
 		"version": "10.3.0",
 		"releasesUrl": "",
@@ -337,7 +337,7 @@
 	{
 		"name": "gdbm",
 		"fileName": "gdbm-1.19.tar.gz",
-		"description": "",
+		"description": "Библиотека функций базы данных, которая использует расширяемое хэширование и работает аналогично стандартным функциям dbm UNIX. Эти процедуры предоставляются программисту, которому необходимо создать и обработать хешированную базу данных. Основное предназначение gdbm — хранить пары ключ/данные в файле данных. Каждый ключ должен быть уникальным и сопряженным только с одним элементом данных. Ключи не могут быть напрямую доступны в отсортированном порядке.",
 		"url": "https://ftp.gnu.org/gnu/gdbm/gdbm-1.19.tar.gz",
 		"version": "1.19",
 		"releasesUrl": "",
@@ -351,7 +351,7 @@
 	{
 		"name": "gettext",
 		"fileName": "gettext-0.21.tar.xz",
-		"description": "",
+		"description": "Пакет содержит утилиты и библиотеки для работы с локализацией и интернационализацией необходимые для некоторых пакетов. Что позволяет программам, которые скомпилированы с поддержкой NLS (Поддержка нативных языков), показывать сообщения в пользовательском нативном языке.",
 		"url": "https://ftp.gnu.org/gnu/gettext/gettext-0.21.tar.xz",
 		"version": "0.21",
 		"releasesUrl": "",
@@ -365,7 +365,7 @@
 	{
 		"name": "glibc",
 		"fileName": "glibc-2.33.tar.xz",
-		"description": "",
+		"description": "Пакет содержит стандартную библиотеку языка Си (GNU C Library). Эта библиотека предоставляет функции для выделения памяти, поиска каталогов, открытия и закрытия файлов, чтения и записи файлов, обработку строк, соответствия шаблонов (pattern matching), арифметические операции, и так далее.",
 		"url": "https://ftp.gnu.org/gnu/glibc/glibc-2.33.tar.xz",
 		"version": "2.33",
 		"releasesUrl": "",
@@ -379,7 +379,7 @@
 	{
 		"name": "gmp",
 		"fileName": "gmp-6.2.1.tar.xz",
-		"description": "",
+		"description": "Библиотека GMP (GNU Multi-Precision Library ), предназначенная для вычислений с плавающей запятой, целыми и рациональными числами с произвольной точностью. Библиотека широко используется в криптографических целях и для компьютерных вычислений. Данная библиотека необходима для сборки gcc.",
 		"url": "https://ftp.gnu.org/gnu/gmp/gmp-6.2.1.tar.xz",
 		"version": "6.2.1",
 		"releasesUrl": "",
@@ -393,7 +393,7 @@
 	{
 		"name": "gperf",
 		"fileName": "gperf-3.1.tar.gz",
-		"description": "",
+		"description": "Gperf генерирует превосходную хэш-функцию из набора ключей.",
 		"url": "https://ftp.gnu.org/gnu/gperf/gperf-3.1.tar.gz",
 		"version": "3.1",
 		"releasesUrl": "",
@@ -407,7 +407,7 @@
 	{
 		"name": "grep",
 		"fileName": "grep-3.6.tar.xz",
-		"description": "",
+		"description": "Пакет содержит программу, которая находит на вводе строки, отвечающие заданному регулярному выражению, и выводит их, если вывод не отменён специальным ключом. Пакет используется в процедурах сборки для большинства пакетов.",
 		"url": "https://ftp.gnu.org/gnu/grep/grep-3.6.tar.xz",
 		"version": "3.6",
 		"releasesUrl": "",
@@ -421,7 +421,7 @@
 	{
 		"name": "groff",
 		"fileName": "groff-1.22.4.tar.gz",
-		"description": "",
+		"description": "Пакет Groff содержит программы для обработки и форматирования текста. Одна из самых важных функций - форматирование man страниц.",
 		"url": "https://ftp.gnu.org/gnu/groff/groff-1.22.4.tar.gz",
 		"version": "1.22.4",
 		"releasesUrl": "",
@@ -435,7 +435,7 @@
 	{
 		"name": "grub",
 		"fileName": "grub-2.06~rc1.tar.xz",
-		"description": "",
+		"description": "GRUB является эталонной реализацией загрузчика, соответствующего спецификации Multiboot и может загрузить любую совместимую с ней операционную систему. Среди них: Linux, FreeBSD, Solaris и многие другие. Кроме того, GRUB умеет по цепочке передавать управление другому загрузчику, что позволяет ему загружать Windows (через загрузчик NTLDR или bootmgr), MS-DOS, OS/2 и другие системы.",
 		"url": "https://alpha.gnu.org/gnu/grub/grub-2.06~rc1.tar.xz",
 		"version": "2.06~rc1",
 		"releasesUrl": "",
@@ -449,7 +449,7 @@
 	{
 		"name": "gzip",
 		"fileName": "gzip-1.10.tar.xz",
-		"description": "",
+		"description": "Пакет содержит программы для сжатия и распаковки файлов. Он необходим, чтобы выполнять распаковку большинства пакетов.",
 		"url": "https://ftp.gnu.org/gnu/gzip/gzip-1.10.tar.xz",
 		"version": "1.10",
 		"releasesUrl": "",
@@ -463,7 +463,7 @@
 	{
 		"name": "iana-etc",
 		"fileName": "iana-etc-20210304.tar.gz",
-		"description": "",
+		"description": "Пакет Iana-Etc содержит данные для сетевых служб и протоколов.",
 		"url": "https://github.com/Mic92/iana-etc/releases/download/20210304/iana-etc-20210304.tar.gz",
 		"version": "20210304",
 		"releasesUrl": "",
@@ -477,7 +477,7 @@
 	{
 		"name": "inetutils",
 		"fileName": "inetutils-2.0.tar.xz",
-		"description": "",
+		"description": "Пакет Inetutils содержит базовые программы для работы с сетью.",
 		"url": "https://ftp.gnu.org/gnu/inetutils/inetutils-2.0.tar.xz",
 		"version": "2.0",
 		"releasesUrl": "",
@@ -491,7 +491,7 @@
 	{
 		"name": "intltool",
 		"fileName": "intltool-0.51.0.tar.gz",
-		"description": "",
+		"description": "Intltool - инструмент интернационализации, используемый для извлечения переводимых строк из исходных файлов.",
 		"url": "https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz",
 		"version": "0.51.0",
 		"releasesUrl": "",
@@ -505,7 +505,7 @@
 	{
 		"name": "iproute2",
 		"fileName": "iproute2-5.11.0.tar.xz",
-		"description": "",
+		"description": "Iproute2 — это набор программ для управления параметрами сетевых устройств в ядре Linux. Эти утилиты были разработаны в качестве унифицированного интерфейса к ядру Linux, которое непосредственно управляет сетевым трафиком. Iproute2 заменил полный набор классических сетевых утилит UNIX, которые ранее использовались для настройки сетевых интерфейсов, таблиц маршрутизации и управления arp‐таблицами: ifconfig, route, arp, netstat и других, предназначенных для создания IP‐туннелей. iproute2 предлагает унифицированный синтаксис для управления самыми разными аспектами сетевых интерфейсов.",
 		"url": "https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.11.0.tar.xz",
 		"version": "5.11.0",
 		"releasesUrl": "",
@@ -533,7 +533,7 @@
 	{
 		"name": "kmod",
 		"fileName": "kmod-28.tar.xz",
-		"description": "",
+		"description": "The Kmod пакет содержит библиотеки и утилиты для загрузки модулей ядра",
 		"url": "https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-28.tar.xz",
 		"version": "28",
 		"releasesUrl": "",
@@ -547,7 +547,7 @@
 	{
 		"name": "less",
 		"fileName": "less-563.tar.gz",
-		"description": "",
+		"description": "Программа Less используется для просмотра (но не изменения) содержимого текстовых файлов на экране.Она также используется пакетом Man-DB для просмотра страниц руководств.",
 		"url": "https://www.greenwoodsoftware.com/less/less-563.tar.gz",
 		"version": "563",
 		"releasesUrl": "",
@@ -561,7 +561,7 @@
 	{
 		"name": "lfs-bootscripts",
 		"fileName": "lfs-bootscripts-20210201.tar.xz",
-		"description": "",
+		"description": "Скрипты загрузки и системной конфигурации",
 		"url": "http://www.linuxfromscratch.org/lfs/downloads/development/lfs-bootscripts-20210201.tar.xz",
 		"version": "20210201",
 		"releasesUrl": "",
@@ -575,7 +575,7 @@
 	{
 		"name": "libcap",
 		"fileName": "libcap-2.49.tar.xz",
-		"description": "",
+		"description": "Пакет Libcap реализует интерфейсы пользовательского пространства для возможностей POSIX 1003.1 e, доступных в ядрах Linux. Эти возможности представляют собой разделение привилегий All powerful root на набор различных привилегий.",
 		"url": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.49.tar.xz",
 		"version": "2.49",
 		"releasesUrl": "",
@@ -589,7 +589,7 @@
 	{
 		"name": "libffi",
 		"fileName": "libffi-3.3.tar.gz",
-		"description": "",
+		"description": "Переносимый, высокоуровневый интерфейс по различным соглашениям о вызовах. Программы во время компиляции могу не знать об аргументах, которые были переданы функции. Например, интерпретатору можно указать во время выполнения количество аргументов и указать их тип, для вызова функции. Libffi может использоваться в программах как 'мост' от интерпретатора к скомпилированному коду.",
 		"url": "https://sourceware.org/pub/libffi/libffi-3.3.tar.gz",
 		"version": "3.3",
 		"releasesUrl": "",
@@ -603,7 +603,7 @@
 	{
 		"name": "libpipeline",
 		"fileName": "libpipeline-1.5.3.tar.gz",
-		"description": "",
+		"description": "Библиотека для манипулирования работы с подпроцессами гибким и удобным способом.",
 		"url": "https://download.savannah.gnu.org/releases/libpipeline/libpipeline-1.5.3.tar.gz",
 		"version": "1.5.3",
 		"releasesUrl": "",
@@ -617,7 +617,7 @@
 	{
 		"name": "libtool",
 		"fileName": "libtool-2.4.6.tar.xz",
-		"description": "",
+		"description": "является общей библиотекой поддержки скриптов. Libtool скрывает сложность использования распределенных библиотек под последовательным, переносимым интерфейсом. Библиотека необходима для выполнения тестов некоторых пакетов.",
 		"url": "https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.xz",
 		"version": "2.4.6",
 		"releasesUrl": "",
@@ -631,7 +631,7 @@
 	{
 		"name": "linux",
 		"fileName": "linux-5.11.16.tar.xz",
-		"description": "",
+		"description": "Ядро операционной системы.",
 		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.11.16.tar.xz",
 		"version": "5.11.16",
 		"releasesUrl": "",
@@ -645,7 +645,7 @@
 	{
 		"name": "m4",
 		"fileName": "m4-1.4.18.tar.xz",
-		"description": "",
+		"description": "Пакет содержит общий макропроцессор текста - полезный инструмент для выполнения сборки других программ.",
 		"url": "https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz",
 		"version": "1.4.18",
 		"releasesUrl": "",
@@ -659,7 +659,7 @@
 	{
 		"name": "make",
 		"fileName": "make-4.3.tar.gz",
-		"description": "",
+		"description": "Пакет содержит программы которые автоматизируют процесс преобразования файлов из одной формы в другую. Чаще всего это компиляция исходного кода в объектные файлы и последующая компоновка в исполняемые файлы или библиотеки. Он необходим для сборки пакетов.",
 		"url": "https://ftp.gnu.org/gnu/make/make-4.3.tar.gz",
 		"version": "4.3",
 		"releasesUrl": "",
@@ -673,7 +673,7 @@
 	{
 		"name": "man-db",
 		"fileName": "man-db-2.9.4.tar.xz",
-		"description": "",
+		"description": "Пакет Man-DB содержит программы для поиска и просмотра справочных страниц.",
 		"url": "https://download.savannah.gnu.org/releases/man-db/man-db-2.9.4.tar.xz",
 		"version": "2.9.4",
 		"releasesUrl": "",
@@ -687,7 +687,7 @@
 	{
 		"name": "man-pages",
 		"fileName": "man-pages-5.11.tar.xz",
-		"description": "",
+		"description": "Пакет Man-pages содержит более чем 2.200 справочных страниц.",
 		"url": "https://www.kernel.org/pub/linux/docs/man-pages/man-pages-5.11.tar.xz",
 		"version": "5.11",
 		"releasesUrl": "",
@@ -701,7 +701,7 @@
 	{
 		"name": "meson",
 		"fileName": "meson-0.57.2.tar.gz",
-		"description": "",
+		"description": "Meson - высокопроизводительная и удобная система сборки с открытым исходным кодом. Пакет содержит инструменты для автоматизации сборки программ. Основная цель Meson - минимизировать затраты времени на конфигурирование системы сборки.",
 		"url": "https://github.com/mesonbuild/meson/releases/download/0.57.2/meson-0.57.2.tar.gz",
 		"version": "0.57.2",
 		"releasesUrl": "",
@@ -715,7 +715,7 @@
 	{
 		"name": "mpc",
 		"fileName": "mpc-1.2.1.tar.gz",
-		"description": "",
+		"description": "Пакет MPC содержит функции предназначенные для вычислений с плавающей запятой, целыми и рациональными числами с произвольной точностью. Он необходим пакету GCC.",
 		"url": "https://ftp.gnu.org/gnu/mpc/mpc-1.2.1.tar.gz",
 		"version": "1.2.1",
 		"releasesUrl": "",
@@ -729,7 +729,7 @@
 	{
 		"name": "mpfr",
 		"fileName": "mpfr-4.1.0.tar.xz",
-		"description": "",
+		"description": "Пакет MPFR включает функции по работе с вычислениями с произвольной точностью.",
 		"url": "https://www.mpfr.org/mpfr-4.1.0/mpfr-4.1.0.tar.xz",
 		"version": "4.1.0",
 		"releasesUrl": "",
@@ -743,7 +743,7 @@
 	{
 		"name": "ncurses",
 		"fileName": "ncurses-6.2.tar.gz",
-		"description": "",
+		"description": "Пакет содержит библиотеку, предназначенную для управления вводом-выводом на терминал, в числе прочего, библиотека позволяет задавать экранные координаты (в знакоместах) и цвет выводимых символов. Предоставляет программисту уровень абстракции, позволяющий не беспокоиться об аппаратных различиях терминалов и писать переносимый код. Он необходим для ряда пакетов.",
 		"url": "https://ftp.gnu.org/gnu/ncurses/ncurses-6.2.tar.gz",
 		"version": "6.2",
 		"releasesUrl": "",
@@ -757,7 +757,7 @@
 	{
 		"name": "ninja",
 		"fileName": "ninja-1.10.2.tar.gz",
-		"description": "",
+		"description": "Ninja - утилита для сборки программ, фокусирующая на скорости. От других систем сборки программ она отличается двумя основными аспектами: для работы используется свой формат входных файлов, созданных системой построения более высокого уровня, и она предназначена для быстрой сборки программ.",
 		"url": "https://github.com/ninja-build/ninja/archive/v1.10.2/ninja-1.10.2.tar.gz",
 		"version": "1.10.2",
 		"releasesUrl": "",
@@ -771,7 +771,7 @@
 	{
 		"name": "openssl",
 		"fileName": "openssl-1.1.1k.tar.gz",
-		"description": "",
+		"description": "Пакет содержит инструменты управления и библиотеки криптографии. Они полезны для предоставления криптографических функций к другим пакетам, таким как OpenSSH, почтовым приложениям и веб-браузерам (для доступа к сайтам по HTTPS).",
 		"url": "https://www.openssl.org/source/openssl-1.1.1k.tar.gz",
 		"version": "1.1.1k",
 		"releasesUrl": "",
@@ -785,7 +785,7 @@
 	{
 		"name": "patch",
 		"fileName": "patch-2.7.6.tar.xz",
-		"description": "",
+		"description": "Пакет содержит программу предназначенную для переноса правок (изменений) между разными версиями текстовых файлов. Информация о правке обычно содержится в отдельном файле, называемом 'заплаткой' (patch), 'правкой' или 'файлом правки' (англ. patch file). Подобный файл, как правило, создается с помощью другой утилиты Unix — diff, позволяющей автоматически извлечь информацию о различиях в тексте файлов. Он необходим для выполнения сборки некоторых пакетов.",
 		"url": "https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.xz",
 		"version": "2.7.6",
 		"releasesUrl": "",
@@ -799,7 +799,7 @@
 	{
 		"name": "perl",
 		"fileName": "perl-5.32.1.tar.xz",
-		"description": "",
+		"description": "Высокоуровневый интерпретируемый динамический язык программирования общего назначения, он необходим для установки и выполнения тестов некоторых пакетов.",
 		"url": "https://www.cpan.org/src/5.0/perl-5.32.1.tar.xz",
 		"version": "5.32.1",
 		"releasesUrl": "",
@@ -813,7 +813,7 @@
 	{
 		"name": "pkg-config",
 		"fileName": "pkg-config-0.29.2.tar.gz",
-		"description": "",
+		"description": "Утилита, предоставляющая интерфейс для получения информации об установленных программных библиотеках, включающую в себя параметры для Си или Си++ компилятора, параметры для компоновщика, а также версию пакета. Инструмент позволяет передавать для включения пути или пути к библиотекам инструментам для сборки во время процесса конфигурирования (configure) и выполнения команд программы make.",
 		"url": "https://pkg-config.freedesktop.org/releases/pkg-config-0.29.2.tar.gz",
 		"version": "0.29.2",
 		"releasesUrl": "",
@@ -827,7 +827,7 @@
 	{
 		"name": "procps-ng",
 		"fileName": "procps-ng-3.3.17.tar.xz",
-		"description": "",
+		"description": "Пакет Procps-ng содержит программы для мониторинга за процессами.",
 		"url": "https://sourceforge.net/projects/procps-ng/files/Production/procps-ng-3.3.17.tar.xz",
 		"version": "3.3.17",
 		"releasesUrl": "",
@@ -841,7 +841,7 @@
 	{
 		"name": "psmisc",
 		"fileName": "psmisc-23.4.tar.xz",
-		"description": "",
+		"description": "Пакет Psmisc содержит программы для отображения информации о запущенных процессах.",
 		"url": "https://sourceforge.net/projects/psmisc/files/psmisc/psmisc-23.4.tar.xz",
 		"version": "23.4",
 		"releasesUrl": "required",
@@ -855,7 +855,7 @@
 	{
 		"name": "python",
 		"fileName": "Python-3.9.4.tar.xz",
-		"description": "",
+		"description": "Высокоуровневый язык программирования общего назначения, ориентированный на повышение производительности разработчика и читаемости кода. Содержит среду разработки для объектно-ориентированного программирования, написания сценариев, прототипирования крупных программ и разработки полноценных приложений.",
 		"url": "https://www.python.org/ftp/python/3.9.4/Python-3.9.4.tar.xz",
 		"version": "3.9.4",
 		"releasesUrl": "",
@@ -869,7 +869,7 @@
 	{
 		"name": "python-docs",
 		"fileName": "python-3.9.4-docs-html.tar.bz2",
-		"description": "",
+		"description": "Документаия пдля пакета Python",
 		"url": "https://www.python.org/ftp/python/doc/3.9.4/python-3.9.4-docs-html.tar.bz2",
 		"version": "3.9.4",
 		"releasesUrl": "",
@@ -883,7 +883,7 @@
 	{
 		"name": "readline",
 		"fileName": "readline-8.1.tar.gz",
-		"description": "",
+		"description": "Пакет Readline - набор библиотек, который предлагает редактирование командной строки и возможности просмотра истории.",
 		"url": "https://ftp.gnu.org/gnu/readline/readline-8.1.tar.gz",
 		"version": "8.1",
 		"releasesUrl": "",
@@ -897,7 +897,7 @@
 	{
 		"name": "sed",
 		"fileName": "sed-4.8.tar.xz",
-		"description": "",
+		"description": "Sed - потоковый текстовый редактор (а также язык программирования), применяющий различные предопределённые текстовые преобразования к последовательному потоку текстовых данных. Он необходим для многих пакетов, на этапе конфигурирования.",
 		"url": "https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz",
 		"version": "4.8",
 		"releasesUrl": "",
@@ -911,7 +911,7 @@
 	{
 		"name": "shadow",
 		"fileName": "shadow-4.8.1.tar.xz",
-		"description": "",
+		"description": "Пакет Shadow содержит программы для работы с паролями безопасным способом.",
 		"url": "https://github.com/shadow-maint/shadow/releases/download/4.8.1/shadow-4.8.1.tar.xz",
 		"version": "4.8.1",
 		"releasesUrl": "",
@@ -925,7 +925,7 @@
 	{
 		"name": "sysklogd",
 		"fileName": "sysklogd-1.5.1.tar.gz",
-		"description": "",
+		"description": "Системные утилиты, которые обеспечивают поддержку журналирования системы и перехват сообщений ядра. Поддержка доменных гнёзд интернет и unix позволяет этому пакету утилит поддерживать и локальное и удалённое журналирование.",
 		"url": "https://www.infodrom.org/projects/sysklogd/download/sysklogd-1.5.1.tar.gz",
 		"version": "1.5.1",
 		"releasesUrl": "",
@@ -939,7 +939,7 @@
 	{
 		"name": "systemd",
 		"fileName": "systemd-248.tar.gz",
-		"description": "",
+		"description": "Системный менеджер, демон инициализации других демонов в Linux, пришедший на замену используемого ранее SysV. Его особенностью является интенсивное распараллеливание запуска служб в процессе загрузки системы, что позволяет существенно ускорить запуск операционной системы. Systemd используется во многих коммерческих дистрибутивах.",
 		"url": "https://github.com/systemd/systemd/archive/v248/systemd-248.tar.gz",
 		"version": "248",
 		"releasesUrl": "",
@@ -953,7 +953,7 @@
 	{
 		"name": "sysvinit",
 		"fileName": "sysvinit-2.99.tar.xz",
-		"description": "",
+		"description": "Пакет Sysvinit содержит программы для управления загрузкой, выполнением, и выключением системы.",
 		"url": "https://download.savannah.gnu.org/releases/sysvinit/sysvinit-2.99.tar.xz",
 		"version": "2.99",
 		"releasesUrl": "",
@@ -967,7 +967,7 @@
 	{
 		"name": "tar",
 		"fileName": "tar-1.34.tar.xz",
-		"description": "",
+		"description": "Этот пакет обеспечивает возможности архивирования и извлечения почти всех пакетов",
 		"url": "https://ftp.gnu.org/gnu/tar/tar-1.34.tar.xz",
 		"version": "1.34",
 		"releasesUrl": "",
@@ -981,7 +981,7 @@
 	{
 		"name": "tcl",
 		"fileName": "tcl8.6.11-src.tar.gz",
-		"description": "",
+		"description": "Пакет содержит 'командный язык инструментов' - скриптовый язык высокого уровня. Он необходим для выполнения тестов некоторых пакетов, и будет установлен только во временный инструментарий.",
 		"url": "https://downloads.sourceforge.net/tcl/tcl8.6.11-src.tar.gz",
 		"version": "8.6.11",
 		"releasesUrl": "",
@@ -995,7 +995,7 @@
 	{
 		"name": "texinfo",
 		"fileName": "texinfo-6.7.tar.xz",
-		"description": "",
+		"description": "Система документирования и язык разметки, позволяющие создавать документы в разных форматах из одного исходного текста. Он используется в процедурах установки многих пакетов",
 		"url": "https://ftp.gnu.org/gnu/texinfo/texinfo-6.7.tar.xz",
 		"version": "6.7",
 		"releasesUrl": "",
@@ -1009,7 +1009,7 @@
 	{
 		"name": "tzdata",
 		"fileName": "tzdata2021a.tar.gz",
-		"description": "",
+		"description": "база данных часовых поясов",
 		"url": "https://www.iana.org/time-zones/repository/releases/tzdata2021a.tar.gz",
 		"version": "2021a",
 		"releasesUrl": "",
@@ -1023,7 +1023,7 @@
 	{
 		"name": "udev",
 		"fileName": "udev-lfs-20171102.tar.xz",
-		"description": "",
+		"description": "дополнительные правила и файлы, используемые в окружении",
 		"url": "http://anduin.linuxfromscratch.org/LFS/udev-lfs-20171102.tar.xz",
 		"version": "20171102",
 		"releasesUrl": "",
@@ -1037,7 +1037,7 @@
 	{
 		"name": "util-linux",
 		"fileName": "util-linux-2.36.2.tar.xz",
-		"description": "",
+		"description": "держит стандартный набор служебных утилит командной строки, такие как - утилиты для работы с файловой системой, консолью, разделами, и сообщениями.",
 		"url": "https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.2.tar.xz",
 		"version": "2.36.2",
 		"releasesUrl": "",
@@ -1051,7 +1051,7 @@
 	{
 		"name": "vim",
 		"fileName": "vim-8.2.2604.tar.gz",
-		"description": "",
+		"description": "один из мощнейших текстовых редакторов с полной свободой настройки и автоматизации, возможными благодаря расширениям и надстройкам.",
 		"url": "http://anduin.linuxfromscratch.org/LFS/vim-8.2.2604.tar.gz",
 		"version": "8.2.2604",
 		"releasesUrl": "",
@@ -1063,9 +1063,9 @@
 		"sbu2": 0
 	},
 	{
-		"name": "xml",
+		"name": "XML-Parser",
 		"fileName": "XML-Parser-2.46.tar.gz",
-		"description": "",
+		"description": "Модуль (автор James Clark), который является интерфейсом Perl для библиотеки Expat.",
 		"url": "https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-2.46.tar.gz",
 		"version": "2.46",
 		"releasesUrl": "",
@@ -1079,7 +1079,7 @@
 	{
 		"name": "xz",
 		"fileName": "xz-5.2.5.tar.xz",
-		"description": "",
+		"description": "Пакет содержит программы для сжатия и распаковки файлов. Он обеспечивает высокое сжатие и используется для распаковки пакетов форматов XZ и LZMA. Сжатие текстовых файлов при помощи программы xzдаёт больший процент сжатия чем gzip или bzip2.",
 		"url": "https://tukaani.org/xz/xz-5.2.5.tar.xz",
 		"version": "5.2.5",
 		"releasesUrl": "",
@@ -1093,7 +1093,7 @@
 	{
 		"name": "zlib",
 		"fileName": "zlib-1.2.11.tar.xz",
-		"description": "",
+		"description": "Пакет Zlib содержит библиотеку для сжатия и распаковки, которую используют некоторые программы.",
 		"url": "https://zlib.net/zlib-1.2.11.tar.xz",
 		"version": "1.2.11",
 		"releasesUrl": "",
@@ -1107,7 +1107,7 @@
 	{
 		"name": "zstd",
 		"fileName": "zstd-1.4.9.tar.gz",
-		"description": "",
+		"description": "Zstandard - это алгоритм сжатия в реальном времени, обеспечивающий высокую степень сжатия. Он предлагает очень широкий спектр компромиссов между сжатием и скоростью, а также очень быстрым декодером.",
 		"url": "https://github.com/facebook/zstd/releases/download/v1.4.9/zstd-1.4.9.tar.gz",
 		"version": "1.4.9",
 		"releasesUrl": "",
@@ -1119,7 +1119,7 @@
 		"sbu2": 0
 	},
 	{
-		"name": "bzip2",
+		"name": "bzip2-patch",
 		"fileName": "bzip2-1.0.8-install_docs-1.patch",
 		"description": "",
 		"url": "http://www.linuxfromscratch.org/patches/lfs/development/bzip2-1.0.8-install_docs-1.patch",
@@ -1133,7 +1133,7 @@
 		"sbu2": 0
 	},
 	{
-		"name": "coreutils",
+		"name": "coreutils-patch",
 		"fileName": "coreutils-8.32-i18n-1.patch",
 		"description": "",
 		"url": "http://www.linuxfromscratch.org/patches/lfs/development/coreutils-8.32-i18n-1.patch",
@@ -1147,7 +1147,7 @@
 		"sbu2": 0
 	},
 	{
-		"name": "glibc",
+		"name": "glibc-patch",
 		"fileName": "glibc-2.33-fhs-1.patch",
 		"description": "",
 		"url": "http://www.linuxfromscratch.org/patches/lfs/development/glibc-2.33-fhs-1.patch",
@@ -1161,7 +1161,7 @@
 		"sbu2": 0
 	},
 	{
-		"name": "kbd",
+		"name": "kbd-patch",
 		"fileName": "kbd-2.4.0-backspace-1.patch",
 		"description": "",
 		"url": "http://www.linuxfromscratch.org/patches/lfs/development/kbd-2.4.0-backspace-1.patch",
@@ -1175,7 +1175,7 @@
 		"sbu2": 0
 	},
 	{
-		"name": "sysvinit",
+		"name": "sysvinit-patch",
 		"fileName": "sysvinit-2.99-consolidated-1.patch",
 		"description": "",
 		"url": "http://www.linuxfromscratch.org/patches/lfs/development/sysvinit-2.99-consolidated-1.patch",
