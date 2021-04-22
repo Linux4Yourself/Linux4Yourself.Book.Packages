@@ -5,7 +5,7 @@
 		"url": "https://download.savannah.gnu.org/releases/acl/acl-2.3.1.tar.xz",
 		"version": "2.3.1",
 		"releasesUrl": "",
-		"priority": "",
+		"priority": "important",
 		"md5": "",
 		"sbu": 0,
 		"sbu2": 0
@@ -17,7 +17,7 @@
 		"url": "https://download.savannah.gnu.org/releases/attr/attr-2.5.1.tar.gz",
 		"version": "2.5.1",
 		"releasesUrl": "",
-		"priority": "",
+		"priority": "important",
 		"md5": "",
 		"sbu": 0,
 		"sbu2": 0
