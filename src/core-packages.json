@@ -930,21 +930,6 @@
 		"sbu2": 0
 	},
 	{
-		"name": "python-docs",
-		"fileName": "python-3.9.4-docs-html.tar.bz2",
-		"description": "Документаия для пакета Python",
-		"url": "https://www.python.org/ftp/python/doc/3.9.4/python-3.9.4-docs-html.tar.bz2",
-		"homeUrl": "",
-		"version": "3.9.4",
-		"releasesUrl": "",
-		"priority": "optional",
-		"md5": "a225c583da4533c5bf98ba3555f50c7b",
-		"size": "6.51",
-		"installedSize": 0,
-		"sbu": 0,
-		"sbu2": 0
-	},
-	{
 		"name": "readline",
 		"fileName": "readline-8.1.tar.gz",
 		"description": "Пакет Readline - набор библиотек, который предлагает редактирование командной строки и возможности просмотра истории.",
