@@ -27,3 +27,5 @@ packages.forEach(pkg => {
 });
 
 fs.writeFileSync(`src/core-packages.json`, JSON.stringify(updatedPkgs, null, '\t'), 'utf-8');
+fs.writeFileSync(`src/wget-list`, updatedPkgs.map(x => `${x.url}`).join('\n'), 'utf-8');
+fs.writeFileSync(`src/md5sums`, String(updatedPkgs.map(x => `${x.md5} ${x.fileName}`).join('\n')), 'utf-8');
