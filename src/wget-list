@@ -31,13 +31,13 @@ https://ftp.gnu.org/gnu/grep/grep-3.6.tar.xz
 https://ftp.gnu.org/gnu/groff/groff-1.22.4.tar.gz
 https://alpha.gnu.org/gnu/grub/grub-2.06~rc1.tar.xz
 https://ftp.gnu.org/gnu/gzip/gzip-1.10.tar.xz
-https://github.com/Mic92/iana-etc/releases/download/20210304/iana-etc-20210304.tar.gz
+https://github.com/Mic92/iana-etc/releases/download/20210407/iana-etc-20210407.tar.gz
 https://ftp.gnu.org/gnu/inetutils/inetutils-2.0.tar.xz
 https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz
 https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.11.0.tar.xz
 https://www.kernel.org/pub/linux/utils/kbd/kbd-2.4.0.tar.xz
 https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-28.tar.xz
-https://www.greenwoodsoftware.com/less/less-563.tar.gz
+https://www.greenwoodsoftware.com/less/less-581.tar.gz
 http://www.linuxfromscratch.org/lfs/downloads/development/lfs-bootscripts-20210201.tar.xz
 https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.49.tar.xz
 https://sourceware.org/pub/libffi/libffi-3.3.tar.gz
@@ -73,7 +73,7 @@ https://ftp.gnu.org/gnu/texinfo/texinfo-6.7.tar.xz
 https://www.iana.org/time-zones/repository/releases/tzdata2021a.tar.gz
 http://anduin.linuxfromscratch.org/LFS/udev-lfs-20171102.tar.xz
 https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.2.tar.xz
-http://anduin.linuxfromscratch.org/LFS/vim-8.2.2604.tar.gz
+https://github.com/vim/vim/archive/refs/tags/v8.2.2800.tar.gz
 https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-2.46.tar.gz
 https://tukaani.org/xz/xz-5.2.5.tar.xz
 https://github.com/zlib-ng/zlib-ng/archive/refs/tags/2.0.2.tar.gz
