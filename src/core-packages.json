@@ -554,6 +554,22 @@
 		"sbu": 0,
 		"sbu2": 0
 	},
+	
+	{
+		"name": "isl",
+		"fileName": "isl-0.23.tar.xz",
+		"description": "Библиотека, используемая gcc.",
+		"url": "http://isl.gforge.inria.fr/isl-0.23.tar.xz",
+		"homeUrl": "http://isl.gforge.inria.fr",
+		"version": "0.23",
+		"releasesUrl": "http://isl.gforge.inria.fr",
+		"priority": "optional",
+		"md5": "cc8155dfe8550e59299a2368dbaa7d04",
+		"size": "1.6",
+		"installedSize": 0,
+		"sbu": 0,
+		"sbu2": 0
+	},
 	{
 		"name": "kbd",
 		"fileName": "kbd-2.4.0.tar.xz",
