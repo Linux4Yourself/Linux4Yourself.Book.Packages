@@ -564,7 +564,7 @@
 		"releasesUrl": "http://isl.gforge.inria.fr",
 		"priority": "optional",
 		"md5": "cc8155dfe8550e59299a2368dbaa7d04",
-		"size": "1.6",
+		"size": "1.65",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0
@@ -753,7 +753,7 @@
 		"name": "man-pages",
 		"fileName": "man-pages-5.11.tar.xz",
 		"description": "Пакет Man-pages содержит более чем 2.200 справочных страниц.",
-		"url": "https://www.kernel.org/doc/man-pages",
+		"url": "https://www.kernel.org/pub/linux/docs/man-pages/man-pages-5.11.tar.xz",
 		"homeUrl": "https://www.kernel.org",
 		"version": "5.11",
 		"releasesUrl": "https://www.kernel.org/pub/linux/docs/man-pages/",
