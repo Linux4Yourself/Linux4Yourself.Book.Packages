@@ -8,9 +8,18 @@ packages.forEach(pkg => {
 	if (pkg !== 'undefined') {
 
 		const distination = `downloads/${pkg.fileName}`;
-		const command = `curl -L ${pkg.url} --output ${distination} --silent`;
+		const patchDistination = `download/patches/${pkg.fileName}`;
+		let command = `curl -L ${pkg.url} --output ${distination} --silent`;
 
-		if (!fs.existsSync(`downloads/${pkg.fileName}`)) {
+		if (pkg.url.endsWith('.patch')) {
+			command = `curl -L ${pkg.url} --output ${patchDistination} --silent`;
+		}
+
+		if (!fs.existsSync(`downloads/${pkg.fileName}`) && !pkg.url.endsWith('.patch')) {
+			const res = cp.execSync(command);
+		}
+
+		if (!fs.existsSync(`download/patches/${pkg.fileName}`) && pkg.url.endsWith('.patch')) {
 			const res = cp.execSync(command);
 		}
 
