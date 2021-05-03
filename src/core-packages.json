@@ -1186,7 +1186,7 @@
 	},
 	{
 		"name": "zlib-ng",
-		"fileName": "zlib-ng-2.0.2.tar.gz",
+		"fileName": "2.0.2.tar.gz",
 		"description": "Пакет Zlib содержит библиотеку для сжатия и распаковки, которую используют некоторые программы. Zlib-ng - это форк Zlib с улучшенной оптимизацией и дополнительными патчами",
 		"url": "https://github.com/zlib-ng/zlib-ng/archive/refs/tags/2.0.2.tar.gz",
 		"homeUrl": "https://github.com/zlib-ng/zlib-ng",

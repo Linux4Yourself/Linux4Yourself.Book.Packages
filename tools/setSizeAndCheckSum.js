@@ -7,6 +7,10 @@ const updatedPkgs = [];
 packages.forEach(pkg => {
 	if (pkg !== 'undefined') {
 
+		if (pkg.name === 'zlib-ng') {
+			pkg.fileName = `${pkg.version}.tar.gz`;
+		}
+
 		const distination = `downloads/${pkg.fileName}`;
 		const patchDistination = `download/patches/${pkg.fileName}`;
 		let command = `curl -L ${pkg.url} --output ${distination} --silent`;
