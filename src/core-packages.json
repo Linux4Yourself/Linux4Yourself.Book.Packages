@@ -71,7 +71,7 @@
 		"md5": "bb91a17fd6c9032c26d0b2b78b50aff5",
 		"size": "9.97",
 		"installedSize": 0,
-		"sbu": 0,
+		"sbu": 1,
 		"sbu2": 0
 	},
 	{
@@ -206,7 +206,7 @@
 		"md5": "4824adc0e95dbbf11dfbdfaad6a1e461",
 		"size": "1.38",
 		"installedSize": 0,
-		"sbu": 0,
+		"sbu": 0.5,
 		"sbu2": 0
 	},
 	{
@@ -821,7 +821,7 @@
 		"md5": "e812da327b1c2214ac1aed440ea3ae8d",
 		"size": "3.27",
 		"installedSize": 0,
-		"sbu": 0,
+		"sbu": 1.2,
 		"sbu2": 0
 	},
 	{
