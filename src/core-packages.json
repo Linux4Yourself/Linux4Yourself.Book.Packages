@@ -1230,6 +1230,21 @@
 		"sbu2": 0
 	},
 	{
+		"name": "musl",
+		"fileName": "musl-1.2.2.tar.gz",
+		"description": "Musl является универсальной реализацией libc и подходит для применения как на стационарных ПК и серверах, так и на мобильных системах, сочетая полноценную поддержку стандартов, свойственную для полновесных библиотек, таких как Glibc (GNU C library), с небольшим размером, низким потреблением ресурсов и высокой производительностью, свойственными специализированным вариантам libc для встраиваемых систем, таких как uClibc, dietlibc и Android Bionic.",
+		"url": "https://musl.libc.org/releases/musl-1.2.2.tar.gz",
+		"homeUrl": "https://musl.libc.org/",
+		"version": "1.2.2",
+		"releasesUrl": "https://musl.libc.org/releases.html",
+		"priority": "optional",
+		"md5": "aed8ae9e2b0898151b36a204088292dd",
+		"size": "1.01",
+		"installedSize": 0,
+		"sbu": 0,
+		"sbu2": 0
+	},
+	{
 		"name": "bzip2-patch",
 		"fileName": "bzip2-1.0.8-install_docs-1.patch",
 		"description": "",

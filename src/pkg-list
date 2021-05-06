@@ -80,6 +80,7 @@ xz-5.2.5.tar.xz
 2.0.2.tar.gz
 zstd-1.4.9.tar.gz
 busybox-1.33.1.tar.bz2
+musl-1.2.2.tar.gz
 bzip2-1.0.8-install_docs-1.patch
 coreutils-8.32-i18n-1.patch
 glibc-2.33-fhs-1.patch
