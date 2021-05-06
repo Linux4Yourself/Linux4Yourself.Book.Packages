@@ -979,7 +979,7 @@
 		"fileName": "shadow-4.8.1.tar.xz",
 		"description": "Пакет Shadow содержит программы для работы с паролями безопасным способом.",
 		"url": "https://github.com/shadow-maint/shadow/releases/download/4.8.1/shadow-4.8.1.tar.xz",
-		"homeUrl": "https://github.com/shadow-maint/shadow",
+		"homeUrl": "https://shadow-maint.github.io/shadow/",
 		"version": "4.8.1",
 		"releasesUrl": "https://github.com/shadow-maint/shadow/releases/",
 		"priority": "required",
