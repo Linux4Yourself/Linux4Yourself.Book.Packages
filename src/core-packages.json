@@ -1195,9 +1195,9 @@
 		"priority": "required",
 		"md5": "e2a748b0de0f6946f4d3d8a50807832c",
 		"size": "0.67",
-		"installedSize": 0,
+		"installedSize": 0.26,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0.1
 	},
 	{
 		"name": "zstd",
