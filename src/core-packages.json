@@ -498,7 +498,7 @@
 		"name": "iana-etc",
 		"fileName": "iana-etc-20210429.tar.gz",
 		"description": "Пакет Iana-Etc содержит данные для сетевых служб и протоколов.",
-		"url": "https://github.com/Mic92/iana-etc/releases/download/20210429/iana-etc-20210429.tar.gz",
+		"url": "https://github.com/Mic92/iana-etc/releases/download/untagged-d4eaed72f8799fc3c9a0/iana-etc-20210429.tar.gz",
 		"homeUrl": "https://www.iana.org/protocols",
 		"version": "20210304",
 		"releasesUrl": "https://github.com/Mic92/iana-etc/releases/",
