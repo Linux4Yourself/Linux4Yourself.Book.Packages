@@ -31,7 +31,7 @@ https://ftp.gnu.org/gnu/grep/grep-3.6.tar.xz
 https://ftp.gnu.org/gnu/groff/groff-1.22.4.tar.gz
 https://alpha.gnu.org/gnu/grub/grub-2.06~rc1.tar.xz
 https://ftp.gnu.org/gnu/gzip/gzip-1.10.tar.xz
-https://github.com/Mic92/iana-etc/releases/download/20210429/iana-etc-20210429.tar.gz
+https://github.com/Mic92/iana-etc/releases/download/untagged-d4eaed72f8799fc3c9a0/iana-etc-20210429.tar.gz
 https://ftp.gnu.org/gnu/inetutils/inetutils-2.0.tar.xz
 https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz
 https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.12.0.tar.xz
@@ -44,7 +44,7 @@ https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.49.t
 https://sourceware.org/pub/libffi/libffi-3.3.tar.gz
 https://download.savannah.gnu.org/releases/libpipeline/libpipeline-1.5.3.tar.gz
 https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.xz
-https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.1.tar.xz
+https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.2.tar.xz
 https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz
 https://ftp.gnu.org/gnu/make/make-4.3.tar.gz
 https://download.savannah.gnu.org/releases/man-db/man-db-2.9.4.tar.xz
