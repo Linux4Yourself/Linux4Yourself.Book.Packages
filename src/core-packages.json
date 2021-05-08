@@ -130,9 +130,9 @@
 		"priority": "required",
 		"md5": "67e051268d0c475ea773822f7500d0e5",
 		"size": "0.77",
-		"installedSize": 0,
+		"installedSize": 0.3,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0.1
 	},
 	{
 		"name": "check",
