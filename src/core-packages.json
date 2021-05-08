@@ -400,9 +400,9 @@
 		"priority": "required",
 		"md5": "390bbd889c7e8e8a7041564cb6b27cca",
 		"size": "16.24",
-		"installedSize": 0,
+		"installedSize": 53,
 		"sbu": 13.8,
-		"sbu2": 0
+		"sbu2": 5.4
 	},
 	{
 		"name": "gmp",
@@ -505,8 +505,8 @@
 		"priority": "required",
 		"md5": "9d1ead73e678fa2f51a70a933b0bf017",
 		"size": "0.00",
-		"installedSize": 0,
-		"sbu": 0,
+		"installedSize": 0.5,
+		"sbu": 0.01,
 		"sbu2": 0
 	},
 	{
@@ -1195,9 +1195,9 @@
 		"priority": "required",
 		"md5": "e2a748b0de0f6946f4d3d8a50807832c",
 		"size": "0.67",
-		"installedSize": 0,
+		"installedSize": 0.26,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0.1
 	},
 	{
 		"name": "zstd",
