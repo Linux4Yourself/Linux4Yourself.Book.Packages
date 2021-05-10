@@ -4,6 +4,13 @@ const cp = require('child_process');
 
 const updatedPkgs = [];
 
+const downloadsDir = 'downloads';
+
+
+if (!fs.existsSync(downloadsDir)){
+    fs.mkdirSync(downloadsDir);
+}
+
 packages.forEach(pkg => {
 	if (pkg !== 'undefined') {
 
@@ -11,7 +18,7 @@ packages.forEach(pkg => {
 			pkg.fileName = `${pkg.version}.tar.gz`;
 		}
 
-		const distination = `downloads/${pkg.fileName}`;
+		const distination = `${downloadsDir}/${pkg.fileName}`;
 		const patchDistination = `download/patches/${pkg.fileName}`;
 		let command = `curl -L ${pkg.url} --output ${distination} --silent`;
 
@@ -19,7 +26,7 @@ packages.forEach(pkg => {
 			command = `curl -L ${pkg.url} --output ${patchDistination} --silent`;
 		}
 
-		if (!fs.existsSync(`downloads/${pkg.fileName}`) && !pkg.url.endsWith('.patch')) {
+		if (!fs.existsSync(`${downloadsDir}/${pkg.fileName}`) && !pkg.url.endsWith('.patch')) {
 			const res = cp.execSync(command);
 		}
 
