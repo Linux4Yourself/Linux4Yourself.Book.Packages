@@ -13,7 +13,7 @@ https://dbus.freedesktop.org/releases/dbus/dbus-1.12.20.tar.gz
 https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.2.tar.gz
 https://ftp.gnu.org/gnu/diffutils/diffutils-3.7.tar.xz
 https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.46.2/e2fsprogs-1.46.2.tar.gz
-https://sourceware.org/ftp/elfutils/0.183/elfutils-0.183.tar.bz2
+https://sourceware.org/ftp/elfutils/0.184/elfutils-0.184.tar.bz2
 https://dev.gentoo.org/~blueness/eudev/eudev-3.2.10.tar.gz
 https://prdownloads.sourceforge.net/expat/expat-2.3.0.tar.xz
 https://prdownloads.sourceforge.net/expect/expect5.45.4.tar.gz
@@ -31,7 +31,7 @@ https://ftp.gnu.org/gnu/grep/grep-3.6.tar.xz
 https://ftp.gnu.org/gnu/groff/groff-1.22.4.tar.gz
 https://alpha.gnu.org/gnu/grub/grub-2.06~rc1.tar.xz
 https://ftp.gnu.org/gnu/gzip/gzip-1.10.tar.xz
-https://github.com/Mic92/iana-etc/releases/download/untagged-d4eaed72f8799fc3c9a0/iana-etc-20210429.tar.gz
+https://github.com/Mic92/iana-etc/releases/download/20210506/iana-etc-20210506.tar.gz
 https://ftp.gnu.org/gnu/inetutils/inetutils-2.0.tar.xz
 https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz
 https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.12.0.tar.xz
@@ -74,7 +74,7 @@ https://ftp.gnu.org/gnu/texinfo/texinfo-6.7.tar.xz
 https://www.iana.org/time-zones/repository/releases/tzdata2021a.tar.gz
 http://anduin.linuxfromscratch.org/LFS/udev-lfs-20171102.tar.xz
 https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.2.tar.xz
-https://github.com/vim/vim/archive/refs/tags/v8.2.2823.tar.gz
+https://github.com/vim/vim/archive/refs/tags/v8.2.2848.tar.gz
 https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-2.46.tar.gz
 https://tukaani.org/xz/xz-5.2.5.tar.xz
 https://github.com/zlib-ng/zlib-ng/archive/refs/tags/2.0.2.tar.gz

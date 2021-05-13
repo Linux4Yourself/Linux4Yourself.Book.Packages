@@ -13,7 +13,7 @@ dfe8a71f412e0b53be26ed4fbfdc91c4 dbus-1.12.20.tar.gz
 e1b07516533f351b3aba3423fafeffd6 dejagnu-1.6.2.tar.gz
 4824adc0e95dbbf11dfbdfaad6a1e461 diffutils-3.7.tar.xz
 e8ef5fa3b72557be5e9fe564a25da6eb e2fsprogs-1.46.2.tar.gz
-6f58aa1b9af1a5681b1cbf63e0da2d67 elfutils-0.183.tar.bz2
+9e5af45255ff7dc413de073da2ceff04 elfutils-0.184.tar.bz2
 60b135a189523f333cea5f71a3345c8d eudev-3.2.10.tar.gz
 1c1b523a8d917e6d9f7af4f8881d8ec5 expat-2.3.0.tar.xz
 00fce8de158422f5ccd2666512329bd2 expect5.45.4.tar.gz
@@ -74,7 +74,7 @@ d4c5d8cc84438c5993ec5163a59522a6 texinfo-6.7.tar.xz
 20eae7d1da671c6eac56339c8df85bbd tzdata2021a.tar.gz
 27cd82f9a61422e186b9d6759ddf1634 udev-lfs-20171102.tar.xz
 f78419af679ac9678190ad961eb3cf27 util-linux-2.36.2.tar.xz
-081f00d326349c9fa1a8603b17332033 vim-8.2.2823.tar.gz
+1fd2fe91cb1b4b09c4adf7636d6aee91 v8.2.2848.tar.gz
 80bb18a8e6240fcf7ec2f7b57601c170 XML-Parser-2.46.tar.gz
 aa1621ec7013a19abab52a8aff04fe5b xz-5.2.5.tar.xz
 e2a748b0de0f6946f4d3d8a50807832c 2.0.2.tar.gz
