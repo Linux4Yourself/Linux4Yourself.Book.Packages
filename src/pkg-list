@@ -13,7 +13,7 @@ dbus-1.12.20.tar.gz
 dejagnu-1.6.2.tar.gz
 diffutils-3.7.tar.xz
 e2fsprogs-1.46.2.tar.gz
-elfutils-0.183.tar.bz2
+elfutils-0.184.tar.bz2
 eudev-3.2.10.tar.gz
 expat-2.3.0.tar.xz
 expect5.45.4.tar.gz
@@ -74,7 +74,7 @@ texinfo-6.7.tar.xz
 tzdata2021a.tar.gz
 udev-lfs-20171102.tar.xz
 util-linux-2.36.2.tar.xz
-vim-8.2.2823.tar.gz
+v8.2.2848.tar.gz
 XML-Parser-2.46.tar.gz
 xz-5.2.5.tar.xz
 2.0.2.tar.gz
