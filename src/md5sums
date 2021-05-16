@@ -44,7 +44,7 @@ b43ae3690fe4d2cb32e4d25c0983ecd3 libcap-2.49.tar.xz
 6313289e32f1d38a9df4770b014a2ca7 libffi-3.3.tar.gz
 dad443d0911cf9f0f1bd90a334bc9004 libpipeline-1.5.3.tar.gz
 1bfb9b923f2c1339b4d2ce1807064aa5 libtool-2.4.6.tar.xz
-cacb78ff442eea01118c2a546751ced9 linux-5.12.3.tar.xz
+56841d62c09345fceea6309155dca1d0 linux-5.12.4.tar.xz
 730bb15d96fffe47e148d1e09235af82 m4-1.4.18.tar.xz
 fc7a67ea86ace13195b0bce683fd4469 make-4.3.tar.gz
 6e233a555f7b9ae91ce7cd0faa322bce man-db-2.9.4.tar.xz
@@ -66,7 +66,7 @@ e9557dd5b1409f5d7b37ef717c64518e readline-8.1.tar.gz
 4b05eff8a427cf50e615bda324b5bc45 shadow-4.8.1.tar.xz
 d1d1aba394c8e0443077dc9f1a681bb8 sqlite-autoconf-3350500.tar.gz
 c70599ab0d037fde724f7210c2c8d7f8 sysklogd-1.5.1.tar.gz
-a9ef37089c45cd9c80802c30152a7485 248.2.tar.gz
+bb412cc7f9c9c54bcfdb8e7a90f5a8b1 248.3.tar.gz
 6abc0ea61b8dd4a41b4e931a43b1bb90 sysvinit-2.99.tar.xz
 9a08d29a9ac4727130b5708347c0f5cf tar-1.34.tar.xz
 8a4c004f48984a03a7747e9ba06e4da4 tcl8.6.11-src.tar.gz
