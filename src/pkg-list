@@ -31,7 +31,7 @@ grep-3.6.tar.xz
 groff-1.22.4.tar.gz
 grub-2.06~rc1.tar.xz
 gzip-1.10.tar.xz
-iana-etc-20210429.tar.gz
+iana-etc-20210514.tar.gz
 inetutils-2.0.tar.xz
 intltool-0.51.0.tar.gz
 iproute2-5.12.0.tar.xz
@@ -74,11 +74,11 @@ texinfo-6.7.tar.xz
 tzdata2021a.tar.gz
 udev-lfs-20171102.tar.xz
 util-linux-2.36.2.tar.xz
-v8.2.2857.tar.gz
+v8.2.2863.tar.gz
 XML-Parser-2.46.tar.gz
 xz-5.2.5.tar.xz
-2.0.2.tar.gz
-zstd-1.4.9.tar.gz
+2.0.3.tar.gz
+zstd-1.5.0.tar.gz
 busybox-1.33.1.tar.bz2
 musl-1.2.2.tar.gz
 bzip2-1.0.8-install_docs-1.patch
