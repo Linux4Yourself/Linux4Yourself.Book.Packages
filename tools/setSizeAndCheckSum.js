@@ -19,7 +19,7 @@ packages.forEach(pkg => {
 		}
 
 		const distination = `${downloadsDir}/${pkg.fileName}`;
-		const patchDistination = `download/patches/${pkg.fileName}`;
+		const patchDistination = `patches/${pkg.fileName}`;
 		let command = `curl -L ${pkg.url} --output ${distination} --silent`;
 
 		if (pkg.url.endsWith('.patch')) {
@@ -30,7 +30,7 @@ packages.forEach(pkg => {
 			const res = cp.execSync(command);
 		}
 
-		if (!fs.existsSync(`download/patches/${pkg.fileName}`) && pkg.url.endsWith('.patch')) {
+		if (!fs.existsSync(`patches/${pkg.fileName}`) && pkg.url.endsWith('.patch')) {
 			const res = cp.execSync(command);
 		}
 
