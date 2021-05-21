@@ -1,0 +1,9 @@
+../configure                             \
+      --prefix=/usr                      \
+      --disable-werror                   \
+      --enable-kernel=3.2                \
+      --with-headers=/usr/include        \
+      --libexecdir=/usr/lib              \
+      --enable-multi-arch                \
+      libc_cv_slibdir=/lib               \
+      libc_cv_include_x86_isa_level=no  
