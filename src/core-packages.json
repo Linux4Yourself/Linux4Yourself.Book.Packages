@@ -582,7 +582,7 @@
 	{
 		"name": "kbd",
 		"fileName": "kbd-2.4.0.tar.xz",
-		"description": "",
+		"description": "Содержит файлы таблицы ключей, консольные шрифты и утилиты клавиатуры.",
 		"url": "https://www.kernel.org/pub/linux/utils/kbd/kbd-2.4.0.tar.xz",
 		"homeUrl": "https://kbd-project.org/",
 		"version": "2.4.0",
@@ -597,7 +597,7 @@
 	{
 		"name": "kmod",
 		"fileName": "kmod-28.tar.xz",
-		"description": "The Kmod пакет содержит библиотеки и утилиты для загрузки модулей ядра",
+		"description": "Содержит библиотеки и утилиты для загрузки модулей ядра",
 		"url": "https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-28.tar.xz",
 		"homeUrl": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git/about",
 		"version": "28",
