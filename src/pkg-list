@@ -37,14 +37,14 @@ intltool-0.51.0.tar.gz
 iproute2-5.12.0.tar.xz
 isl-0.24.tar.xz
 kbd-2.4.0.tar.xz
-kmod-28.tar.xz
+kmod-29.tar.xz
 less-581.2.tar.gz
 lfs-bootscripts-20210428.tar.xz
 libcap-2.49.tar.xz
 libffi-3.3.tar.gz
 libpipeline-1.5.3.tar.gz
 libtool-2.4.6.tar.xz
-linux-5.12.4.tar.xz
+linux-5.12.6.tar.xz
 m4-1.4.18.tar.xz
 make-4.3.tar.gz
 man-db-2.9.4.tar.xz
@@ -56,7 +56,7 @@ ncurses-6.2.tar.gz
 ninja-1.10.2.tar.gz
 openssl-1.1.1k.tar.gz
 patch-2.7.6.tar.xz
-perl-5.32.1.tar.xz
+perl-5.34.0.tar.xz
 pkg-config-0.29.2.tar.gz
 procps-ng-3.3.17.tar.xz
 psmisc-23.4.tar.xz
@@ -74,7 +74,7 @@ texinfo-6.7.tar.xz
 tzdata2021a.tar.gz
 udev-lfs-20171102.tar.xz
 util-linux-2.36.2.tar.xz
-v8.2.2863.tar.gz
+v8.2.2876.tar.gz
 XML-Parser-2.46.tar.gz
 xz-5.2.5.tar.xz
 2.0.3.tar.gz
