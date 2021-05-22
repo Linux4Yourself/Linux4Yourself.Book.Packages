@@ -12,7 +12,8 @@
 		"size": "0.34",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "attr",
@@ -27,7 +28,8 @@
 		"size": "0.44",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "autoconf",
@@ -42,7 +44,8 @@
 		"size": "1.23",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "automake",
@@ -57,7 +60,8 @@
 		"size": "1.52",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "bash",
@@ -72,7 +76,8 @@
 		"size": "9.97",
 		"installedSize": 0,
 		"sbu": 1,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "bc",
@@ -87,7 +92,8 @@
 		"size": "0.22",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "binutils",
@@ -102,7 +108,8 @@
 		"size": "21.72",
 		"installedSize": 0,
 		"sbu": 1,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "bison",
@@ -117,7 +124,8 @@
 		"size": "2.51",
 		"installedSize": 0,
 		"sbu": 0.7,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "bzip2",
@@ -132,7 +140,8 @@
 		"size": "0.77",
 		"installedSize": 0.3,
 		"sbu": 0,
-		"sbu2": 0.1
+		"sbu2": 0.1,
+		"multilibSupport": true
 	},
 	{
 		"name": "check",
@@ -147,7 +156,8 @@
 		"size": "0.74",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "coreutils",
@@ -162,7 +172,8 @@
 		"size": "5.29",
 		"installedSize": 0,
 		"sbu": 1.3,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "dbus",
@@ -177,7 +188,8 @@
 		"size": "2.00",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "dejagnu",
@@ -192,7 +204,8 @@
 		"size": "0.50",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "diffutils",
@@ -207,7 +220,8 @@
 		"size": "1.38",
 		"installedSize": 0,
 		"sbu": 0.5,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "e2fsprogs",
@@ -222,7 +236,8 @@
 		"size": "9.06",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "elfutils",
@@ -237,7 +252,8 @@
 		"size": "8.76",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "eudev",
@@ -252,7 +268,8 @@
 		"size": "1.87",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "expat",
@@ -267,7 +284,8 @@
 		"size": "0.41",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "expect",
@@ -282,7 +300,8 @@
 		"size": "0.60",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "file",
@@ -297,7 +316,8 @@
 		"size": "0.96",
 		"installedSize": 7.3,
 		"sbu": 0.2,
-		"sbu2": 0.1
+		"sbu2": 0.1,
+		"multilibSupport": true
 	},
 	{
 		"name": "findutils",
@@ -312,7 +332,8 @@
 		"size": "1.89",
 		"installedSize": 0,
 		"sbu": 0.7,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "flex",
@@ -327,7 +348,8 @@
 		"size": "1.35",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "gawk",
@@ -342,7 +364,8 @@
 		"size": "3.01",
 		"installedSize": 0,
 		"sbu": 0.8,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "gcc",
@@ -357,7 +380,8 @@
 		"size": "75.22",
 		"installedSize": 0,
 		"sbu": 10.6,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "gdbm",
@@ -372,7 +396,8 @@
 		"size": "0.92",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "gettext",
@@ -387,7 +412,8 @@
 		"size": "9.26",
 		"installedSize": 0,
 		"sbu": 8.8,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "glibc",
@@ -402,7 +428,8 @@
 		"size": "16.24",
 		"installedSize": 53,
 		"sbu": 13.8,
-		"sbu2": 5.4
+		"sbu2": 5.4,
+		"multilibSupport": true
 	},
 	{
 		"name": "gmp",
@@ -417,7 +444,8 @@
 		"size": "1.93",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "gperf",
@@ -432,7 +460,8 @@
 		"size": "1.16",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "grep",
@@ -447,7 +476,8 @@
 		"size": "1.52",
 		"installedSize": 0,
 		"sbu": 0.5,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "groff",
@@ -462,7 +492,8 @@
 		"size": "3.95",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "grub",
@@ -477,7 +508,8 @@
 		"size": "6.24",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "gzip",
@@ -492,7 +524,8 @@
 		"size": "0.74",
 		"installedSize": 0,
 		"sbu": 0.1,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "iana-etc",
@@ -517,7 +550,8 @@
 				"name": "/etc/services",
 				"description": "файл определений протоколов. Данный файл является простым ASCII файлом, описывающим различные DARPA internet протоколы, которые доступны через подсистему TCP/IP. Не изменяйте этот файл, так как изменения могут привести к некорректному формированию IP пакетов. Номера протоколов и их имена определяются Центром Сетевой Информации (DDN Network Information Center)."
 			}
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "inetutils",
@@ -532,7 +566,8 @@
 		"size": "1.43",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "intltool",
@@ -547,7 +582,8 @@
 		"size": "0.15",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "iproute2",
@@ -562,7 +598,8 @@
 		"size": "0.80",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "isl",
@@ -577,7 +614,8 @@
 		"size": "1.84",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "kbd",
@@ -592,7 +630,8 @@
 		"size": "1.07",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "kmod",
@@ -607,7 +646,8 @@
 		"size": "0.53",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "less",
@@ -622,7 +662,8 @@
 		"size": "0.33",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "bootscripts",
@@ -637,7 +678,8 @@
 		"size": "0.03",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "libcap",
@@ -652,7 +694,8 @@
 		"size": "0.13",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "libffi",
@@ -667,7 +710,8 @@
 		"size": "1.24",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "libpipeline",
@@ -682,7 +726,8 @@
 		"size": "0.95",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "libtool",
@@ -697,7 +742,8 @@
 		"size": "0.93",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "linux",
@@ -712,7 +758,8 @@
 		"size": "112.67",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "m4",
@@ -727,7 +774,8 @@
 		"size": "1.15",
 		"installedSize": 0,
 		"sbu": 0.5,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "make",
@@ -742,7 +790,8 @@
 		"size": "2.21",
 		"installedSize": 0,
 		"sbu": 0.2,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "man-db",
@@ -757,7 +806,8 @@
 		"size": "1.82",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "man-pages",
@@ -772,7 +822,8 @@
 		"size": "1.68",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "meson",
@@ -787,7 +838,8 @@
 		"size": "1.80",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "mpc",
@@ -802,7 +854,8 @@
 		"size": "0.80",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "mpfr",
@@ -817,7 +870,8 @@
 		"size": "1.45",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "ncurses",
@@ -832,7 +886,8 @@
 		"size": "3.27",
 		"installedSize": 0,
 		"sbu": 1.2,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "ninja",
@@ -847,7 +902,8 @@
 		"size": "0.20",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "openssl",
@@ -862,7 +918,8 @@
 		"size": "9.37",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "patch",
@@ -877,7 +934,8 @@
 		"size": "0.75",
 		"installedSize": 0,
 		"sbu": 0.2,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "perl",
@@ -892,7 +950,8 @@
 		"size": "12.28",
 		"installedSize": 0,
 		"sbu": 2.2,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "pkg-config",
@@ -907,7 +966,8 @@
 		"size": "1.92",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "procps-ng",
@@ -922,7 +982,8 @@
 		"size": "0.96",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "psmisc",
@@ -937,7 +998,8 @@
 		"size": "0.35",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "python",
@@ -952,7 +1014,8 @@
 		"size": "18.18",
 		"installedSize": 0,
 		"sbu": 1.9,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "readline",
@@ -967,7 +1030,8 @@
 		"size": "2.85",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "sed",
@@ -982,7 +1046,8 @@
 		"size": "1.29",
 		"installedSize": 0,
 		"sbu": 0.4,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "shadow",
@@ -997,7 +1062,8 @@
 		"size": "1.54",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "sqlite",
@@ -1012,7 +1078,8 @@
 		"size": "2.82",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "sysklogd",
@@ -1027,7 +1094,8 @@
 		"size": "0.09",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "systemd",
@@ -1042,7 +1110,8 @@
 		"size": "9.84",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "sysvinit",
@@ -1057,7 +1126,8 @@
 		"size": "0.12",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "tar",
@@ -1072,7 +1142,8 @@
 		"size": "2.12",
 		"installedSize": 0,
 		"sbu": 0.8,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "tcl",
@@ -1087,7 +1158,8 @@
 		"size": "9.78",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "texinfo",
@@ -1102,7 +1174,8 @@
 		"size": "4.14",
 		"installedSize": 0,
 		"sbu": 0.3,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "tzdata",
@@ -1117,7 +1190,8 @@
 		"size": "0.39",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "udev",
@@ -1132,7 +1206,8 @@
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "util-linux",
@@ -1147,7 +1222,8 @@
 		"size": "5.10",
 		"installedSize": 0,
 		"sbu": 0.8,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": true
 	},
 	{
 		"name": "vim",
@@ -1162,7 +1238,8 @@
 		"size": "14.80",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "XML-Parser",
@@ -1177,7 +1254,8 @@
 		"size": "0.24",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "xz",
@@ -1192,7 +1270,8 @@
 		"size": "1.10",
 		"installedSize": 1.5,
 		"sbu": 0.3,
-		"sbu2": 0.2
+		"sbu2": 0.2,
+		"multilibSupport": true
 	},
 	{
 		"name": "zlib-ng",
@@ -1207,7 +1286,8 @@
 		"size": "0.67",
 		"installedSize": 0.26,
 		"sbu": 0,
-		"sbu2": 0.1
+		"sbu2": 0.1,
+		"multilibSupport": true
 	},
 	{
 		"name": "zstd",
@@ -1222,7 +1302,8 @@
 		"size": "1.77",
 		"installedSize": 2,
 		"sbu": 0,
-		"sbu2": 1
+		"sbu2": 1,
+		"multilibSupport": true
 	},
 	{
 		"name": "busybox",
@@ -1237,7 +1318,8 @@
 		"size": "2.34",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "musl",
@@ -1252,7 +1334,8 @@
 		"size": "1.01",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "bzip2-patch",
@@ -1267,7 +1350,8 @@
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "coreutils-patch",
@@ -1282,7 +1366,8 @@
 		"size": "0.17",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "glibc-patch",
@@ -1297,7 +1382,8 @@
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "kbd-patch",
@@ -1312,7 +1398,8 @@
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	},
 	{
 		"name": "sysvinit-patch",
@@ -1327,6 +1414,7 @@
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"multilibSupport": false
 	}
 ]
