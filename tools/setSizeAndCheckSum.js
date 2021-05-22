@@ -7,8 +7,8 @@ const updatedPkgs = [];
 const downloadsDir = 'downloads';
 
 
-if (!fs.existsSync(downloadsDir)){
-    fs.mkdirSync(downloadsDir);
+if (!fs.existsSync(downloadsDir)) {
+	fs.mkdirSync(downloadsDir);
 }
 
 packages.forEach(pkg => {
@@ -27,15 +27,16 @@ packages.forEach(pkg => {
 		}
 
 		if (!fs.existsSync(`${downloadsDir}/${pkg.fileName}`) && !pkg.url.endsWith('.patch')) {
-			const res = cp.execSync(command);
+			cp.execSync(command);
 		}
 
 		if (!fs.existsSync(`patches/${pkg.fileName}`) && pkg.url.endsWith('.patch')) {
-			const res = cp.execSync(command);
+			cp.execSync(command);
 		}
 
-		const stats = fs.statSync(distination);
-		const md5 = cp.execSync(`md5sum ${distination}`, 'utf-8').toString().split(' ')[0];
+		const statsDestination = pkg.url.endsWith('.patch') ? patchDistination : distination;
+		const stats = fs.statSync(statsDestination);
+		const md5 = cp.execSync(`md5sum ${statsDestination}`, 'utf-8').toString().split(' ')[0];
 
 		pkg.size = (stats.size / (1024 * 1024)).toFixed(2);
 		pkg.md5 = md5;
