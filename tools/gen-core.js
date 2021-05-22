@@ -1,11 +1,9 @@
-const packages = require('../src/core-packages.json');
+const packages = require('../src/packages/core/packages.json');
 const fs = require('fs');
 const cp = require('child_process');
 
 const updatedPkgs = [];
-
 const downloadsDir = 'downloads';
-
 
 if (!fs.existsSync(downloadsDir)) {
 	fs.mkdirSync(downloadsDir);
@@ -47,7 +45,7 @@ packages.forEach(pkg => {
 	}
 });
 
-fs.writeFileSync(`src/core-packages.json`, JSON.stringify(updatedPkgs, null, '\t'), 'utf-8');
-fs.writeFileSync(`src/wget-list`, updatedPkgs.map(x => `${x.url}`).join('\n'), 'utf-8');
-fs.writeFileSync(`src/md5sums`, String(updatedPkgs.map(x => `${x.md5} ${x.fileName}`).join('\n')), 'utf-8');
-fs.writeFileSync(`src/pkg-list`, String(updatedPkgs.map(x => x.fileName).join('\n')), 'utf-8');
+fs.writeFileSync(`src/packages/core/packages.json`, JSON.stringify(updatedPkgs, null, '\t'), 'utf-8');
+fs.writeFileSync(`src/packages/core/wget-list`, updatedPkgs.map(x => `${x.url}`).join('\n'), 'utf-8');
+fs.writeFileSync(`src/packages/core/md5sums`, String(updatedPkgs.map(x => `${x.md5} ${x.fileName}`).join('\n')), 'utf-8');
+fs.writeFileSync(`src/packages/core/pkg-list`, String(updatedPkgs.map(x => x.fileName).join('\n')), 'utf-8');
