@@ -39,7 +39,7 @@ fae030f604a9537adc2502990a8ab4d1 isl-0.24.tar.xz
 3cac5be0096fcf7b32dcbd3c53831380 kbd-2.4.0.tar.xz
 e81e63acd80697d001c8d85c1acb38a0 kmod-29.tar.xz
 18f5d83c0cada3f288a5a20bf88faea2 less-581.2.tar.gz
-b9a3397dbda41789da5ffd1e174c4de2 lfs-bootscripts-20210428.tar.xz
+e1936df5c93d16720d2d30adc13794a3 bootscripts.tar.xz
 b43ae3690fe4d2cb32e4d25c0983ecd3 libcap-2.49.tar.xz
 6313289e32f1d38a9df4770b014a2ca7 libffi-3.3.tar.gz
 dad443d0911cf9f0f1bd90a334bc9004 libpipeline-1.5.3.tar.gz
@@ -81,8 +81,8 @@ aa1621ec7013a19abab52a8aff04fe5b xz-5.2.5.tar.xz
 a6eb7fb1f2c21fa80030a47993853e92 zstd-1.5.0.tar.gz
 7f9f8acf026ed11dfa9b672c41b204e0 busybox-1.33.1.tar.bz2
 aed8ae9e2b0898151b36a204088292dd musl-1.2.2.tar.gz
-28ce58ff7d7db067fed833514f9cad67 bzip2-1.0.8-install_docs-1.patch
-fe2680b5a72d1ca7f7fee7b723456e0e coreutils-8.32-i18n-1.patch
-dd09372fc5740324c82aed7d97635d6d glibc-2.33-fhs-1.patch
-3249eddfaf6138c9542d0b5165033d5d kbd-2.4.0-backspace-1.patch
-fd07ab7c0e5ec38ac2aa2d79178e4562 sysvinit-2.99-consolidated-1.patch
+6a5ac7e89b791aae556de0f745916f7f bzip2-1.0.8-install_docs-1.patch
+cd8ebed2a67fff2e231026df91af6776 coreutils-8.32-i18n-1.patch
+9a5997c3452909b1769918c759eff8a2 glibc-2.33-fhs-1.patch
+f75cca16a38da6caa7d52151f7136895 kbd-2.4.0-backspace-1.patch
+4900322141d493e74020c9cf437b2cdc sysvinit-2.99-consolidated-1.patch
