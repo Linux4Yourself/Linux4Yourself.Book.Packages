@@ -1,0 +1,4 @@
+mkdir udev
+cd udev
+tar -xvf ../../udev.tar.xz
+make -f Makefile.lfs install

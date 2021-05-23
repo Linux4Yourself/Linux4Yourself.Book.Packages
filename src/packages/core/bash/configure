@@ -1,0 +1,4 @@
+./configure --prefix=/usr                    \
+            --docdir=/usr/share/doc/bash     \
+            --without-bash-malloc            \
+            --with-installed-readline

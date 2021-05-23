@@ -1,0 +1,1 @@
+make DOCDIR=/usr/share/doc/iproute2 install

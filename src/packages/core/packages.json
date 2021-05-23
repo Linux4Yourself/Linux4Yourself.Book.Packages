@@ -252,7 +252,10 @@
 		"size": "1.87",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"dependencies": [
+			"udev"
+		]
 	},
 	{
 		"name": "expat",
@@ -1042,7 +1045,10 @@
 		"size": "9.84",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"patches": [
+			"systemd-patch"
+		]
 	},
 	{
 		"name": "sysvinit",
@@ -1057,7 +1063,10 @@
 		"size": "0.12",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"patches": [
+			"sysvinit-patch"
+		]
 	},
 	{
 		"name": "tar",
@@ -1160,6 +1169,21 @@
 		"priority": "optional",
 		"md5": "d4d6f203dae369f4240a3bb80ba567ac",
 		"size": "14.80",
+		"installedSize": 0,
+		"sbu": 0,
+		"sbu2": 0
+	},
+	{
+		"name": "nano",
+		"fileName": "nano-5.7.tar.xz",
+		"description": "консольный текстовый редактор для UNIX и Unix-подобных операционных систем, основанный на библиотеке curses.",
+		"url": "https://www.nano-editor.org/dist/v5/nano-5.7.tar.xz",
+		"homeUrl": "https://www.nano-editor.org/",
+		"version": "5.7",
+		"releasesUrl": "https://www.nano-editor.org/download.php",
+		"priority": "optional",
+		"md5": "c2d6540a33248edc31a5830861b4b4ea",
+		"size": "1.38",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0
@@ -1321,6 +1345,21 @@
 		"url": "https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/sysvinit-2.99-consolidated-1.patch",
 		"homeUrl": "",
 		"version": "2.99-consolidated-1",
+		"releasesUrl": "",
+		"priority": "required",
+		"md5": "fd07ab7c0e5ec38ac2aa2d79178e4562",
+		"size": "0.00",
+		"installedSize": 0,
+		"sbu": 0,
+		"sbu2": 0
+	},
+	{
+		"name": "systemd-patch",
+		"fileName": "systemd-248-upstream_fixes-1.patch",
+		"description": "",
+		"url": "https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/systemd-248-upstream_fixes-1.patch",
+		"homeUrl": "",
+		"version": "248-1",
 		"releasesUrl": "",
 		"priority": "required",
 		"md5": "fd07ab7c0e5ec38ac2aa2d79178e4562",
