@@ -87,3 +87,4 @@ fe2680b5a72d1ca7f7fee7b723456e0e coreutils-8.32-i18n-1.patch
 dd09372fc5740324c82aed7d97635d6d glibc-2.33-fhs-1.patch
 3249eddfaf6138c9542d0b5165033d5d kbd-2.4.0-backspace-1.patch
 fd07ab7c0e5ec38ac2aa2d79178e4562 sysvinit-2.99-consolidated-1.patch
+6819d49562ac48b551d15d2dd0123055 systemd-248-upstream_fixes-1.patch

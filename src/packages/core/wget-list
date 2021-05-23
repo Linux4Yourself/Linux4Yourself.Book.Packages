@@ -87,3 +87,4 @@ https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/de
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/glibc-2.33-fhs-1.patch
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/kbd-2.4.0-backspace-1.patch
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/sysvinit-2.99-consolidated-1.patch
+https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/systemd-248-upstream_fixes-1.patch
