@@ -82,6 +82,11 @@ https://github.com/zlib-ng/zlib-ng/archive/refs/tags/2.0.3.tar.gz
 https://github.com/facebook/zstd/releases/download/v1.5.0/zstd-1.5.0.tar.gz
 https://busybox.net/downloads/busybox-1.33.1.tar.bz2
 https://musl.libc.org/releases/musl-1.2.2.tar.gz
+http://ftp.rpm.org/popt/releases/popt-1.x/popt-1.18.tar.gz
+https://downloads.sourceforge.net/freetype/freetype-2.10.4.tar.xz
+https://github.com/rhboot/efivar/releases/download/37/efivar-37.tar.bz2
+https://github.com/rhboot/efibootmgr/archive/17/efibootmgr-17.tar.gz
+https://github.com/dosfstools/dosfstools/releases/download/v4.2/dosfstools-4.2.tar.gz
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/bzip2-1.0.8-install_docs-1.patch
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/coreutils-8.32-i18n-1.patch
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/glibc-2.33-fhs-1.patch

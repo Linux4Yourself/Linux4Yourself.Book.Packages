@@ -82,6 +82,11 @@ xz-5.2.5.tar.xz
 zstd-1.5.0.tar.gz
 busybox-1.33.1.tar.bz2
 musl-1.2.2.tar.gz
+popt-1.18.tar.gz
+freetype-2.10.4.tar.xz
+efivar-37.tar.bz2
+efibootmgr-17.tar.gz
+dosfstools-4.2.tar.gz
 bzip2-1.0.8-install_docs-1.patch
 coreutils-8.32-i18n-1.patch
 glibc-2.33-fhs-1.patch
