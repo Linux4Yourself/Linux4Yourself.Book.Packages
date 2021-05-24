@@ -15,7 +15,7 @@ https://ftp.gnu.org/gnu/diffutils/diffutils-3.7.tar.xz
 https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.46.2/e2fsprogs-1.46.2.tar.gz
 https://sourceware.org/ftp/elfutils/0.184/elfutils-0.184.tar.bz2
 https://dev.gentoo.org/~blueness/eudev/eudev-3.2.10.tar.gz
-https://prdownloads.sourceforge.net/expat/expat-2.3.0.tar.xz
+https://prdownloads.sourceforge.net/expat/expat-2.4.0.tar.xz
 https://prdownloads.sourceforge.net/expect/expect5.45.4.tar.gz
 https://astron.com/pub/file/file-5.40.tar.gz
 https://ftp.gnu.org/gnu/findutils/findutils-4.8.0.tar.xz
@@ -92,4 +92,5 @@ https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/de
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/glibc-2.33-fhs-1.patch
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/kbd-2.4.0-backspace-1.patch
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/sysvinit-2.99-consolidated-1.patch
+https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/efivar-37-gcc_9-1.patch
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/systemd-248-upstream_fixes-1.patch

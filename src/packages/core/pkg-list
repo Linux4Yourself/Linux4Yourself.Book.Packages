@@ -15,7 +15,7 @@ diffutils-3.7.tar.xz
 e2fsprogs-1.46.2.tar.gz
 elfutils-0.184.tar.bz2
 eudev-3.2.10.tar.gz
-expat-2.3.0.tar.xz
+expat-2.4.0.tar.xz
 expect5.45.4.tar.gz
 file-5.40.tar.gz
 findutils-4.8.0.tar.xz
@@ -92,4 +92,5 @@ coreutils-8.32-i18n-1.patch
 glibc-2.33-fhs-1.patch
 kbd-2.4.0-backspace-1.patch
 sysvinit-2.99-consolidated-1.patch
+efivar-37-gcc_9-1.patch
 systemd-248-upstream_fixes-1.patch
