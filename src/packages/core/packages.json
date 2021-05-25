@@ -71,7 +71,7 @@
 		"md5": "bb91a17fd6c9032c26d0b2b78b50aff5",
 		"size": "9.97",
 		"installedSize": 0,
-		"sbu": 1,
+		"sbu": 0.3,
 		"sbu2": 0
 	},
 	{
@@ -116,7 +116,7 @@
 		"md5": "d61aa92e3562cb7292b004ce96173cf7",
 		"size": "2.51",
 		"installedSize": 0,
-		"sbu": 0.7,
+		"sbu": 0.2,
 		"sbu2": 0
 	},
 	{
@@ -164,7 +164,7 @@
 		"md5": "022042695b7d5bcf1a93559a9735e668",
 		"size": "5.29",
 		"installedSize": 0,
-		"sbu": 1.3,
+		"sbu": 0.5,
 		"sbu2": 0,
 		"patches": [
 			"coreutils-patch"
@@ -212,7 +212,7 @@
 		"md5": "4824adc0e95dbbf11dfbdfaad6a1e461",
 		"size": "1.38",
 		"installedSize": 0,
-		"sbu": 0.5,
+		"sbu": 0.2,
 		"sbu2": 0
 	},
 	{
@@ -320,7 +320,7 @@
 		"md5": "eeefe2e6380931a77dfa6d9350b43186",
 		"size": "1.89",
 		"installedSize": 0,
-		"sbu": 0.7,
+		"sbu": 0.3,
 		"sbu2": 0
 	},
 	{
@@ -350,7 +350,7 @@
 		"md5": "8470c34eeecc41c1aa0c5d89e630df50",
 		"size": "3.01",
 		"installedSize": 0,
-		"sbu": 0.8,
+		"sbu": 0.3,
 		"sbu2": 0
 	},
 	{
@@ -365,7 +365,7 @@
 		"md5": "77f6252be0861ab918042acf42bc10ff",
 		"size": "75.22",
 		"installedSize": 0,
-		"sbu": 10.6,
+		"sbu": 14.8,
 		"sbu2": 0
 	},
 	{
@@ -395,7 +395,7 @@
 		"md5": "40996bbaf7d1356d3c22e33a8b255b31",
 		"size": "9.26",
 		"installedSize": 0,
-		"sbu": 8.8,
+		"sbu": 4.5,
 		"sbu2": 0
 	},
 	{
@@ -410,7 +410,7 @@
 		"md5": "390bbd889c7e8e8a7041564cb6b27cca",
 		"size": "16.24",
 		"installedSize": 53,
-		"sbu": 13.8,
+		"sbu": 5.4,
 		"sbu2": 5.4,
 		"patches": [
 			"glibc-patch"
@@ -458,7 +458,7 @@
 		"md5": "f47fe27049510b2249dba7f862ac1b51",
 		"size": "1.52",
 		"installedSize": 0,
-		"sbu": 0.5,
+		"sbu": 0.2,
 		"sbu2": 0
 	},
 	{
@@ -741,7 +741,7 @@
 		"md5": "730bb15d96fffe47e148d1e09235af82",
 		"size": "1.15",
 		"installedSize": 0,
-		"sbu": 0.5,
+		"sbu": 0.1,
 		"sbu2": 0
 	},
 	{
@@ -756,7 +756,7 @@
 		"md5": "fc7a67ea86ace13195b0bce683fd4469",
 		"size": "2.21",
 		"installedSize": 0,
-		"sbu": 0.2,
+		"sbu": 0.1,
 		"sbu2": 0
 	},
 	{
@@ -891,7 +891,7 @@
 		"md5": "78ad9937e4caadcba1526ef1853730d5",
 		"size": "0.75",
 		"installedSize": 0,
-		"sbu": 0.2,
+		"sbu": 0.1,
 		"sbu2": 0
 	},
 	{
@@ -906,7 +906,7 @@
 		"md5": "df7ecb0653440b26dc951ad9dbfab517",
 		"size": "12.28",
 		"installedSize": 0,
-		"sbu": 2.2,
+		"sbu": 1.9,
 		"sbu2": 0
 	},
 	{
@@ -966,7 +966,7 @@
 		"md5": "71f7ada6bec9cdbf4538adc326120cfd",
 		"size": "18.18",
 		"installedSize": 0,
-		"sbu": 1.9,
+		"sbu": 1.2,
 		"sbu2": 0
 	},
 	{
@@ -996,7 +996,7 @@
 		"md5": "6d906edfdb3202304059233f51f9a71d",
 		"size": "1.29",
 		"installedSize": 0,
-		"sbu": 0.4,
+		"sbu": 0.2,
 		"sbu2": 0
 	},
 	{
@@ -1092,7 +1092,7 @@
 		"md5": "9a08d29a9ac4727130b5708347c0f5cf",
 		"size": "2.12",
 		"installedSize": 0,
-		"sbu": 0.8,
+		"sbu": 0.4,
 		"sbu2": 0
 	},
 	{
@@ -1227,7 +1227,7 @@
 		"md5": "aa1621ec7013a19abab52a8aff04fe5b",
 		"size": "1.10",
 		"installedSize": 1.5,
-		"sbu": 0.3,
+		"sbu": 0.2,
 		"sbu2": 0.2
 	},
 	{
@@ -1374,7 +1374,7 @@
 		"version": "1.0.8",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "28ce58ff7d7db067fed833514f9cad67",
+		"md5": "6a5ac7e89b791aae556de0f745916f7f",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1389,8 +1389,8 @@
 		"version": "8.32-i18n-1",
 		"releasesUrl": "",
 		"priority": "optional",
-		"md5": "fe2680b5a72d1ca7f7fee7b723456e0e",
-		"size": "0.17",
+		"md5": "cd8ebed2a67fff2e231026df91af6776",
+		"size": "0.16",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0
@@ -1404,7 +1404,7 @@
 		"version": "2.33-fhs-1",
 		"releasesUrl": "",
 		"priority": "important",
-		"md5": "dd09372fc5740324c82aed7d97635d6d",
+		"md5": "9a5997c3452909b1769918c759eff8a2",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1419,7 +1419,7 @@
 		"version": "2.4.0-backspace-1",
 		"releasesUrl": "",
 		"priority": "important",
-		"md5": "3249eddfaf6138c9542d0b5165033d5d",
+		"md5": "f75cca16a38da6caa7d52151f7136895",
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1434,7 +1434,7 @@
 		"version": "2.99-consolidated-1",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "fd07ab7c0e5ec38ac2aa2d79178e4562",
+		"md5": "4900322141d493e74020c9cf437b2cdc",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1449,7 +1449,7 @@
 		"version": "1",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "6c3af2c50718168f781bf0c565736928",
+		"md5": "e795e52eeefc0d2c62c6c4bd748d2d38",
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
