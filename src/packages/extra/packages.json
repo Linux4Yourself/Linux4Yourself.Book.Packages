@@ -30,5 +30,24 @@
 				"zip"
 			]
 		}
+	},
+	{
+		"name": "icu",
+		"fileName": "icu4c-69_1-src.tgz",
+		"description": "ICU предоставляет библиотеки для работы с Unicode",
+		"url": " https://github.com/unicode-org/icu/releases/download/release-69-1/icu4c-69_1-src.tgz",
+		"homeUrl": "https://github.com/unicode-org/icu/",
+		"version": "69.1",
+		"releasesUrl": " https://github.com/unicode-org/icu/releases/",
+		"md5": "9403db682507369d0f60a25ea67014c4",
+		"size": "23.67",
+		"installedSize": 0,
+		"sbu": 0,
+		"dependencies": {
+			"optional": [
+				"doxygen",
+				"llvm"
+			]
+		}
 	}
 ]
