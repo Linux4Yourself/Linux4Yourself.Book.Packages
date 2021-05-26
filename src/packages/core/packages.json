@@ -409,9 +409,9 @@
 		"priority": "required",
 		"md5": "390bbd889c7e8e8a7041564cb6b27cca",
 		"size": "16.24",
-		"installedSize": 53,
+		"installedSize": 43,
 		"sbu": 5.4,
-		"sbu2": 5.4,
+		"sbu2": 4.2,
 		"patches": [
 			"glibc-patch"
 		]
@@ -1241,7 +1241,7 @@
 		"priority": "required",
 		"md5": "59d0d6c2f407b1ebbecc0a8e769cf409",
 		"size": "0.67",
-		"installedSize": 0.26,
+		"installedSize": 0.24,
 		"sbu": 0,
 		"sbu2": 0.1
 	},
