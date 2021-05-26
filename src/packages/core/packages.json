@@ -12,7 +12,17 @@
 		"size": "0.34",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"test"
+		]
 	},
 	{
 		"name": "attr",
@@ -27,7 +37,17 @@
 		"size": "0.44",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"test"
+		]
 	},
 	{
 		"name": "autoconf",
@@ -42,7 +62,13 @@
 		"size": "1.23",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "automake",
@@ -57,7 +83,14 @@
 		"size": "1.52",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "bash",
@@ -72,7 +105,15 @@
 		"size": "9.97",
 		"installedSize": 0,
 		"sbu": 0.3,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"postinstall",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "bc",
@@ -87,7 +128,13 @@
 		"size": "0.22",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "binutils",
@@ -102,7 +149,20 @@
 		"size": "21.72",
 		"installedSize": 0,
 		"sbu": 1,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_postinstall",
+			"multi_test",
+			"postinstall",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "bison",
@@ -117,7 +177,13 @@
 		"size": "2.51",
 		"installedSize": 0,
 		"sbu": 0.2,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "bzip2",
@@ -135,6 +201,18 @@
 		"sbu2": 0.1,
 		"patches": [
 			"bzip2-patch"
+		],
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_install",
+			"multi_prepare",
+			"multi_test",
+			"patch",
+			"prepare",
+			"test"
 		]
 	},
 	{
@@ -150,7 +228,13 @@
 		"size": "0.74",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "coreutils",
@@ -168,6 +252,14 @@
 		"sbu2": 0,
 		"patches": [
 			"coreutils-patch"
+		],
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"patch",
+			"prepare",
+			"test"
 		]
 	},
 	{
@@ -183,7 +275,17 @@
 		"size": "2.00",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"postinstall"
+		]
 	},
 	{
 		"name": "dejagnu",
@@ -213,7 +315,13 @@
 		"size": "1.38",
 		"installedSize": 0,
 		"sbu": 0.2,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "e2fsprogs",
@@ -228,7 +336,16 @@
 		"size": "9.06",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"install-doc",
+			"postinstall",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "elfutils",
@@ -261,6 +378,17 @@
 		"sbu2": 0,
 		"dependencies": [
 			"udev"
+		],
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"postinstall",
+			"test"
 		]
 	},
 	{
@@ -276,7 +404,14 @@
 		"size": "0.42",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"install-doc",
+			"test"
+		]
 	},
 	{
 		"name": "expect",
@@ -306,7 +441,18 @@
 		"size": "0.96",
 		"installedSize": 7.3,
 		"sbu": 0.2,
-		"sbu2": 0.1
+		"sbu2": 0.1,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"multi_test",
+			"test"
+		]
 	},
 	{
 		"name": "findutils",
@@ -321,7 +467,13 @@
 		"size": "1.89",
 		"installedSize": 0,
 		"sbu": 0.3,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "flex",
@@ -336,7 +488,13 @@
 		"size": "1.35",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "gawk",
@@ -351,7 +509,15 @@
 		"size": "3.01",
 		"installedSize": 0,
 		"sbu": 0.3,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"install-doc",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "gcc",
@@ -366,7 +532,15 @@
 		"size": "75.22",
 		"installedSize": 0,
 		"sbu": 14.8,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"postinstall",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "gdbm",
@@ -381,7 +555,13 @@
 		"size": "0.92",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "gettext",
@@ -396,7 +576,13 @@
 		"size": "9.26",
 		"installedSize": 0,
 		"sbu": 4.5,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "glibc",
@@ -414,6 +600,19 @@
 		"sbu2": 5.4,
 		"patches": [
 			"glibc-patch"
+		],
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"install-systemd",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"patch",
+			"prepare",
+			"test"
 		]
 	},
 	{
@@ -429,7 +628,18 @@
 		"size": "1.93",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "gperf",
@@ -444,7 +654,13 @@
 		"size": "1.16",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "grep",
@@ -459,7 +675,13 @@
 		"size": "1.52",
 		"installedSize": 0,
 		"sbu": 0.2,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "groff",
@@ -474,7 +696,12 @@
 		"size": "3.95",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install"
+		]
 	},
 	{
 		"name": "grub",
@@ -504,7 +731,13 @@
 		"size": "0.74",
 		"installedSize": 0,
 		"sbu": 0.1,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "iana-etc",
@@ -529,6 +762,9 @@
 				"name": "/etc/services",
 				"description": "файл определений протоколов. Данный файл является простым ASCII файлом, описывающим различные DARPA internet протоколы, которые доступны через подсистему TCP/IP. Не изменяйте этот файл, так как изменения могут привести к некорректному формированию IP пакетов. Номера протоколов и их имена определяются Центром Сетевой Информации (DDN Network Information Center)."
 			}
+		],
+		"scripts": [
+			"build"
 		]
 	},
 	{
@@ -544,7 +780,13 @@
 		"size": "1.43",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "intltool",
@@ -559,7 +801,15 @@
 		"size": "0.15",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"install-doc",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "iproute2",
@@ -574,7 +824,14 @@
 		"size": "0.80",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"install",
+			"install-doc",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "isl",
@@ -589,7 +846,14 @@
 		"size": "1.84",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"postinstall",
+			"test"
+		]
 	},
 	{
 		"name": "kbd",
@@ -607,6 +871,14 @@
 		"sbu2": 0,
 		"patches": [
 			"kbd-patch"
+		],
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"patch",
+			"prepare",
+			"test"
 		]
 	},
 	{
@@ -622,7 +894,17 @@
 		"size": "0.53",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"postinstall"
+		]
 	},
 	{
 		"name": "less",
@@ -637,7 +919,12 @@
 		"size": "0.33",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install"
+		]
 	},
 	{
 		"name": "bootscripts",
@@ -652,7 +939,10 @@
 		"size": "0.03",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"install"
+		]
 	},
 	{
 		"name": "libcap",
@@ -667,7 +957,17 @@
 		"size": "0.13",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"install",
+			"multi_build",
+			"multi_install",
+			"multi_prepare",
+			"postinstall",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "libffi",
@@ -682,7 +982,17 @@
 		"size": "1.24",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"test"
+		]
 	},
 	{
 		"name": "libpipeline",
@@ -697,7 +1007,13 @@
 		"size": "0.95",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "libtool",
@@ -712,7 +1028,18 @@
 		"size": "0.93",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"postinstall",
+			"test"
+		]
 	},
 	{
 		"name": "linux",
@@ -742,7 +1069,14 @@
 		"size": "1.15",
 		"installedSize": 0,
 		"sbu": 0.1,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "make",
@@ -757,7 +1091,13 @@
 		"size": "2.21",
 		"installedSize": 0,
 		"sbu": 0.1,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "man-db",
@@ -772,7 +1112,13 @@
 		"size": "1.82",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "man-pages",
@@ -802,7 +1148,11 @@
 		"size": "1.80",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"install"
+		]
 	},
 	{
 		"name": "mpc",
@@ -817,7 +1167,13 @@
 		"size": "0.80",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "mpfr",
@@ -832,7 +1188,13 @@
 		"size": "1.45",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "ncurses",
@@ -847,7 +1209,19 @@
 		"size": "3.27",
 		"installedSize": 0,
 		"sbu": 1.2,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_postinstall",
+			"multi_prepare",
+			"postinstall",
+			"test"
+		]
 	},
 	{
 		"name": "ninja",
@@ -862,7 +1236,13 @@
 		"size": "0.20",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"install",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "openssl",
@@ -877,7 +1257,17 @@
 		"size": "9.37",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"test"
+		]
 	},
 	{
 		"name": "patch",
@@ -892,7 +1282,13 @@
 		"size": "0.75",
 		"installedSize": 0,
 		"sbu": 0.1,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "perl",
@@ -907,7 +1303,15 @@
 		"size": "12.28",
 		"installedSize": 0,
 		"sbu": 1.9,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"postinstall",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "pkg-config",
@@ -922,7 +1326,13 @@
 		"size": "1.92",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "procps-ng",
@@ -937,7 +1347,13 @@
 		"size": "0.96",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "psmisc",
@@ -952,7 +1368,12 @@
 		"size": "0.35",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install"
+		]
 	},
 	{
 		"name": "python",
@@ -967,7 +1388,13 @@
 		"size": "18.18",
 		"installedSize": 0,
 		"sbu": 1.2,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "readline",
@@ -982,7 +1409,19 @@
 		"size": "2.85",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"multi_test",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "sed",
@@ -997,7 +1436,15 @@
 		"size": "1.29",
 		"installedSize": 0,
 		"sbu": 0.2,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"build-doc",
+			"configure",
+			"install",
+			"install-doc",
+			"test"
+		]
 	},
 	{
 		"name": "shadow",
@@ -1012,7 +1459,15 @@
 		"size": "1.54",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"postinstall",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "sqlite",
@@ -1027,7 +1482,16 @@
 		"size": "2.82",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare"
+		]
 	},
 	{
 		"name": "sysklogd",
@@ -1042,7 +1506,15 @@
 		"size": "0.09",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"postinstall",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "systemd",
@@ -1060,6 +1532,17 @@
 		"sbu2": 0,
 		"patches": [
 			"systemd-patch"
+		],
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"patch",
+			"postinstall",
+			"prepare"
 		]
 	},
 	{
@@ -1078,6 +1561,11 @@
 		"sbu2": 0,
 		"patches": [
 			"sysvinit-patch"
+		],
+		"scripts": [
+			"build",
+			"install",
+			"patch"
 		]
 	},
 	{
@@ -1093,7 +1581,13 @@
 		"size": "2.12",
 		"installedSize": 0,
 		"sbu": 0.4,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "tcl",
@@ -1123,7 +1617,14 @@
 		"size": "4.14",
 		"installedSize": 0,
 		"sbu": 0.3,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"postinstall",
+			"test"
+		]
 	},
 	{
 		"name": "tzdata",
@@ -1168,7 +1669,24 @@
 		"size": "5.10",
 		"installedSize": 0,
 		"sbu": 0.8,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"build-systemd",
+			"configure",
+			"configure-systemd",
+			"install",
+			"install-systemd",
+			"multi_build",
+			"multi_build-systemd",
+			"multi_configure",
+			"multi_install",
+			"multi_install-systemd",
+			"multi_prepare",
+			"multi_prepare-systemd",
+			"test",
+			"test-systemd"
+		]
 	},
 	{
 		"name": "vim",
@@ -1183,7 +1701,15 @@
 		"size": "14.80",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"postinstall",
+			"prepare",
+			"test"
+		]
 	},
 	{
 		"name": "nano",
@@ -1198,7 +1724,14 @@
 		"size": "1.38",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"install-doc",
+			"test"
+		]
 	},
 	{
 		"name": "XML-Parser",
@@ -1213,7 +1746,13 @@
 		"size": "0.24",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "xz",
@@ -1228,7 +1767,18 @@
 		"size": "1.10",
 		"installedSize": 1.5,
 		"sbu": 0.2,
-		"sbu2": 0.2
+		"sbu2": 0.2,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"multi_test",
+			"test"
+		]
 	},
 	{
 		"name": "zlib-ng",
@@ -1243,7 +1793,20 @@
 		"size": "0.67",
 		"installedSize": 0.26,
 		"sbu": 0,
-		"sbu2": 0.1
+		"sbu2": 0.1,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_postinstall",
+			"multi_prepare",
+			"multi_test",
+			"postinstall",
+			"test"
+		]
 	},
 	{
 		"name": "zstd",
@@ -1258,7 +1821,16 @@
 		"size": "1.77",
 		"installedSize": 2,
 		"sbu": 0,
-		"sbu2": 1
+		"sbu2": 1,
+		"scripts": [
+			"build",
+			"install",
+			"multi_build",
+			"multi_install",
+			"multi_prepare",
+			"multi_test",
+			"test"
+		]
 	},
 	{
 		"name": "busybox",
@@ -1374,7 +1946,7 @@
 		"version": "1.0.8",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "6a5ac7e89b791aae556de0f745916f7f",
+		"md5": "28ce58ff7d7db067fed833514f9cad67",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1389,8 +1961,8 @@
 		"version": "8.32-i18n-1",
 		"releasesUrl": "",
 		"priority": "optional",
-		"md5": "cd8ebed2a67fff2e231026df91af6776",
-		"size": "0.16",
+		"md5": "fe2680b5a72d1ca7f7fee7b723456e0e",
+		"size": "0.17",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0
@@ -1404,7 +1976,7 @@
 		"version": "2.33-fhs-1",
 		"releasesUrl": "",
 		"priority": "important",
-		"md5": "9a5997c3452909b1769918c759eff8a2",
+		"md5": "dd09372fc5740324c82aed7d97635d6d",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1419,7 +1991,7 @@
 		"version": "2.4.0-backspace-1",
 		"releasesUrl": "",
 		"priority": "important",
-		"md5": "f75cca16a38da6caa7d52151f7136895",
+		"md5": "3249eddfaf6138c9542d0b5165033d5d",
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1434,7 +2006,7 @@
 		"version": "2.99-consolidated-1",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "4900322141d493e74020c9cf437b2cdc",
+		"md5": "fd07ab7c0e5ec38ac2aa2d79178e4562",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1449,7 +2021,7 @@
 		"version": "1",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "e795e52eeefc0d2c62c6c4bd748d2d38",
+		"md5": "6c3af2c50718168f781bf0c565736928",
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
