@@ -87,10 +87,10 @@ aed8ae9e2b0898151b36a204088292dd musl-1.2.2.tar.gz
 9f067275c5f7aafdd75bfb364280ac9c efivar-37.tar.bz2
 6ae315936d9bc8613b3a4cb8a4064128 efibootmgr-17.tar.gz
 49c8e457327dc61efab5b115a27b087a dosfstools-4.2.tar.gz
-6a5ac7e89b791aae556de0f745916f7f bzip2-1.0.8-install_docs-1.patch
-cd8ebed2a67fff2e231026df91af6776 coreutils-8.32-i18n-1.patch
-9a5997c3452909b1769918c759eff8a2 glibc-2.33-fhs-1.patch
-f75cca16a38da6caa7d52151f7136895 kbd-2.4.0-backspace-1.patch
-4900322141d493e74020c9cf437b2cdc sysvinit-2.99-consolidated-1.patch
-e795e52eeefc0d2c62c6c4bd748d2d38 efivar-37-gcc_9-1.patch
+28ce58ff7d7db067fed833514f9cad67 bzip2-1.0.8-install_docs-1.patch
+fe2680b5a72d1ca7f7fee7b723456e0e coreutils-8.32-i18n-1.patch
+dd09372fc5740324c82aed7d97635d6d glibc-2.33-fhs-1.patch
+3249eddfaf6138c9542d0b5165033d5d kbd-2.4.0-backspace-1.patch
+fd07ab7c0e5ec38ac2aa2d79178e4562 sysvinit-2.99-consolidated-1.patch
+6c3af2c50718168f781bf0c565736928 efivar-37-gcc_9-1.patch
 6819d49562ac48b551d15d2dd0123055 systemd-248-upstream_fixes-1.patch

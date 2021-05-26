@@ -29,7 +29,12 @@
 				"xwindowsystem",
 				"zip"
 			]
-		}
+		},
+		"scripts": [
+			"build",
+			"configure",
+			"install"
+		]
 	},
 	{
 		"name": "icu",

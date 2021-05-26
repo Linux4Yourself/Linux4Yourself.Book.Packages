@@ -41,6 +41,21 @@ packages.forEach(pkg => {
 
 		console.log(`${pkg.fileName} (${pkg.size} Mb): (${pkg.md5})`);
 
+		const pkgScriptsFolder = `src/packages/core/${pkg.name}`;
+
+		if (fs.existsSync(pkgScriptsFolder)) {
+			const scripts = [];
+
+			fs.readdirSync(pkgScriptsFolder).forEach(file => {
+				const stats = fs.statSync(`${pkgScriptsFolder}/${file}`)
+				const fileSizeInBytes = stats.size;
+				if (fileSizeInBytes > 0) scripts.push(file);
+			});
+
+			pkg.scripts = scripts;
+
+		}
+
 		updatedPkgs.push(pkg);
 	}
 });
