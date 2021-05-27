@@ -13,9 +13,9 @@ dbus-1.12.20.tar.gz
 dejagnu-1.6.2.tar.gz
 diffutils-3.7.tar.xz
 e2fsprogs-1.46.2.tar.gz
-elfutils-0.184.tar.bz2
+elfutils-0.185.tar.bz2
 eudev-3.2.10.tar.gz
-expat-2.4.0.tar.xz
+expat-2.4.1.tar.xz
 expect5.45.4.tar.gz
 file-5.40.tar.gz
 findutils-4.8.0.tar.xz
@@ -31,7 +31,7 @@ grep-3.6.tar.xz
 groff-1.22.4.tar.gz
 grub-2.06~rc1.tar.xz
 gzip-1.10.tar.xz
-iana-etc-20210514.tar.gz
+iana-etc-20210521.tar.gz
 inetutils-2.0.tar.xz
 intltool-0.51.0.tar.gz
 iproute2-5.12.0.tar.xz
@@ -40,7 +40,7 @@ kbd-2.4.0.tar.xz
 kmod-29.tar.xz
 less-581.2.tar.gz
 bootscripts.tar.xz
-libcap-2.49.tar.xz
+libcap-2.50.tar.xz
 libffi-3.3.tar.gz
 libpipeline-1.5.3.tar.gz
 libtool-2.4.6.tar.xz
@@ -74,7 +74,7 @@ texinfo-6.7.tar.xz
 tzdata2021a.tar.gz
 udev.tar.xz
 util-linux-2.36.2.tar.xz
-v8.2.2876.tar.gz
+v8.2.2890.tar.gz
 nano-5.7.tar.xz
 XML-Parser-2.46.tar.gz
 xz-5.2.5.tar.xz

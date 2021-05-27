@@ -13,9 +13,9 @@ dfe8a71f412e0b53be26ed4fbfdc91c4 dbus-1.12.20.tar.gz
 e1b07516533f351b3aba3423fafeffd6 dejagnu-1.6.2.tar.gz
 4824adc0e95dbbf11dfbdfaad6a1e461 diffutils-3.7.tar.xz
 e8ef5fa3b72557be5e9fe564a25da6eb e2fsprogs-1.46.2.tar.gz
-9e5af45255ff7dc413de073da2ceff04 elfutils-0.184.tar.bz2
+2b6e94c2eebc1f2194173e31bca9396e elfutils-0.185.tar.bz2
 60b135a189523f333cea5f71a3345c8d eudev-3.2.10.tar.gz
-09e275fb11fd530d3d94be8ab70d23cf expat-2.4.0.tar.xz
+a4fb91a9441bcaec576d4c4a56fa3aa6 expat-2.4.1.tar.xz
 00fce8de158422f5ccd2666512329bd2 expect5.45.4.tar.gz
 72540ea1cc8c6e1dee35d6100ec66589 file-5.40.tar.gz
 eeefe2e6380931a77dfa6d9350b43186 findutils-4.8.0.tar.xz
@@ -31,7 +31,7 @@ f47fe27049510b2249dba7f862ac1b51 grep-3.6.tar.xz
 08fb04335e2f5e73f23ea4c3adbf0c5f groff-1.22.4.tar.gz
 3c222b51347c182d655f9b94d5b56582 grub-2.06~rc1.tar.xz
 691b1221694c3394f1c537df4eee39d3 gzip-1.10.tar.xz
-5ebd8f27ad614f905ed61804ed5beccb iana-etc-20210514.tar.gz
+0344210f19e49f868705d10ac14ffddb iana-etc-20210521.tar.gz
 5e1018502cd131ed8e42339f6b5c98aa inetutils-2.0.tar.xz
 12e517cac2b57a0121cda351570f1e63 intltool-0.51.0.tar.gz
 bbebacdabd4628ff86453ef4771a242a iproute2-5.12.0.tar.xz
@@ -40,7 +40,7 @@ fae030f604a9537adc2502990a8ab4d1 isl-0.24.tar.xz
 e81e63acd80697d001c8d85c1acb38a0 kmod-29.tar.xz
 18f5d83c0cada3f288a5a20bf88faea2 less-581.2.tar.gz
 e1936df5c93d16720d2d30adc13794a3 bootscripts.tar.xz
-b43ae3690fe4d2cb32e4d25c0983ecd3 libcap-2.49.tar.xz
+66a561afa81666236ff973544ff4e864 libcap-2.50.tar.xz
 6313289e32f1d38a9df4770b014a2ca7 libffi-3.3.tar.gz
 dad443d0911cf9f0f1bd90a334bc9004 libpipeline-1.5.3.tar.gz
 1bfb9b923f2c1339b4d2ce1807064aa5 libtool-2.4.6.tar.xz
@@ -74,7 +74,7 @@ d4c5d8cc84438c5993ec5163a59522a6 texinfo-6.7.tar.xz
 20eae7d1da671c6eac56339c8df85bbd tzdata2021a.tar.gz
 31a87e8a3f10f054a6a046fe592ca0df udev.tar.xz
 f78419af679ac9678190ad961eb3cf27 util-linux-2.36.2.tar.xz
-d4d6f203dae369f4240a3bb80ba567ac v8.2.2876.tar.gz
+e69a6adfc76f2bcaa1a3c0b6f196bb34 v8.2.2890.tar.gz
 c2d6540a33248edc31a5830861b4b4ea nano-5.7.tar.xz
 80bb18a8e6240fcf7ec2f7b57601c170 XML-Parser-2.46.tar.gz
 aa1621ec7013a19abab52a8aff04fe5b xz-5.2.5.tar.xz
@@ -87,10 +87,10 @@ aed8ae9e2b0898151b36a204088292dd musl-1.2.2.tar.gz
 9f067275c5f7aafdd75bfb364280ac9c efivar-37.tar.bz2
 6ae315936d9bc8613b3a4cb8a4064128 efibootmgr-17.tar.gz
 49c8e457327dc61efab5b115a27b087a dosfstools-4.2.tar.gz
-28ce58ff7d7db067fed833514f9cad67 bzip2-1.0.8-install_docs-1.patch
-fe2680b5a72d1ca7f7fee7b723456e0e coreutils-8.32-i18n-1.patch
-dd09372fc5740324c82aed7d97635d6d glibc-2.33-fhs-1.patch
-3249eddfaf6138c9542d0b5165033d5d kbd-2.4.0-backspace-1.patch
-fd07ab7c0e5ec38ac2aa2d79178e4562 sysvinit-2.99-consolidated-1.patch
-6c3af2c50718168f781bf0c565736928 efivar-37-gcc_9-1.patch
+6a5ac7e89b791aae556de0f745916f7f bzip2-1.0.8-install_docs-1.patch
+cd8ebed2a67fff2e231026df91af6776 coreutils-8.32-i18n-1.patch
+9a5997c3452909b1769918c759eff8a2 glibc-2.33-fhs-1.patch
+f75cca16a38da6caa7d52151f7136895 kbd-2.4.0-backspace-1.patch
+4900322141d493e74020c9cf437b2cdc sysvinit-2.99-consolidated-1.patch
+e795e52eeefc0d2c62c6c4bd748d2d38 efivar-37-gcc_9-1.patch
 6819d49562ac48b551d15d2dd0123055 systemd-248-upstream_fixes-1.patch
