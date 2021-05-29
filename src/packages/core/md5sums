@@ -44,8 +44,8 @@ e1936df5c93d16720d2d30adc13794a3 bootscripts.tar.xz
 6313289e32f1d38a9df4770b014a2ca7 libffi-3.3.tar.gz
 dad443d0911cf9f0f1bd90a334bc9004 libpipeline-1.5.3.tar.gz
 1bfb9b923f2c1339b4d2ce1807064aa5 libtool-2.4.6.tar.xz
-5cb691ff8fa07e64e55f8bcd651d3a06 linux-5.12.7.tar.xz
-730bb15d96fffe47e148d1e09235af82 m4-1.4.18.tar.xz
+77cb5ae53f13405dac2a5bcb887a274a linux-5.12.8.tar.xz
+0d90823e1426f1da2fd872df0311298d m4-1.4.19.tar.xz
 fc7a67ea86ace13195b0bce683fd4469 make-4.3.tar.gz
 6e233a555f7b9ae91ce7cd0faa322bce man-db-2.9.4.tar.xz
 9f40e8fff6766563837d98d7d7c6e19b man-pages-5.11.tar.xz
@@ -74,7 +74,7 @@ d4c5d8cc84438c5993ec5163a59522a6 texinfo-6.7.tar.xz
 20eae7d1da671c6eac56339c8df85bbd tzdata2021a.tar.gz
 31a87e8a3f10f054a6a046fe592ca0df udev.tar.xz
 f78419af679ac9678190ad961eb3cf27 util-linux-2.36.2.tar.xz
-e69a6adfc76f2bcaa1a3c0b6f196bb34 v8.2.2890.tar.gz
+ec8a8ec5f67b0ad0edba82cad2354d33 v8.2.2890.tar.gz
 c2d6540a33248edc31a5830861b4b4ea nano-5.7.tar.xz
 80bb18a8e6240fcf7ec2f7b57601c170 XML-Parser-2.46.tar.gz
 aa1621ec7013a19abab52a8aff04fe5b xz-5.2.5.tar.xz
@@ -87,10 +87,10 @@ aed8ae9e2b0898151b36a204088292dd musl-1.2.2.tar.gz
 9f067275c5f7aafdd75bfb364280ac9c efivar-37.tar.bz2
 6ae315936d9bc8613b3a4cb8a4064128 efibootmgr-17.tar.gz
 49c8e457327dc61efab5b115a27b087a dosfstools-4.2.tar.gz
-6a5ac7e89b791aae556de0f745916f7f bzip2-1.0.8-install_docs-1.patch
-cd8ebed2a67fff2e231026df91af6776 coreutils-8.32-i18n-1.patch
-9a5997c3452909b1769918c759eff8a2 glibc-2.33-fhs-1.patch
-f75cca16a38da6caa7d52151f7136895 kbd-2.4.0-backspace-1.patch
-4900322141d493e74020c9cf437b2cdc sysvinit-2.99-consolidated-1.patch
-e795e52eeefc0d2c62c6c4bd748d2d38 efivar-37-gcc_9-1.patch
+28ce58ff7d7db067fed833514f9cad67 bzip2-1.0.8-install_docs-1.patch
+fe2680b5a72d1ca7f7fee7b723456e0e coreutils-8.32-i18n-1.patch
+dd09372fc5740324c82aed7d97635d6d glibc-2.33-fhs-1.patch
+3249eddfaf6138c9542d0b5165033d5d kbd-2.4.0-backspace-1.patch
+fd07ab7c0e5ec38ac2aa2d79178e4562 sysvinit-2.99-consolidated-1.patch
+6c3af2c50718168f781bf0c565736928 efivar-37-gcc_9-1.patch
 6819d49562ac48b551d15d2dd0123055 systemd-248-upstream_fixes-1.patch

@@ -49,7 +49,10 @@ packages.forEach(pkg => {
 			fs.readdirSync(pkgScriptsFolder).forEach(file => {
 				const stats = fs.statSync(`${pkgScriptsFolder}/${file}`)
 				const fileSizeInBytes = stats.size;
-				if (fileSizeInBytes > 0) scripts.push(file);
+				if (fileSizeInBytes > 0) {
+					pkg.multilibSupport = file.startsWith('multi');
+					scripts.push(file);
+				}
 			});
 
 			pkg.scripts = scripts;
