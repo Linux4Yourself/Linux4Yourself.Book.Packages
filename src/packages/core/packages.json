@@ -22,7 +22,8 @@
 			"multi_install",
 			"multi_prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "attr",
@@ -47,7 +48,8 @@
 			"multi_install",
 			"multi_prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "autoconf",
@@ -68,7 +70,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "automake",
@@ -90,7 +93,8 @@
 			"install",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "bash",
@@ -113,7 +117,8 @@
 			"postinstall",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "bc",
@@ -134,7 +139,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "binutils",
@@ -162,7 +168,8 @@
 			"postinstall",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "bison",
@@ -183,7 +190,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "bzip2",
@@ -212,7 +220,8 @@
 			"patch",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "check",
@@ -233,7 +242,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "coreutils",
@@ -259,7 +269,8 @@
 			"patch",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "dbus",
@@ -284,7 +295,8 @@
 			"multi_install",
 			"multi_prepare",
 			"postinstall"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "dejagnu",
@@ -320,7 +332,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "e2fsprogs",
@@ -344,7 +357,8 @@
 			"postinstall",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "elfutils",
@@ -388,7 +402,8 @@
 			"multi_prepare",
 			"postinstall",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "expat",
@@ -410,7 +425,8 @@
 			"install",
 			"install-doc",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "expect",
@@ -451,7 +467,8 @@
 			"multi_prepare",
 			"multi_test",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "findutils",
@@ -472,7 +489,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "flex",
@@ -493,7 +511,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "gawk",
@@ -516,7 +535,8 @@
 			"install-doc",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "gcc",
@@ -539,7 +559,8 @@
 			"postinstall",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "gdbm",
@@ -560,7 +581,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "gettext",
@@ -581,7 +603,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "glibc",
@@ -612,7 +635,8 @@
 			"patch",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "gmp",
@@ -638,7 +662,8 @@
 			"multi_prepare",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "gperf",
@@ -659,7 +684,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "grep",
@@ -680,7 +706,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "groff",
@@ -700,7 +727,8 @@
 			"build",
 			"configure",
 			"install"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "grub",
@@ -736,7 +764,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "iana-etc",
@@ -764,7 +793,8 @@
 		],
 		"scripts": [
 			"build"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "inetutils",
@@ -785,7 +815,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "intltool",
@@ -808,7 +839,8 @@
 			"install-doc",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "iproute2",
@@ -830,7 +862,8 @@
 			"install-doc",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "isl",
@@ -852,7 +885,8 @@
 			"install",
 			"postinstall",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "kbd",
@@ -878,7 +912,8 @@
 			"patch",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "kmod",
@@ -903,7 +938,8 @@
 			"multi_install",
 			"multi_prepare",
 			"postinstall"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "less",
@@ -923,7 +959,8 @@
 			"build",
 			"configure",
 			"install"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "bootscripts",
@@ -941,7 +978,8 @@
 		"sbu2": 0,
 		"scripts": [
 			"install"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "libcap",
@@ -966,7 +1004,8 @@
 			"postinstall",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "libffi",
@@ -991,7 +1030,8 @@
 			"multi_install",
 			"multi_prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "libpipeline",
@@ -1012,7 +1052,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "libtool",
@@ -1038,18 +1079,19 @@
 			"multi_prepare",
 			"postinstall",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "linux",
-		"fileName": "linux-5.12.7.tar.xz",
+		"fileName": "linux-5.12.8.tar.xz",
 		"description": "Ядро операционной системы.",
-		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.7.tar.xz",
+		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.8.tar.xz",
 		"homeUrl": "https://www.kernel.org",
-		"version": "5.12.7",
+		"version": "5.12.8",
 		"releasesUrl": "https://www.kernel.org",
 		"priority": "required",
-		"md5": "5cb691ff8fa07e64e55f8bcd651d3a06",
+		"md5": "77cb5ae53f13405dac2a5bcb887a274a",
 		"size": "112.68",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1057,15 +1099,15 @@
 	},
 	{
 		"name": "m4",
-		"fileName": "m4-1.4.18.tar.xz",
+		"fileName": "m4-1.4.19.tar.xz",
 		"description": "Пакет содержит общий макропроцессор текста - полезный инструмент для выполнения сборки других программ.",
-		"url": "https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz",
+		"url": "https://ftp.gnu.org/gnu/m4/m4-1.4.19.tar.xz",
 		"homeUrl": "https://www.gnu.org/software/m4",
-		"version": "1.4.18",
+		"version": "1.4.19",
 		"releasesUrl": "https://ftp.gnu.org/gnu/m4/",
 		"priority": "required",
-		"md5": "730bb15d96fffe47e148d1e09235af82",
-		"size": "1.15",
+		"md5": "0d90823e1426f1da2fd872df0311298d",
+		"size": "1.58",
 		"installedSize": 0,
 		"sbu": 0.1,
 		"sbu2": 0,
@@ -1075,7 +1117,8 @@
 			"install",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "make",
@@ -1096,7 +1139,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "man-db",
@@ -1117,7 +1161,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "man-pages",
@@ -1151,7 +1196,8 @@
 		"scripts": [
 			"build",
 			"install"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "mpc",
@@ -1172,7 +1218,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "mpfr",
@@ -1193,7 +1240,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "ncurses",
@@ -1220,7 +1268,8 @@
 			"multi_prepare",
 			"postinstall",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "ninja",
@@ -1241,7 +1290,8 @@
 			"install",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "openssl",
@@ -1266,7 +1316,8 @@
 			"multi_install",
 			"multi_prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "patch",
@@ -1287,7 +1338,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "perl",
@@ -1310,7 +1362,8 @@
 			"postinstall",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "pkg-config",
@@ -1331,7 +1384,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "procps-ng",
@@ -1352,7 +1406,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "psmisc",
@@ -1372,7 +1427,8 @@
 			"build",
 			"configure",
 			"install"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "python",
@@ -1393,7 +1449,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "readline",
@@ -1420,7 +1477,8 @@
 			"multi_test",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "sed",
@@ -1443,7 +1501,8 @@
 			"install",
 			"install-doc",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "shadow",
@@ -1466,7 +1525,8 @@
 			"postinstall",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "sqlite",
@@ -1490,7 +1550,8 @@
 			"multi_configure",
 			"multi_install",
 			"multi_prepare"
-		]
+		],
+		"multilibSupport": true
 	},
 	{
 		"name": "sysklogd",
@@ -1513,7 +1574,8 @@
 			"postinstall",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "systemd",
@@ -1542,7 +1604,8 @@
 			"patch",
 			"postinstall",
 			"prepare"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "sysvinit",
@@ -1565,7 +1628,8 @@
 			"build",
 			"install",
 			"patch"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "tar",
@@ -1586,7 +1650,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "tcl",
@@ -1623,7 +1688,8 @@
 			"install",
 			"postinstall",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "tzdata",
@@ -1685,7 +1751,8 @@
 			"multi_prepare-systemd",
 			"test",
 			"test-systemd"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "vim",
@@ -1696,8 +1763,8 @@
 		"version": "8.2.2890",
 		"releasesUrl": "https://github.com/vim/vim/releases",
 		"priority": "optional",
-		"md5": "e69a6adfc76f2bcaa1a3c0b6f196bb34",
-		"size": "7.23",
+		"md5": "ec8a8ec5f67b0ad0edba82cad2354d33",
+		"size": "14.80",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
@@ -1708,7 +1775,8 @@
 			"postinstall",
 			"prepare",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "nano",
@@ -1730,7 +1798,8 @@
 			"install",
 			"install-doc",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "XML-Parser",
@@ -1751,7 +1820,8 @@
 			"configure",
 			"install",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "xz",
@@ -1777,7 +1847,8 @@
 			"multi_prepare",
 			"multi_test",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "zlib-ng",
@@ -1805,7 +1876,8 @@
 			"multi_test",
 			"postinstall",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "zstd",
@@ -1829,7 +1901,8 @@
 			"multi_prepare",
 			"multi_test",
 			"test"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "busybox",
@@ -1945,7 +2018,7 @@
 		"version": "1.0.8",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "6a5ac7e89b791aae556de0f745916f7f",
+		"md5": "28ce58ff7d7db067fed833514f9cad67",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1960,8 +2033,8 @@
 		"version": "8.32-i18n-1",
 		"releasesUrl": "",
 		"priority": "optional",
-		"md5": "cd8ebed2a67fff2e231026df91af6776",
-		"size": "0.16",
+		"md5": "fe2680b5a72d1ca7f7fee7b723456e0e",
+		"size": "0.17",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0
@@ -1975,7 +2048,7 @@
 		"version": "2.33-fhs-1",
 		"releasesUrl": "",
 		"priority": "important",
-		"md5": "9a5997c3452909b1769918c759eff8a2",
+		"md5": "dd09372fc5740324c82aed7d97635d6d",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
@@ -1990,7 +2063,7 @@
 		"version": "2.4.0-backspace-1",
 		"releasesUrl": "",
 		"priority": "important",
-		"md5": "f75cca16a38da6caa7d52151f7136895",
+		"md5": "3249eddfaf6138c9542d0b5165033d5d",
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
@@ -2005,7 +2078,7 @@
 		"version": "2.99-consolidated-1",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "4900322141d493e74020c9cf437b2cdc",
+		"md5": "fd07ab7c0e5ec38ac2aa2d79178e4562",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
@@ -2020,7 +2093,7 @@
 		"version": "1",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "e795e52eeefc0d2c62c6c4bd748d2d38",
+		"md5": "6c3af2c50718168f781bf0c565736928",
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,

@@ -34,7 +34,8 @@
 			"build",
 			"configure",
 			"install"
-		]
+		],
+		"multilibSupport": false
 	},
 	{
 		"name": "icu",
