@@ -2010,6 +2010,20 @@
 		"sbu2": 0
 	},
 	{
+		"name": "wget",
+		"fileName": "wget-1.21.1.tar.gz",
+		"description": "Пакет Wget предназначен для загрузки файлов из Интернета.",
+		"url": "https://ftp.gnu.org/gnu/wget/wget-1.21.1.tar.gz",
+		"homeUrl": "https://ftp.gnu.org/gnu/wget",
+		"version": "1.21.1",
+		"priority": "optional",
+		"md5": "b939ee54eabc6b9b0a8d5c03ace879c9",
+		"size": "4.6",
+		"installedSize": "76",
+		"sbu": "0.5",
+		"sbu2": 0
+	},
+	{
 		"name": "bzip2-patch",
 		"fileName": "bzip2-1.0.8-install_docs-1.patch",
 		"description": "",
