@@ -1961,9 +1961,9 @@
 		"priority": "optional",
 		"md5": "0e6c0e9b218be3ba3e26e1d23b1c80dd",
 		"size": "2.30",
-		"installedSize": 0,
+		"installedSize": 0.1,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0.3
 	},
 	{
 		"name": "efivar",
