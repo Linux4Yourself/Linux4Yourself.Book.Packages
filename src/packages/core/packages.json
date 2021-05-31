@@ -416,9 +416,9 @@
 		"priority": "important",
 		"md5": "a4fb91a9441bcaec576d4c4a56fa3aa6",
 		"size": "0.42",
-		"installedSize": 0,
+		"installedSize": 0.3,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"scripts": [
 			"build",
 			"configure",
@@ -426,7 +426,7 @@
 			"install-doc",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": true
 	},
 	{
 		"name": "expect",
@@ -1814,7 +1814,7 @@
 		"size": "0.24",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"scripts": [
 			"build",
 			"configure",
