@@ -807,9 +807,9 @@
 		"priority": "important",
 		"md5": "5e1018502cd131ed8e42339f6b5c98aa",
 		"size": "1.43",
-		"installedSize": 0,
+		"installedSize": 0.8,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.2,
 		"scripts": [
 			"build",
 			"configure",
@@ -1352,9 +1352,9 @@
 		"priority": "important",
 		"md5": "df7ecb0653440b26dc951ad9dbfab517",
 		"size": "12.28",
-		"installedSize": 0,
+		"installedSize": 56.7,
 		"sbu": 1.9,
-		"sbu2": 0,
+		"sbu2": 2,
 		"scripts": [
 			"build",
 			"configure",
