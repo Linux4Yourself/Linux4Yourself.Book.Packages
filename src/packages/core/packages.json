@@ -424,9 +424,13 @@
 			"configure",
 			"install",
 			"install-doc",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
 			"test"
 		],
-		"multilibSupport": true
+		"multilibSupport": false
 	},
 	{
 		"name": "expect",
@@ -1579,15 +1583,15 @@
 	},
 	{
 		"name": "systemd",
-		"fileName": "systemd-248",
+		"fileName": "248.3.tar.gz",
 		"description": "Системный менеджер, демон инициализации других демонов в Linux, пришедший на замену используемого ранее SysVinit. Его особенностью является интенсивное распараллеливание запуска служб в процессе загрузки системы, что позволяет существенно ускорить запуск операционной системы. Systemd используется во многих коммерческих дистрибутивах.",
-		"url": "https://github.com/systemd/systemd/archive/v248/systemd-248.tar.gz",
+		"url": "https://github.com/systemd/systemd-stable/archive/refs/tags/v248.3.tar.gz",
 		"homeUrl": "https://systemd.io/",
-		"version": "248",
+		"version": "248.3",
 		"releasesUrl": "https://github.com/systemd/systemd/releases",
 		"priority": "required",
-		"md5": "00131adf0e98c1fd8a7fde4eb47f10c8",
-		"size": "9.83",
+		"md5": "bb412cc7f9c9c54bcfdb8e7a90f5a8b1",
+		"size": "9.84",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
