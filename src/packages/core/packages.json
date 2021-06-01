@@ -1198,9 +1198,9 @@
 		"sbu": 0,
 		"sbu2": 0.1,
 		"scripts": [
-			"prepare",
 			"build",
-			"install"
+			"install",
+			"prepare"
 		],
 		"multilibSupport": false
 	},
