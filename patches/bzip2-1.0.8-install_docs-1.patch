@@ -13,7 +13,7 @@ diff -Naur bzip2-1.0.4.orig/Makefile bzip2-1.0.4/Makefile
  # Where you want it installed when you do 'make install'
  PREFIX=/usr/local
 -
-+DOCDIR=share/doc/$(DISTNAME)
++DOCDIR=share/doc/bzip2
  
  OBJS= blocksort.o  \
        huffman.o    \
