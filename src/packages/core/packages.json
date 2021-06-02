@@ -23,7 +23,8 @@
 			"multi_prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/acl-2.3.1.tar.xz"
 	},
 	{
 		"name": "attr",
@@ -49,7 +50,8 @@
 			"multi_prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/attr-2.5.1.tar.gz"
 	},
 	{
 		"name": "autoconf",
@@ -71,7 +73,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/autoconf-2.71.tar.xz"
 	},
 	{
 		"name": "automake",
@@ -94,7 +97,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/automake-1.16.3.tar.xz"
 	},
 	{
 		"name": "bash",
@@ -118,7 +122,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/bash-5.1.tar.gz"
 	},
 	{
 		"name": "bc",
@@ -140,7 +145,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/bc-4.0.2.tar.xz"
 	},
 	{
 		"name": "binutils",
@@ -169,7 +175,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/binutils-2.36.1.tar.xz"
 	},
 	{
 		"name": "bison",
@@ -191,7 +198,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/bison-3.7.6.tar.xz"
 	},
 	{
 		"name": "bzip2",
@@ -221,7 +229,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/bzip2-1.0.8.tar.gz"
 	},
 	{
 		"name": "check",
@@ -243,7 +252,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/check-0.15.2.tar.gz"
 	},
 	{
 		"name": "coreutils",
@@ -270,7 +280,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/coreutils-8.32.tar.xz"
 	},
 	{
 		"name": "dbus",
@@ -296,7 +307,8 @@
 			"multi_prepare",
 			"postinstall"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/dbus-1.12.20.tar.gz"
 	},
 	{
 		"name": "dejagnu",
@@ -311,7 +323,8 @@
 		"size": "0.50",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/dejagnu-1.6.2.tar.gz"
 	},
 	{
 		"name": "diffutils",
@@ -333,7 +346,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/diffutils-3.7.tar.xz"
 	},
 	{
 		"name": "e2fsprogs",
@@ -358,7 +372,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/e2fsprogs-1.46.2.tar.gz"
 	},
 	{
 		"name": "elfutils",
@@ -373,7 +388,8 @@
 		"size": "8.76",
 		"installedSize": 0.16,
 		"sbu": 0.8,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/elfutils-0.185.tar.bz2"
 	},
 	{
 		"name": "eudev",
@@ -403,7 +419,8 @@
 			"postinstall",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/eudev-3.2.10.tar.gz"
 	},
 	{
 		"name": "expat",
@@ -430,7 +447,8 @@
 			"multi_prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/expat-2.4.1.tar.xz"
 	},
 	{
 		"name": "expect",
@@ -445,7 +463,8 @@
 		"size": "0.60",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/expect5.45.4.tar.gz"
 	},
 	{
 		"name": "file",
@@ -472,7 +491,8 @@
 			"multi_test",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/file-5.40.tar.gz"
 	},
 	{
 		"name": "findutils",
@@ -494,7 +514,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/findutils-4.8.0.tar.xz"
 	},
 	{
 		"name": "flex",
@@ -516,7 +537,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/flex-2.6.4.tar.gz"
 	},
 	{
 		"name": "gawk",
@@ -540,7 +562,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/gawk-5.1.0.tar.xz"
 	},
 	{
 		"name": "gcc",
@@ -564,7 +587,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/gcc-11.1.0.tar.xz"
 	},
 	{
 		"name": "gdbm",
@@ -586,7 +610,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/gdbm-1.19.tar.gz"
 	},
 	{
 		"name": "gettext",
@@ -608,7 +633,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/gettext-0.21.tar.xz"
 	},
 	{
 		"name": "glibc",
@@ -640,7 +666,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/glibc-2.33.tar.xz"
 	},
 	{
 		"name": "gmp",
@@ -667,7 +694,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/gmp-6.2.1.tar.xz"
 	},
 	{
 		"name": "gperf",
@@ -689,7 +717,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/gperf-3.1.tar.gz"
 	},
 	{
 		"name": "grep",
@@ -711,7 +740,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/grep-3.6.tar.xz"
 	},
 	{
 		"name": "groff",
@@ -732,7 +762,8 @@
 			"configure",
 			"install"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/groff-1.22.4.tar.gz"
 	},
 	{
 		"name": "grub",
@@ -747,7 +778,8 @@
 		"size": "6.24",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/grub-2.06~rc1.tar.xz"
 	},
 	{
 		"name": "gzip",
@@ -769,7 +801,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/gzip-1.10.tar.xz"
 	},
 	{
 		"name": "iana-etc",
@@ -798,7 +831,8 @@
 		"scripts": [
 			"build"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/iana-etc-20210521.tar.gz"
 	},
 	{
 		"name": "inetutils",
@@ -820,7 +854,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/inetutils-2.0.tar.xz"
 	},
 	{
 		"name": "intltool",
@@ -844,7 +879,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/intltool-0.51.0.tar.gz"
 	},
 	{
 		"name": "iproute2",
@@ -867,7 +903,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/iproute2-5.12.0.tar.xz"
 	},
 	{
 		"name": "isl",
@@ -890,7 +927,8 @@
 			"postinstall",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/isl-0.24.tar.xz"
 	},
 	{
 		"name": "kbd",
@@ -917,7 +955,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/kbd-2.4.0.tar.xz"
 	},
 	{
 		"name": "kmod",
@@ -943,7 +982,8 @@
 			"multi_prepare",
 			"postinstall"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/kmod-29.tar.xz"
 	},
 	{
 		"name": "less",
@@ -964,7 +1004,8 @@
 			"configure",
 			"install"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/less-581.2.tar.gz"
 	},
 	{
 		"name": "bootscripts",
@@ -983,7 +1024,8 @@
 		"scripts": [
 			"install"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/bootscripts.tar.xz"
 	},
 	{
 		"name": "libcap",
@@ -1009,7 +1051,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/libcap-2.50.tar.xz"
 	},
 	{
 		"name": "libffi",
@@ -1035,7 +1078,8 @@
 			"multi_prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/libffi-3.3.tar.gz"
 	},
 	{
 		"name": "libpipeline",
@@ -1057,7 +1101,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/libpipeline-1.5.3.tar.gz"
 	},
 	{
 		"name": "libtool",
@@ -1084,7 +1129,8 @@
 			"postinstall",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/libtool-2.4.6.tar.xz"
 	},
 	{
 		"name": "linux",
@@ -1099,7 +1145,8 @@
 		"size": "112.68",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.8.tar.xz"
 	},
 	{
 		"name": "m4",
@@ -1122,7 +1169,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/m4-1.4.19.tar.xz"
 	},
 	{
 		"name": "make",
@@ -1144,7 +1192,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/make-4.3.tar.gz"
 	},
 	{
 		"name": "man-db",
@@ -1166,7 +1215,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/man-db-2.9.4.tar.xz"
 	},
 	{
 		"name": "man-pages",
@@ -1181,7 +1231,8 @@
 		"size": "1.68",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/man-pages-5.11.tar.xz"
 	},
 	{
 		"name": "meson",
@@ -1202,7 +1253,8 @@
 			"install",
 			"prepare"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/meson-0.58.0.tar.gz"
 	},
 	{
 		"name": "mpc",
@@ -1224,7 +1276,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/mpc-1.2.1.tar.gz"
 	},
 	{
 		"name": "mpfr",
@@ -1246,7 +1299,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/mpfr-4.1.0.tar.xz"
 	},
 	{
 		"name": "ncurses",
@@ -1274,7 +1328,8 @@
 			"postinstall",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/ncurses-6.2.tar.gz"
 	},
 	{
 		"name": "ninja",
@@ -1296,7 +1351,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/ninja-1.10.2.tar.gz"
 	},
 	{
 		"name": "openssl",
@@ -1322,7 +1378,8 @@
 			"multi_prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/openssl-1.1.1k.tar.gz"
 	},
 	{
 		"name": "patch",
@@ -1344,7 +1401,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/patch-2.7.6.tar.xz"
 	},
 	{
 		"name": "perl",
@@ -1368,7 +1426,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/perl-5.34.0.tar.xz"
 	},
 	{
 		"name": "pkg-config",
@@ -1390,7 +1449,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/pkg-config-0.29.2.tar.gz"
 	},
 	{
 		"name": "procps-ng",
@@ -1412,7 +1472,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/procps-ng-3.3.17.tar.xz"
 	},
 	{
 		"name": "psmisc",
@@ -1433,7 +1494,8 @@
 			"configure",
 			"install"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/psmisc-23.4.tar.xz"
 	},
 	{
 		"name": "python",
@@ -1455,7 +1517,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/Python-3.9.5.tar.xz"
 	},
 	{
 		"name": "readline",
@@ -1483,7 +1546,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/readline-8.1.tar.gz"
 	},
 	{
 		"name": "sed",
@@ -1507,7 +1571,8 @@
 			"install-doc",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/sed-4.8.tar.xz"
 	},
 	{
 		"name": "shadow",
@@ -1531,7 +1596,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/shadow-4.8.1.tar.xz"
 	},
 	{
 		"name": "sqlite",
@@ -1556,7 +1622,8 @@
 			"multi_install",
 			"multi_prepare"
 		],
-		"multilibSupport": true
+		"multilibSupport": true,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/sqlite-autoconf-3350500.tar.gz"
 	},
 	{
 		"name": "sysklogd",
@@ -1580,11 +1647,12 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/sysklogd-1.5.1.tar.gz"
 	},
 	{
 		"name": "systemd",
-		"fileName": "248.3.tar.gz",
+		"fileName": "systemd-stable-248.3.tar.gz",
 		"description": "Системный менеджер, демон инициализации других демонов в Linux, пришедший на замену используемого ранее SysVinit. Его особенностью является интенсивное распараллеливание запуска служб в процессе загрузки системы, что позволяет существенно ускорить запуск операционной системы. Systemd используется во многих коммерческих дистрибутивах.",
 		"url": "https://github.com/systemd/systemd-stable/archive/refs/tags/v248.3.tar.gz",
 		"homeUrl": "https://systemd.io/",
@@ -1607,7 +1675,8 @@
 			"postinstall",
 			"prepare"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/systemd-stable-248.3.tar.gz"
 	},
 	{
 		"name": "sysvinit",
@@ -1631,7 +1700,8 @@
 			"install",
 			"patch"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/sysvinit-2.99.tar.xz"
 	},
 	{
 		"name": "tar",
@@ -1653,7 +1723,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/tar-1.34.tar.xz"
 	},
 	{
 		"name": "tcl",
@@ -1668,7 +1739,8 @@
 		"size": "9.78",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/tcl8.6.11-src.tar.gz"
 	},
 	{
 		"name": "texinfo",
@@ -1691,7 +1763,8 @@
 			"postinstall",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/texinfo-6.7.tar.xz"
 	},
 	{
 		"name": "tzdata",
@@ -1706,7 +1779,8 @@
 		"size": "0.39",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/tzdata2021a.tar.gz"
 	},
 	{
 		"name": "udev",
@@ -1721,7 +1795,8 @@
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/udev.tar.xz"
 	},
 	{
 		"name": "util-linux",
@@ -1754,11 +1829,12 @@
 			"test",
 			"test-systemd"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/util-linux-2.37.tar.xz"
 	},
 	{
 		"name": "vim",
-		"fileName": "v8.2.2890.tar.gz",
+		"fileName": "vim-8.2.2890.tar.gz",
 		"description": "Один из мощнейших текстовых редакторов с полной свободой настройки и автоматизации, возможными благодаря расширениям и надстройкам.",
 		"url": "https://github.com/vim/vim/archive/refs/tags/v8.2.2890.tar.gz",
 		"homeUrl": "https://www.vim.org/",
@@ -1778,7 +1854,8 @@
 			"prepare",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/vim-8.2.2890.tar.gz"
 	},
 	{
 		"name": "nano",
@@ -1801,7 +1878,8 @@
 			"install-doc",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/nano-5.7.tar.xz"
 	},
 	{
 		"name": "XML-Parser",
@@ -1823,7 +1901,8 @@
 			"install",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/XML-Parser-2.46.tar.gz"
 	},
 	{
 		"name": "xz",
@@ -1850,11 +1929,12 @@
 			"multi_test",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/xz-5.2.5.tar.xz"
 	},
 	{
 		"name": "zlib-ng",
-		"fileName": "2.0.3.tar.gz",
+		"fileName": "zlib-ng-2.0.3.tar.gz",
 		"description": "Пакет Zlib содержит библиотеку для сжатия и распаковки, которую используют некоторые программы. Zlib-ng - это форк Zlib с улучшенной оптимизацией и дополнительными патчами",
 		"url": "https://github.com/zlib-ng/zlib-ng/archive/refs/tags/2.0.3.tar.gz",
 		"homeUrl": "https://github.com/zlib-ng/zlib-ng",
@@ -1879,7 +1959,8 @@
 			"postinstall",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/zlib-ng-2.0.3.tar.gz"
 	},
 	{
 		"name": "zstd",
@@ -1904,7 +1985,8 @@
 			"multi_test",
 			"test"
 		],
-		"multilibSupport": false
+		"multilibSupport": false,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/zstd-1.5.0.tar.gz"
 	},
 	{
 		"name": "busybox",
@@ -1919,7 +2001,8 @@
 		"size": "2.34",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/busybox-1.33.1.tar.bz2"
 	},
 	{
 		"name": "musl",
@@ -1934,7 +2017,8 @@
 		"size": "1.01",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/musl-1.2.2.tar.gz"
 	},
 	{
 		"name": "popt",
@@ -1949,7 +2033,8 @@
 		"size": "0.55",
 		"installedSize": 0.06,
 		"sbu": 0,
-		"sbu2": 0.1
+		"sbu2": 0.1,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/popt-1.18.tar.gz"
 	},
 	{
 		"name": "freetype",
@@ -1964,7 +2049,8 @@
 		"size": "2.30",
 		"installedSize": 0.1,
 		"sbu": 0,
-		"sbu2": 0.3
+		"sbu2": 0.3,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/freetype-2.10.4.tar.xz"
 	},
 	{
 		"name": "efivar",
@@ -1979,7 +2065,8 @@
 		"size": "0.10",
 		"installedSize": 0.33,
 		"sbu": 0,
-		"sbu2": 0.1
+		"sbu2": 0.1,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/efivar-37.tar.bz2"
 	},
 	{
 		"name": "efibootmgr",
@@ -1994,7 +2081,8 @@
 		"size": "0.04",
 		"installedSize": 0.06,
 		"sbu": 0,
-		"sbu2": 0.1
+		"sbu2": 0.1,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/efibootmgr-17.tar.gz"
 	},
 	{
 		"name": "dosfstools",
@@ -2009,7 +2097,8 @@
 		"size": "0.31",
 		"installedSize": 0.16,
 		"sbu": 0,
-		"sbu2": 0.1
+		"sbu2": 0.1,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/dosfstools-4.2.tar.gz"
 	},
 	{
 		"name": "wget",
@@ -2023,7 +2112,8 @@
 		"size": "4.66",
 		"installedSize": "0.52",
 		"sbu": "0",
-		"sbu2": 0.2
+		"sbu2": 0.2,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/wget-1.21.1.tar.gz"
 	},
 	{
 		"name": "bzip2-patch",
@@ -2038,7 +2128,8 @@
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/bzip2-1.0.8-install_docs-1.patch"
 	},
 	{
 		"name": "coreutils-patch",
@@ -2053,7 +2144,8 @@
 		"size": "0.17",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/coreutils-8.32-i18n-1.patch"
 	},
 	{
 		"name": "glibc-patch",
@@ -2068,7 +2160,8 @@
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/glibc-2.33-fhs-1.patch"
 	},
 	{
 		"name": "kbd-patch",
@@ -2083,7 +2176,8 @@
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/kbd-2.4.0-backspace-1.patch"
 	},
 	{
 		"name": "sysvinit-patch",
@@ -2098,7 +2192,8 @@
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/sysvinit-2.99-consolidated-1.patch"
 	},
 	{
 		"name": "efivar-patch",
@@ -2113,6 +2208,7 @@
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/efivar-37-gcc_9-1.patch"
 	}
 ]
