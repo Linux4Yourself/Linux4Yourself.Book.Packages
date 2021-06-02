@@ -4,6 +4,7 @@ const cp = require('child_process');
 
 const updatedPkgs = [];
 const downloadsDir = 'downloads';
+const downloadsUrl = 'https://lx4u.ru/downloads/packages/';
 
 if (!fs.existsSync(downloadsDir)) {
 	fs.mkdirSync(downloadsDir);
@@ -11,10 +12,6 @@ if (!fs.existsSync(downloadsDir)) {
 
 packages.forEach(pkg => {
 	if (pkg !== 'undefined') {
-
-		if (pkg.name === 'zlib-ng') {
-			pkg.fileName = `${pkg.version}.tar.gz`;
-		}
 
 		const distination = `${downloadsDir}/${pkg.fileName}`;
 		const patchDistination = `patches/${pkg.fileName}`;
@@ -59,11 +56,13 @@ packages.forEach(pkg => {
 
 		}
 
+		pkg.downloadUrl = `${downloadsUrl}${pkg.fileName}`;
+
 		updatedPkgs.push(pkg);
 	}
 });
 
 fs.writeFileSync(`src/packages/core/packages.json`, JSON.stringify(updatedPkgs, null, '\t'), 'utf-8');
-fs.writeFileSync(`src/packages/core/wget-list`, updatedPkgs.map(x => `${x.url}`).join('\n'), 'utf-8');
+fs.writeFileSync(`src/packages/core/wget-list`, updatedPkgs.map(x => `${x.downloadUrl}`).join('\n'), 'utf-8');
 fs.writeFileSync(`src/packages/core/md5sums`, String(updatedPkgs.map(x => `${x.md5} ${x.fileName}`).join('\n')), 'utf-8');
 fs.writeFileSync(`src/packages/core/pkg-list`, String(updatedPkgs.map(x => x.fileName).join('\n')), 'utf-8');
