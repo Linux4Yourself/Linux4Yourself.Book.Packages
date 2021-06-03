@@ -419,9 +419,9 @@
 		"priority": "required",
 		"md5": "60b135a189523f333cea5f71a3345c8d",
 		"size": "1.87",
-		"installedSize": 0,
+		"installedSize": 8.1,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.2,
 		"dependencies": [
 			"udev"
 		],
@@ -1653,9 +1653,9 @@
 		"priority": "optional",
 		"md5": "c70599ab0d037fde724f7210c2c8d7f8",
 		"size": "0.09",
-		"installedSize": 0,
+		"installedSize": 0.04,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"scripts": [
 			"build",
 			"configure",
@@ -1706,9 +1706,9 @@
 		"priority": "required",
 		"md5": "6abc0ea61b8dd4a41b4e931a43b1bb90",
 		"size": "0.12",
-		"installedSize": 0,
+		"installedSize": 0.1,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"patches": [
 			"sysvinit-patch"
 		],
