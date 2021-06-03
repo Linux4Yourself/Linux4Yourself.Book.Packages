@@ -376,6 +376,26 @@
 		"downloadUrl": "https://lx4u.ru/downloads/packages/e2fsprogs-1.46.2.tar.gz"
 	},
 	{
+		"name": "emacs",
+		"fileName": "emacs-27.2.tar.xz",
+		"description": "Пакет Emacs содержит расширяемый, настраиваемый, самодокументирующийся редактор отображения в реальном времени. ",
+		"url": "https://ftp.gnu.org/gnu/emacs/emacs-27.2.tar.xz",
+		"homeUrl": "https://www.gnu.org/software/emacs/",
+		"version": "27.2",
+		"releaseUrl": "https://ftp.gnu.org/gnu/emacs/",
+		"priority": "optional",
+		"md5": "4c3d9ff35b2ab2fe518dc7eb3951e128",
+		"size": "43",
+		"installedSize": "620",
+		"sbu": 0.6,
+		"sbu2": 0,
+		"dependencies": [
+			"giflib",
+			"GnuTLS",
+			"libtiff"
+		],
+	},
+	{
 		"name": "elfutils",
 		"fileName": "elfutils-0.185.tar.bz2",
 		"description": "Библиотека для обработки файлов формата ELF (Executable and Linkable Format — формат исполнимых и компонуемых файлов). Формат двоичных файлов, используемый во многих современных UNIX-подобных операционных системах, таких как FreeBSD, Linux, Solaris и др. Также этот формат используется и во многих других системах. Большинство утилит доступны в других пакетах, но эта библиотека необходима для сборки ядра Linux, используя конфигурацию по умолчанию (и наиболее эффективную).",
