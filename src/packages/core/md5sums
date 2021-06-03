@@ -65,7 +65,6 @@ d60613e88c2f442ebd462b5a75313d56 procps-ng-3.3.17.tar.xz
 e9557dd5b1409f5d7b37ef717c64518e readline-8.1.tar.gz
 6d906edfdb3202304059233f51f9a71d sed-4.8.tar.xz
 4b05eff8a427cf50e615bda324b5bc45 shadow-4.8.1.tar.xz
-d1d1aba394c8e0443077dc9f1a681bb8 sqlite-autoconf-3350500.tar.gz
 c70599ab0d037fde724f7210c2c8d7f8 sysklogd-1.5.1.tar.gz
 bb412cc7f9c9c54bcfdb8e7a90f5a8b1 systemd-stable-248.3.tar.gz
 6abc0ea61b8dd4a41b4e931a43b1bb90 sysvinit-2.99.tar.xz
@@ -89,9 +88,9 @@ aed8ae9e2b0898151b36a204088292dd musl-1.2.2.tar.gz
 6ae315936d9bc8613b3a4cb8a4064128 efibootmgr-17.tar.gz
 49c8e457327dc61efab5b115a27b087a dosfstools-4.2.tar.gz
 b939ee54eabc6b9b0a8d5c03ace879c9 wget-1.21.1.tar.gz
-19852fe67b6babb67bfae0b6db9ef732 bzip2-1.0.8-install_docs-1.patch
-fe2680b5a72d1ca7f7fee7b723456e0e coreutils-8.32-i18n-1.patch
-dd09372fc5740324c82aed7d97635d6d glibc-2.33-fhs-1.patch
-3249eddfaf6138c9542d0b5165033d5d kbd-2.4.0-backspace-1.patch
-fd07ab7c0e5ec38ac2aa2d79178e4562 sysvinit-2.99-consolidated-1.patch
-6c3af2c50718168f781bf0c565736928 efivar-37-gcc_9-1.patch
+b45d3bea4ddb7f64b6e56033ecc0fb11 bzip2-1.0.8-install_docs-1.patch
+cd8ebed2a67fff2e231026df91af6776 coreutils-8.32-i18n-1.patch
+9a5997c3452909b1769918c759eff8a2 glibc-2.33-fhs-1.patch
+f75cca16a38da6caa7d52151f7136895 kbd-2.4.0-backspace-1.patch
+4900322141d493e74020c9cf437b2cdc sysvinit-2.99-consolidated-1.patch
+e795e52eeefc0d2c62c6c4bd748d2d38 efivar-37-gcc_9-1.patch
