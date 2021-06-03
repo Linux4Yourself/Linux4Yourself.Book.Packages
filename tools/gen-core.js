@@ -64,5 +64,6 @@ packages.forEach(pkg => {
 
 fs.writeFileSync(`src/packages/core/packages.json`, JSON.stringify(updatedPkgs, null, '\t'), 'utf-8');
 fs.writeFileSync(`src/packages/core/wget-list`, updatedPkgs.map(x => `${x.downloadUrl}`).join('\n'), 'utf-8');
+fs.writeFileSync(`src/packages/core/wget-list.orig`, updatedPkgs.map(x => `${x.url}`).join('\n'), 'utf-8');
 fs.writeFileSync(`src/packages/core/md5sums`, String(updatedPkgs.map(x => `${x.md5} ${x.fileName}`).join('\n')), 'utf-8');
 fs.writeFileSync(`src/packages/core/pkg-list`, String(updatedPkgs.map(x => x.fileName).join('\n')), 'utf-8');
