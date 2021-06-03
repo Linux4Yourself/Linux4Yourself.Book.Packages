@@ -89,6 +89,9 @@ efivar-37.tar.bz2
 efibootmgr-17.tar.gz
 dosfstools-4.2.tar.gz
 wget-1.21.1.tar.gz
+libtasn1-4.17.0.tar.gz
+p11-kit-0.23.22.tar.xz
+make-ca-1.7.tar.xz
 bzip2-1.0.8-install_docs-1.patch
 coreutils-8.32-i18n-1.patch
 glibc-2.33-fhs-1.patch

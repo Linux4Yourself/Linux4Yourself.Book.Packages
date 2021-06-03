@@ -89,6 +89,9 @@ https://github.com/rhboot/efivar/releases/download/37/efivar-37.tar.bz2
 https://github.com/rhboot/efibootmgr/archive/17/efibootmgr-17.tar.gz
 https://github.com/dosfstools/dosfstools/releases/download/v4.2/dosfstools-4.2.tar.gz
 https://ftp.gnu.org/gnu/wget/wget-1.21.1.tar.gz
+https://ftp.gnu.org/gnu/libtasn1/libtasn1-4.17.0.tar.gz
+https://github.com/p11-glue/p11-kit/releases/download/0.23.22/p11-kit-0.23.22.tar.xz
+https://github.com/djlucas/make-ca/releases/download/v1.7/make-ca-1.7.tar.xz
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/bzip2-1.0.8-install_docs-1.patch
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/coreutils-8.32-i18n-1.patch
 https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/glibc-2.33-fhs-1.patch

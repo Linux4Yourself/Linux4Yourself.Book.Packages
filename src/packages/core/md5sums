@@ -89,6 +89,9 @@ aed8ae9e2b0898151b36a204088292dd musl-1.2.2.tar.gz
 6ae315936d9bc8613b3a4cb8a4064128 efibootmgr-17.tar.gz
 49c8e457327dc61efab5b115a27b087a dosfstools-4.2.tar.gz
 b939ee54eabc6b9b0a8d5c03ace879c9 wget-1.21.1.tar.gz
+c46f6eb3bd1287031ae5d36465094402 libtasn1-4.17.0.tar.gz
+03f93a4eb62127b5d40e345c624a0665 p11-kit-0.23.22.tar.xz
+e0356f5ae5623f227a3f69b5e8848ec6 make-ca-1.7.tar.xz
 19852fe67b6babb67bfae0b6db9ef732 bzip2-1.0.8-install_docs-1.patch
 fe2680b5a72d1ca7f7fee7b723456e0e coreutils-8.32-i18n-1.patch
 dd09372fc5740324c82aed7d97635d6d glibc-2.33-fhs-1.patch
