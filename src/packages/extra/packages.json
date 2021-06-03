@@ -38,6 +38,35 @@
 		"multilibSupport": false
 	},
 	{
+		"name": "sqlite",
+		"fileName": "sqlite-autoconf-3350500.tar.gz",
+		"description": "Пакет SQlite предостовляет библиотеку реализующею базу данных SQL",
+		"url": "https://sqlite.org/2021/sqlite-autoconf-3350500.tar.gz",
+		"homeUrl": "https://sqlite.org",
+		"version": "3.35.5",
+		"releasesUrl": "https://sqlite.org/download.html",
+		"md5": "d1d1aba394c8e0443077dc9f1a681bb8",
+		"size": "2.82",
+		"installedSize": 3.6,
+		"sbu": 1.8,
+		"dependencies": {
+			"optional": [
+				"doxygen",
+				"llvm"
+			]
+		},
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare"
+		],
+		"multilibSupport": true
+	},
+	{
 		"name": "icu",
 		"fileName": "icu4c-69_1-src.tgz",
 		"description": "ICU предоставляет библиотеки для работы с Unicode",
