@@ -67,6 +67,59 @@
 		"multilibSupport": true
 	},
 	{
+		"name": "util-macros",
+		"fileName": "util-macros-1.19.3.tar.bz2",
+		"description": "Пакет Util-macros предостовляет макросы m4 для всех компонентов Xorg",
+		"url": "https://www.x.org/pub/individual/util/util-macros-1.19.3.tar.bz2",
+		"homeUrl": "https://www.x.org",
+		"version": "1.19.3",
+		"releasesUrl": "https://www.x.org/pub/individual/util/",
+		"md5": "4be6df7e6af52e28e13dc533244eb9d7",
+		"size": "0.08",
+		"installedSize": 0,
+		"sbu": 0,
+		"dependencies": {
+			"reqired": [
+				"xorg-env"
+			]
+		},
+		"scripts": [
+			"configure",
+			"install"
+		],
+		"multilibSupport": false
+	},
+	{
+		"name": "xorgproto",
+		"fileName": "xorgproto-2021.4.tar.bz2",
+		"description": "Пакет xorgproto предоставляет используемые Xorg заголовочные файлы",
+		"url": "https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2021.4.tar.bz2",
+		"homeUrl": "https://xorg.freedesktop.org/",
+		"version": "2021.4",
+		"releasesUrl": "https://xorg.freedesktop.org/archive/individual/proto/",
+		"md5": "fb7593911f90727adc03d731e286c685",
+		"size": "0.84",
+		"installedSize": 0,
+		"sbu": 0,
+		"dependencies": {
+			"reqired": [
+				"util-macros"
+			],
+			"optional": [
+				"fop",
+				"libxslt",
+				"xmlto",
+				"asciidoc"
+			]
+		},
+		"scripts": [
+			"build",
+			"configure",
+			"install"
+		],
+		"multilibSupport": false
+	},
+	{
 		"name": "icu",
 		"fileName": "icu4c-69_1-src.tgz",
 		"description": "ICU предоставляет библиотеки для работы с Unicode",
