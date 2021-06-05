@@ -3,4 +3,4 @@ CC="gcc -m32" CXX="g++ -m32" \
             --disable-static \
             --with-history   \
             --with-python=/usr/bin/python3 \
-            --with-threads
+            --with-threads --libdir=/usr/lib32
