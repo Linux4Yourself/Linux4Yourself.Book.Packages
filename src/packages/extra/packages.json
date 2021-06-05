@@ -67,6 +67,34 @@
 		"multilibSupport": true
 	},
 	{
+		"name": "libxml2",
+		"fileName": "libxml2-2.9.12.tar.gz",
+		"description": "Пакет Libxml2 предоставляет библиотеку для работы с XML.",
+		"url": "http://xmlsoft.org/sources/libxml2-2.9.12.tar.gz",
+		"homeUrl": "http://xmlsoft.org",
+		"version": "2.9.12",
+		"releasesUrl": "http://xmlsoft.org/sources/",
+		"md5": "f433a39be087a9f0b197eb2307ad9f75",
+		"size": "5.42",
+		"installedSize": 0,
+		"sbu": 0,
+		"dependencies": {
+			"optional": [
+				"icu"
+			]
+		},
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare"
+		],
+		"multilibSupport": true
+	},
+	{
 		"name": "util-macros",
 		"fileName": "util-macros-1.19.3.tar.bz2",
 		"description": "Пакет Util-macros предостовляет макросы m4 для всех компонентов Xorg",
