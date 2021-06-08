@@ -95,6 +95,41 @@
 		"multilibSupport": true
 	},
 	{
+		"name": "linux-pam",
+		"fileName": "Linux-PAM-1.5.1.tar.xz",
+		"description": "Пакет Linux-PAM содержит подключаемые модули аутентификации, позволяющие локальному системному администратору выбирать способ аутентификации пользователей приложениями.",
+		"url": "https://github.com/linux-pam/linux-pam/releases/download/v1.5.1/Linux-PAM-1.5.1.tar.xz",
+		"homeUrl": "https://github.com/linux-pam/linux-pam/",
+		"version": "1.5.1",
+		"releasesUrl": "https://github.com/linux-pam/linux-pam/releases/",
+		"md5": "155f2a31d07077b2c63a1f135876c31b",
+		"size": "0.93",
+		"installedSize": 1.5,
+		"sbu": 0.1,
+		"dependencies": {
+			"optional": [
+				"db",
+				"libnsl",
+				"libtirpc",
+				"libaudit",
+				"prelude",
+				"docbook-xml",
+				"docbook-xsl",
+				"fop",
+				"libxslt",
+				"linx"
+			]
+		},
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"postinstall",
+			"prepare"
+		],
+		"multilibSupport": false
+	},
+	{
 		"name": "util-macros",
 		"fileName": "util-macros-1.19.3.tar.bz2",
 		"description": "Пакет Util-macros предостовляет макросы m4 для всех компонентов Xorg",
