@@ -1,1 +1,1 @@
-make check
+ninja test
