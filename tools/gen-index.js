@@ -4,26 +4,36 @@ const fs = require('fs');
 
 const allPackages = []
 corePackages.forEach(pkg => {
-	pkg.isExtra = false;
-	allPackages.push(pkg);
+	allPackages.push({
+		...pkg,
+		isExtra: false
+	});
 });
 
 extraPackages.forEach(pkg => {
 	pkg.isExtra = true;
-	allPackages.push(pkg);
+
+	allPackages.push({
+		...pkg,
+		isExtra: true
+	});
 });
 
 let res = [];
 
 allPackages.forEach(pkg => {
 	const type = pkg.isExtra ? 'extra': 'core';
+	const url = (pkg.downloadUrl ? pkg.downloadUrl: pkg.url).trim();
+	const dir = `src/packages/${type}/${pkg.name}`;
+
+	if (!fs.existsSync(dir)) {
+		fs.mkdirSync(dir);
+	}
+
+	fs.writeFileSync(`${dir}/.url`, url, 'utf-8');
+	fs.writeFileSync(`${dir}/.version`, pkg.version, 'utf-8');
 	res.push(`${type}/${pkg.name}`);
 });
 
 
 fs.writeFileSync(`src/packages/index`, res.join('\n'), 'utf-8');
-
-// fs.writeFileSync(`src/packages/core/wget-list`, updatedPkgs.map(x => `${x.downloadUrl}`).join('\n'), 'utf-8');
-// fs.writeFileSync(`src/packages/core/wget-list.orig`, updatedPkgs.map(x => `${x.url}`).join('\n'), 'utf-8');
-// fs.writeFileSync(`src/packages/core/md5sums`, String(updatedPkgs.map(x => `${x.md5} ${x.fileName}`).join('\n')), 'utf-8');
-// fs.writeFileSync(`src/packages/core/pkg-list`, String(updatedPkgs.map(x => x.fileName).join('\n')), 'utf-8');
