@@ -1,3 +1,5 @@
+mkdir -v build
+cd       build
 ../configure --prefix=/usr               \
              LD=ld                       \
              --disable-bootstrap         \
