@@ -614,6 +614,7 @@
 			"build",
 			"configure",
 			"install",
+			"multi_configure",
 			"postinstall",
 			"prepare",
 			"test"
@@ -2048,7 +2049,14 @@
 		"installedSize": 0.06,
 		"sbu": 0,
 		"sbu2": 0.1,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/popt-1.18.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/popt-1.18.tar.gz",
+		"multilibSupport": false,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "freetype",
