@@ -2130,7 +2130,13 @@
 		"installedSize": 0.06,
 		"sbu": 0,
 		"sbu2": 0.1,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/efibootmgr-17.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/efibootmgr-17.tar.gz",
+		"multilibSupport": false,
+		"scripts": [
+			"build",
+			"install",
+			"prepare"
+		]
 	},
 	{
 		"name": "dosfstools",
