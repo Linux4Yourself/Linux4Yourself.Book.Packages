@@ -2108,7 +2108,13 @@
 		"installedSize": 0.33,
 		"sbu": 0,
 		"sbu2": 0.1,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/efivar-37.tar.bz2"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/efivar-37.tar.bz2",
+		"multilibSupport": false,
+		"scripts": [
+			"build",
+			"install",
+			"patch"
+		]
 	},
 	{
 		"name": "efibootmgr",
