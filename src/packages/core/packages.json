@@ -396,7 +396,13 @@
 		"sbu": 0.6,
 		"sbu2": 0,
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/emacs-27.2.tar.xz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/emacs-27.2.tar.xz",
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"postinstall"
+		]
 	},
 	{
 		"name": "elfutils",
