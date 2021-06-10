@@ -32,7 +32,7 @@ grep-3.6.tar.xz
 groff-1.22.4.tar.gz
 grub-2.06.tar.xz
 gzip-1.10.tar.xz
-iana-etc-20210521.tar.gz
+iana-etc-20210604.tar.gz
 inetutils-2.0.tar.xz
 intltool-0.51.0.tar.gz
 iproute2-5.12.0.tar.xz
@@ -45,7 +45,7 @@ libcap-2.50.tar.xz
 libffi-3.3.tar.gz
 libpipeline-1.5.3.tar.gz
 libtool-2.4.6.tar.xz
-linux-5.12.9.tar.xz
+linux-5.12.10.tar.xz
 m4-1.4.19.tar.xz
 make-4.3.tar.gz
 man-db-2.9.4.tar.xz
@@ -74,7 +74,7 @@ texinfo-6.7.tar.xz
 tzdata2021a.tar.gz
 udev.tar.xz
 util-linux-2.37.tar.xz
-vim-8.2.2890.tar.gz
+vim-8.2.2968.tar.gz
 nano-5.7.tar.xz
 XML-Parser-2.46.tar.gz
 xz-5.2.5.tar.xz
