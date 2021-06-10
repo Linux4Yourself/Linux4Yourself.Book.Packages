@@ -1181,19 +1181,19 @@
 	},
 	{
 		"name": "linux",
-		"fileName": "linux-5.12.9.tar.xz",
+		"fileName": "linux-5.12.10.tar.xz",
 		"description": "Ядро операционной системы.",
-		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.9.tar.xz",
+		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.10.tar.xz",
 		"homeUrl": "https://www.kernel.org",
-		"version": "5.12.9",
+		"version": "5.12.10",
 		"releasesUrl": "https://www.kernel.org",
 		"priority": "required",
-		"md5": "26f7023824e9867359ec78a4f2b50958",
-		"size": "112.68",
+		"md5": "7a3d78b97103f2b64c8c8592c1dfbe8d",
+		"size": "112.67",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.9.tar.xz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.10.tar.xz"
 	},
 	{
 		"name": "m4",
