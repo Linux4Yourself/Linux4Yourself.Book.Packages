@@ -2152,7 +2152,13 @@
 		"installedSize": "0.52",
 		"sbu": "0",
 		"sbu2": 0.2,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/wget-1.21.1.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/wget-1.21.1.tar.gz",
+		"multilibSupport": false,
+		"scripts": [
+			"build",
+			"configure",
+			"install"
+		]
 	},
 	{
 		"name": "libtasn1",
