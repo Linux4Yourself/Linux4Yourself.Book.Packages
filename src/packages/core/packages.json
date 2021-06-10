@@ -324,7 +324,13 @@
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/dejagnu-1.6.2.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/dejagnu-1.6.2.tar.gz",
+		"multilibSupport": false,
+		"scripts": [
+			"configure",
+			"install",
+			"test"
+		]
 	},
 	{
 		"name": "diffutils",
