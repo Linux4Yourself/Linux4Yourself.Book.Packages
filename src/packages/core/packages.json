@@ -2131,7 +2131,13 @@
 		"installedSize": 0.16,
 		"sbu": 0,
 		"sbu2": 0.1,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/dosfstools-4.2.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/dosfstools-4.2.tar.gz",
+		"multilibSupport": false,
+		"scripts": [
+			"build",
+			"configure",
+			"install"
+		]
 	},
 	{
 		"name": "wget",
