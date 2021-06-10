@@ -1507,6 +1507,7 @@
 		"scripts": [
 			"build",
 			"configure",
+			"configure-systemd",
 			"install",
 			"test"
 		],
@@ -1680,6 +1681,7 @@
 			"build",
 			"configure",
 			"install",
+			"multi_build",
 			"multi_configure",
 			"multi_install",
 			"multi_prepare",
