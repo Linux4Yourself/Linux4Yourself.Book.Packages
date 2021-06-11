@@ -32,6 +32,7 @@ allPackages.forEach(pkg => {
 
 	fs.writeFileSync(`${dir}/.url`, url, 'utf-8');
 	fs.writeFileSync(`${dir}/.version`, pkg.version, 'utf-8');
+	fs.writeFileSync(`${dir}/.name`, `${pkg.name}-${pkg.version}`, 'utf-8');
 	res.push(`${type}/${pkg.name}`);
 });
 
