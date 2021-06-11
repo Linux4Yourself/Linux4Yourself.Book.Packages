@@ -42,16 +42,16 @@ packages.forEach(pkg => {
 
 		if (fs.existsSync(pkgScriptsFolder)) {
 			const scripts = [];
-
 			fs.readdirSync(pkgScriptsFolder).forEach(file => {
-				const stats = fs.statSync(`${pkgScriptsFolder}/${file}`)
-				const fileSizeInBytes = stats.size;
-				if (fileSizeInBytes > 0) {
-					pkg.multilibSupport = file.startsWith('multi');
-					scripts.push(file);
+				if (!file.startsWith('.')) {
+					const stats = fs.statSync(`${pkgScriptsFolder}/${file}`)
+					const fileSizeInBytes = stats.size;
+					if (fileSizeInBytes > 0) {
+						pkg.multilibSupport = file.startsWith('multi');
+						scripts.push(file);
+					}
 				}
 			});
-
 			pkg.scripts = scripts;
 
 		}

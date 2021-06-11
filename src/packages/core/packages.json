@@ -418,7 +418,18 @@
 		"installedSize": 0.16,
 		"sbu": 0.8,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/elfutils-0.185.tar.bz2"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/elfutils-0.185.tar.bz2",
+		"multilibSupport": false,
+		"scripts": [
+			"build",
+			"configure",
+			"install",
+			"multi_build",
+			"multi_configure",
+			"multi_install",
+			"multi_prepare",
+			"test"
+		]
 	},
 	{
 		"name": "eudev",
@@ -1193,7 +1204,8 @@
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.10.tar.xz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.10.tar.xz",
+		"scripts": []
 	},
 	{
 		"name": "m4",
@@ -1279,7 +1291,8 @@
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/man-pages-5.11.tar.xz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/man-pages-5.11.tar.xz",
+		"scripts": []
 	},
 	{
 		"name": "meson",
@@ -1812,7 +1825,8 @@
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/tzdata2021a.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/tzdata2021a.tar.gz",
+		"scripts": []
 	},
 	{
 		"name": "udev",
@@ -1828,7 +1842,8 @@
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/udev.tar.xz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/udev.tar.xz",
+		"scripts": []
 	},
 	{
 		"name": "util-linux",
@@ -2035,7 +2050,8 @@
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/busybox-1.33.1.tar.bz2"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/busybox-1.33.1.tar.bz2",
+		"scripts": []
 	},
 	{
 		"name": "musl",
@@ -2051,7 +2067,8 @@
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/musl-1.2.2.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/musl-1.2.2.tar.gz",
+		"scripts": []
 	},
 	{
 		"name": "popt",
@@ -2273,12 +2290,13 @@
 		"version": "1.0.8",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "b45d3bea4ddb7f64b6e56033ecc0fb11",
+		"md5": "19852fe67b6babb67bfae0b6db9ef732",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/bzip2-1.0.8-install_docs-1.patch"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/bzip2-1.0.8-install_docs-1.patch",
+		"scripts": []
 	},
 	{
 		"name": "coreutils-patch",
@@ -2289,12 +2307,13 @@
 		"version": "8.32-i18n-1",
 		"releasesUrl": "",
 		"priority": "optional",
-		"md5": "cd8ebed2a67fff2e231026df91af6776",
-		"size": "0.16",
+		"md5": "fe2680b5a72d1ca7f7fee7b723456e0e",
+		"size": "0.17",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/coreutils-8.32-i18n-1.patch"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/coreutils-8.32-i18n-1.patch",
+		"scripts": []
 	},
 	{
 		"name": "glibc-patch",
@@ -2305,12 +2324,13 @@
 		"version": "2.33-fhs-1",
 		"releasesUrl": "",
 		"priority": "important",
-		"md5": "9a5997c3452909b1769918c759eff8a2",
+		"md5": "dd09372fc5740324c82aed7d97635d6d",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/glibc-2.33-fhs-1.patch"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/glibc-2.33-fhs-1.patch",
+		"scripts": []
 	},
 	{
 		"name": "kbd-patch",
@@ -2321,12 +2341,13 @@
 		"version": "2.4.0-backspace-1",
 		"releasesUrl": "",
 		"priority": "important",
-		"md5": "f75cca16a38da6caa7d52151f7136895",
+		"md5": "3249eddfaf6138c9542d0b5165033d5d",
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/kbd-2.4.0-backspace-1.patch"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/kbd-2.4.0-backspace-1.patch",
+		"scripts": []
 	},
 	{
 		"name": "sysvinit-patch",
@@ -2337,12 +2358,13 @@
 		"version": "2.99-consolidated-1",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "4900322141d493e74020c9cf437b2cdc",
+		"md5": "fd07ab7c0e5ec38ac2aa2d79178e4562",
 		"size": "0.00",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/sysvinit-2.99-consolidated-1.patch"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/sysvinit-2.99-consolidated-1.patch",
+		"scripts": []
 	},
 	{
 		"name": "efivar-patch",
@@ -2353,11 +2375,12 @@
 		"version": "1",
 		"releasesUrl": "",
 		"priority": "required",
-		"md5": "e795e52eeefc0d2c62c6c4bd748d2d38",
+		"md5": "6c3af2c50718168f781bf0c565736928",
 		"size": "0.01",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/efivar-37-gcc_9-1.patch"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/efivar-37-gcc_9-1.patch",
+		"scripts": []
 	}
 ]
