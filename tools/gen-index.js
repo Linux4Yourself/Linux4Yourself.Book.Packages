@@ -33,6 +33,15 @@ allPackages.forEach(pkg => {
 	fs.writeFileSync(`${dir}/.url`, url, 'utf-8');
 	fs.writeFileSync(`${dir}/.version`, pkg.version, 'utf-8');
 	fs.writeFileSync(`${dir}/.name`, `${pkg.name}-${pkg.version}`, 'utf-8');
+	const scripts = [];
+	
+	fs.readdirSync(dir).forEach(file => {
+		if (!file.startsWith('.')) {
+			scripts.push(file);
+		}
+	});
+
+	fs.writeFileSync(`${dir}/.scripts`, scripts.join('\n'), 'utf-8');
 	res.push(`${type}/${pkg.name}`);
 });
 

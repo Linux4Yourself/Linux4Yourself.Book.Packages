@@ -1,0 +1,11 @@
+build
+configure
+install
+install-systemd
+multi_build
+multi_configure
+multi_install
+multi_prepare
+patch
+prepare
+test
