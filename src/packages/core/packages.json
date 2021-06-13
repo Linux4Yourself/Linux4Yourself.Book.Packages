@@ -864,15 +864,15 @@
 	},
 	{
 		"name": "iana-etc",
-		"fileName": "iana-etc-20210604.tar.gz",
+		"fileName": "iana-etc-20210321.tar.gz",
 		"description": "Пакет Iana-Etc содержит данные для сетевых служб и протоколов.",
-		"url": "https://github.com/Mic92/iana-etc/releases/download/20210604/iana-etc-20210604.tar.gz",
+		"url": "https://github.com/Mic92/iana-etc/releases/download/20210321/iana-etc-20210321.tar.gz",
 		"homeUrl": "https://www.iana.org/protocols",
 		"version": "20210321",
 		"releasesUrl": "https://github.com/Mic92/iana-etc/releases/",
 		"priority": "required",
-		"md5": "d7994a4d2a866f2c4860acf77e68a81c",
-		"size": "0.56",
+		"md5": "9d1ead73e678fa2f51a70a933b0bf017",
+		"size": "0.00",
 		"installedSize": 0.5,
 		"sbu": 0.01,
 		"sbu2": 0,
@@ -890,7 +890,7 @@
 			"build"
 		],
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/iana-etc-20210604.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/iana-etc-20210321.tar.gz"
 	},
 	{
 		"name": "inetutils",
