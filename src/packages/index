@@ -99,6 +99,7 @@ core/sysvinit-patch
 core/efivar-patch
 extra/mc
 extra/sqlite
+extra/dialog
 extra/libxml2
 extra/linux-pam
 extra/util-macros
