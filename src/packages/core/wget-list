@@ -32,7 +32,7 @@ https://lx4u.ru/downloads/packages/grep-3.6.tar.xz
 https://lx4u.ru/downloads/packages/groff-1.22.4.tar.gz
 https://lx4u.ru/downloads/packages/grub-2.06.tar.xz
 https://lx4u.ru/downloads/packages/gzip-1.10.tar.xz
-https://lx4u.ru/downloads/packages/iana-etc-20210604.tar.gz
+https://lx4u.ru/downloads/packages/iana-etc-20210611.tar.gz
 https://lx4u.ru/downloads/packages/inetutils-2.0.tar.xz
 https://lx4u.ru/downloads/packages/intltool-0.51.0.tar.gz
 https://lx4u.ru/downloads/packages/iproute2-5.12.0.tar.xz
@@ -80,8 +80,6 @@ https://lx4u.ru/downloads/packages/XML-Parser-2.46.tar.gz
 https://lx4u.ru/downloads/packages/xz-5.2.5.tar.xz
 https://lx4u.ru/downloads/packages/zlib-ng-2.0.3.tar.gz
 https://lx4u.ru/downloads/packages/zstd-1.5.0.tar.gz
-https://lx4u.ru/downloads/packages/busybox-1.33.1.tar.bz2
-https://lx4u.ru/downloads/packages/musl-1.2.2.tar.gz
 https://lx4u.ru/downloads/packages/popt-1.18.tar.gz
 https://lx4u.ru/downloads/packages/freetype-2.10.4.tar.xz
 https://lx4u.ru/downloads/packages/efivar-37.tar.bz2

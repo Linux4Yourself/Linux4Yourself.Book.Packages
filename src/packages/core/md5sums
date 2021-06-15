@@ -32,7 +32,7 @@ f47fe27049510b2249dba7f862ac1b51 grep-3.6.tar.xz
 08fb04335e2f5e73f23ea4c3adbf0c5f groff-1.22.4.tar.gz
 cf0fd928b1e5479c8108ee52cb114363 grub-2.06.tar.xz
 691b1221694c3394f1c537df4eee39d3 gzip-1.10.tar.xz
-d7994a4d2a866f2c4860acf77e68a81c iana-etc-20210604.tar.gz
+f2854be57fe281e3ffc7364984467d2f iana-etc-20210611.tar.gz
 5e1018502cd131ed8e42339f6b5c98aa inetutils-2.0.tar.xz
 12e517cac2b57a0121cda351570f1e63 intltool-0.51.0.tar.gz
 bbebacdabd4628ff86453ef4771a242a iproute2-5.12.0.tar.xz
@@ -80,8 +80,6 @@ c2d6540a33248edc31a5830861b4b4ea nano-5.7.tar.xz
 aa1621ec7013a19abab52a8aff04fe5b xz-5.2.5.tar.xz
 59d0d6c2f407b1ebbecc0a8e769cf409 zlib-ng-2.0.3.tar.gz
 a6eb7fb1f2c21fa80030a47993853e92 zstd-1.5.0.tar.gz
-7f9f8acf026ed11dfa9b672c41b204e0 busybox-1.33.1.tar.bz2
-aed8ae9e2b0898151b36a204088292dd musl-1.2.2.tar.gz
 450f2f636e6a3aa527de803d0ae76c5a popt-1.18.tar.gz
 0e6c0e9b218be3ba3e26e1d23b1c80dd freetype-2.10.4.tar.xz
 9f067275c5f7aafdd75bfb364280ac9c efivar-37.tar.bz2

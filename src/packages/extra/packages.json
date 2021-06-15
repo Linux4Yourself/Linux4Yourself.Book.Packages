@@ -31,6 +31,10 @@
 			]
 		},
 		"scripts": [
+			".name",
+			".scripts",
+			".url",
+			".version",
 			"build",
 			"configure",
 			"install"
@@ -56,6 +60,10 @@
 			]
 		},
 		"scripts": [
+			".name",
+			".scripts",
+			".url",
+			".version",
 			"build",
 			"configure",
 			"install",
@@ -84,6 +92,10 @@
 			]
 		},
 		"scripts": [
+			".name",
+			".scripts",
+			".url",
+			".version",
 			"build",
 			"configure",
 			"install",
@@ -121,6 +133,10 @@
 			]
 		},
 		"scripts": [
+			".name",
+			".scripts",
+			".url",
+			".version",
 			"build",
 			"configure",
 			"install",
@@ -147,6 +163,10 @@
 			]
 		},
 		"scripts": [
+			".name",
+			".scripts",
+			".url",
+			".version",
 			"configure",
 			"install"
 		],
@@ -176,6 +196,10 @@
 			]
 		},
 		"scripts": [
+			".name",
+			".scripts",
+			".url",
+			".version",
 			"build",
 			"configure",
 			"install"
@@ -199,6 +223,12 @@
 				"doxygen",
 				"llvm"
 			]
-		}
+		},
+		"multilibSupport": false,
+		"scripts": [
+			".name",
+			".url",
+			".version"
+		]
 	}
 ]
