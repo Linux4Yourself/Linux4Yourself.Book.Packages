@@ -887,7 +887,7 @@
 			}
 		],
 		"scripts": [
-			"build"
+			"install"
 		],
 		"multilibSupport": false,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/iana-etc-20210611.tar.gz"
