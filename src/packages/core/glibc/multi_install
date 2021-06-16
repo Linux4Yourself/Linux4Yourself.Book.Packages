@@ -4,5 +4,3 @@ cp -a DESTDIR/usr/lib32/* /usr/lib32/
 install -vm644 DESTDIR/usr/include/gnu/{lib-names,stubs}-32.h \
                /usr/include/gnu/
 ln -svf ../lib32/ld-linux.so.2 /lib/ld-linux.so.2
-echo "/usr/lib32" >> /etc/ld.so.conf
-ldconfig

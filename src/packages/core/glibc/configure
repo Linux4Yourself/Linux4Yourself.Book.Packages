@@ -1,3 +1,6 @@
+mkdir  build
+cd     build
+
 ../configure                             \
       --prefix=/usr                      \
       --disable-werror                   \
