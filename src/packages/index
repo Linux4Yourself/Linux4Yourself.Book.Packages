@@ -80,8 +80,6 @@ core/XML-Parser
 core/xz
 core/zlib-ng
 core/zstd
-core/busybox
-core/musl
 core/popt
 core/freetype
 core/efivar

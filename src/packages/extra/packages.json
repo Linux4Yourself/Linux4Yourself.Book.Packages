@@ -32,6 +32,7 @@
 		},
 		"scripts": [
 			".name",
+			".scripts",
 			".url",
 			".version",
 			"build",
@@ -60,6 +61,7 @@
 		},
 		"scripts": [
 			".name",
+			".scripts",
 			".url",
 			".version",
 			"build",
@@ -71,31 +73,6 @@
 			"multi_prepare"
 		],
 		"multilibSupport": true
-	},
-	{
-		"name": "dialog",
-		"fileName": "dialog_1.3-20190211.orig.tar.gz",
-		"description": "Данная программа предоставляет метод отображения нескольких типов диалоговых окон из сценариев оболочки командной строки. Это позволяет разработчику сценария обеспечить взаимодействие с пользователем в более доступной форме.",
-		"url": "http://deb.debian.org/debian/pool/main/d/dialog/dialog_1.3-20190211.orig.tar.gz",
-		"homeUrl": "http://invisible-island.net/dialog/dialog.html",
-		"version": "1.3-20190211-1",
-		"md5": "27d05caef648e8e02d0908a59951d44c",
-		"size": "0.51",
-		"installedSize": 1.5,
-		"sbu": 1,
-		"dependencies": {
-			"reqired": [
-				"ncurses"
-			]
-		},
-		"scripts": [
-			".name",
-			".version",
-			"build",
-			"configure",
-			"install"
-		],
-		"multilibSupport": false
 	},
 	{
 		"name": "libxml2",
@@ -116,6 +93,7 @@
 		},
 		"scripts": [
 			".name",
+			".scripts",
 			".url",
 			".version",
 			"build",
@@ -156,6 +134,7 @@
 		},
 		"scripts": [
 			".name",
+			".scripts",
 			".url",
 			".version",
 			"build",
@@ -185,6 +164,7 @@
 		},
 		"scripts": [
 			".name",
+			".scripts",
 			".url",
 			".version",
 			"configure",
@@ -217,6 +197,7 @@
 		},
 		"scripts": [
 			".name",
+			".scripts",
 			".url",
 			".version",
 			"build",

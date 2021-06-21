@@ -2,7 +2,7 @@ acl-2.3.1.tar.xz
 attr-2.5.1.tar.gz
 autoconf-2.71.tar.xz
 automake-1.16.3.tar.xz
-bash-5.1.tar.gz
+bash-5.1.8.tar.gz
 bc-4.0.2.tar.xz
 binutils-2.36.1.tar.xz
 bison-3.7.6.tar.xz
@@ -10,7 +10,7 @@ bzip2-1.0.8.tar.gz
 check-0.15.2.tar.gz
 coreutils-8.32.tar.xz
 dbus-1.12.20.tar.gz
-dejagnu-1.6.2.tar.gz
+dejagnu-1.6.3.tar.gz
 diffutils-3.7.tar.xz
 e2fsprogs-1.46.2.tar.gz
 emacs-27.2.tar.xz
@@ -23,7 +23,7 @@ findutils-4.8.0.tar.xz
 flex-2.6.4.tar.gz
 gawk-5.1.0.tar.xz
 gcc-11.1.0.tar.xz
-gdbm-1.19.tar.gz
+gdbm-1.20.tar.gz
 gettext-0.21.tar.xz
 glibc-2.33.tar.xz
 gmp-6.2.1.tar.xz
@@ -45,7 +45,7 @@ libcap-2.50.tar.xz
 libffi-3.3.tar.gz
 libpipeline-1.5.3.tar.gz
 libtool-2.4.6.tar.xz
-linux-5.12.10.tar.xz
+linux-5.12.12.tar.xz
 m4-1.4.19.tar.xz
 make-4.3.tar.gz
 man-db-2.9.4.tar.xz
@@ -74,14 +74,12 @@ texinfo-6.7.tar.xz
 tzdata2021a.tar.gz
 udev.tar.xz
 util-linux-2.37.tar.xz
-vim-8.2.2968.tar.gz
-nano-5.7.tar.xz
+vim-8.2.3017.tar.gz
+nano-5.8.tar.xz
 XML-Parser-2.46.tar.gz
 xz-5.2.5.tar.xz
 zlib-ng-2.0.3.tar.gz
 zstd-1.5.0.tar.gz
-busybox-1.33.1.tar.bz2
-musl-1.2.2.tar.gz
 popt-1.18.tar.gz
 freetype-2.10.4.tar.xz
 efivar-37.tar.bz2
