@@ -1089,14 +1089,14 @@
 	},
 	{
 		"name": "libcap",
-		"fileName": "libcap-2.50.tar.xz",
+		"fileName": "libcap-2.51.tar.xz",
 		"description": "Пакет Libcap реализует интерфейсы пользовательского пространства для возможностей POSIX 1003.1 e, доступных в ядрах Linux. Эти возможности представляют собой разделение привилегий All powerful root на набор различных привилегий.",
-		"url": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.50.tar.xz",
+		"url": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.51.tar.xz",
 		"homeUrl": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/",
-		"version": "2.50",
+		"version": "2.51",
 		"releasesUrl": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/",
 		"priority": "important",
-		"md5": "66a561afa81666236ff973544ff4e864",
+		"md5": "4c9febc1bf0afca6a4d9f86fcdb6d900",
 		"size": "0.14",
 		"installedSize": 0.19,
 		"sbu": 0,
@@ -1112,7 +1112,7 @@
 			"test"
 		],
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/libcap-2.50.tar.xz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/libcap-2.51.tar.xz"
 	},
 	{
 		"name": "libffi",
