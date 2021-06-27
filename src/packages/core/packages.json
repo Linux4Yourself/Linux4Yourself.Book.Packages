@@ -930,7 +930,7 @@
 		"size": "0.15",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.01,
 		"scripts": [
 			"build",
 			"configure",
