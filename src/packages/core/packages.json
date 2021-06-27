@@ -1777,7 +1777,7 @@
 		"size": "9.78",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 3.8,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/tcl8.6.11-src.tar.gz",
 		"multilibSupport": false,
 		"scripts": [
