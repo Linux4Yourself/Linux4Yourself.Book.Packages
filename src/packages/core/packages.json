@@ -877,7 +877,7 @@
 		"size": "0.56",
 		"installedSize": 0.5,
 		"sbu": 0.01,
-		"sbu2": 0,
+		"sbu2": 0.01,
 		"files": [
 			{
 				"name": "/etc/protocols",
