@@ -45,7 +45,7 @@ d3f16fa7f39c2621ce0a4c1d880738a0 bootscripts.tar.xz
 6313289e32f1d38a9df4770b014a2ca7 libffi-3.3.tar.gz
 dad443d0911cf9f0f1bd90a334bc9004 libpipeline-1.5.3.tar.gz
 1bfb9b923f2c1339b4d2ce1807064aa5 libtool-2.4.6.tar.xz
-13e4c7f6d84a817afd4890337800df1a linux-5.12.12.tar.xz
+9b0ebe154197ea04f407fe35b0937adc linux-5.12.13.tar.xz
 0d90823e1426f1da2fd872df0311298d m4-1.4.19.tar.xz
 fc7a67ea86ace13195b0bce683fd4469 make-4.3.tar.gz
 6e233a555f7b9ae91ce7cd0faa322bce man-db-2.9.4.tar.xz
@@ -74,7 +74,7 @@ d4c5d8cc84438c5993ec5163a59522a6 texinfo-6.7.tar.xz
 20eae7d1da671c6eac56339c8df85bbd tzdata2021a.tar.gz
 227cc8ccdd95487804ce1ca7dd817b5a udev.tar.xz
 75eb0a648098332d4042f1646eca4069 util-linux-2.37.tar.xz
-b39b903e88ebcd5c9f8d1bc23f170ca9 vim-8.2.3017.tar.gz
+63986be615cef730b3362dcce4bf1352 vim-8.2.3060.tar.gz
 d2249e3dd108c830df00efd7c1b79d86 nano-5.8.tar.xz
 80bb18a8e6240fcf7ec2f7b57601c170 XML-Parser-2.46.tar.gz
 aa1621ec7013a19abab52a8aff04fe5b xz-5.2.5.tar.xz
