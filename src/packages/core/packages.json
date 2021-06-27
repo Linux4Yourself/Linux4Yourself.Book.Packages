@@ -417,7 +417,7 @@
 		"size": "8.76",
 		"installedSize": 0.16,
 		"sbu": 0.8,
-		"sbu2": 0,
+		"sbu2": 0.9,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/elfutils-0.185.tar.bz2",
 		"multilibSupport": false,
 		"scripts": [
