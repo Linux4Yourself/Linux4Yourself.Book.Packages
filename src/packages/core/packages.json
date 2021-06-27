@@ -1194,11 +1194,11 @@
 	},
 	{
 		"name": "linux",
-		"fileName": "linux-5.12.12.tar.xz",
+		"fileName": "linux-5.12.13.tar.xz",
 		"description": "Ядро операционной системы.",
-		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.12.tar.xz",
+		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.13.tar.xz",
 		"homeUrl": "https://www.kernel.org",
-		"version": "5.12.12",
+		"version": "5.12.13",
 		"releasesUrl": "https://www.kernel.org",
 		"priority": "required",
 		"md5": "13e4c7f6d84a817afd4890337800df1a",
@@ -1206,7 +1206,7 @@
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.12.tar.xz",
+		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.13.tar.xz",
 		"scripts": []
 	},
 	{
@@ -1884,11 +1884,11 @@
 	},
 	{
 		"name": "vim",
-		"fileName": "vim-8.2.3017.tar.gz",
+		"fileName": "vim-8.2.3060.tar.gz",
 		"description": "Один из мощнейших текстовых редакторов с полной свободой настройки и автоматизации, возможными благодаря расширениям и надстройкам.",
-		"url": "https://github.com/vim/vim/archive/refs/tags/v8.2.3017.tar.gz",
+		"url": "https://github.com/vim/vim/archive/refs/tags/v8.2.3060.tar.gz",
 		"homeUrl": "https://www.vim.org/",
-		"version": "8.2.3017",
+		"version": "8.2.3060",
 		"releasesUrl": "https://github.com/vim/vim/releases",
 		"priority": "optional",
 		"md5": "b39b903e88ebcd5c9f8d1bc23f170ca9",
@@ -1905,7 +1905,7 @@
 			"test"
 		],
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/vim-8.2.3017.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/vim-8.2.3060.tar.gz"
 	},
 	{
 		"name": "nano",
