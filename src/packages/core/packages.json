@@ -1080,7 +1080,7 @@
 		"size": "0.12",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"scripts": [
 			"install"
 		],
