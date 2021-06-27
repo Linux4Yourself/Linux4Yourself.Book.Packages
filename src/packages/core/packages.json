@@ -1920,7 +1920,7 @@
 		"size": "1.39",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.2,
 		"scripts": [
 			"build",
 			"configure",
