@@ -807,7 +807,7 @@
 		"size": "3.95",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.5,
 		"scripts": [
 			"build",
 			"configure",
