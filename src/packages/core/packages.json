@@ -1895,7 +1895,7 @@
 		"size": "14.85",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 2.1,
 		"scripts": [
 			"build",
 			"configure",
