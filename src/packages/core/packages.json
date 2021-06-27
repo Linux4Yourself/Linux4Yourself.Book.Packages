@@ -829,7 +829,7 @@
 		"size": "6.28",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 1,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/grub-2.06.tar.xz",
 		"multilibSupport": false,
 		"scripts": [
