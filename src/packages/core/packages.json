@@ -323,7 +323,7 @@
 		"size": "0.59",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/dejagnu-1.6.3.tar.gz",
 		"multilibSupport": false,
 		"scripts": [
@@ -503,7 +503,7 @@
 		"size": "0.60",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.2,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/expect5.45.4.tar.gz",
 		"multilibSupport": false,
 		"scripts": [
