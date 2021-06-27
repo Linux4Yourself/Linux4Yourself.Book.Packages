@@ -394,7 +394,7 @@
 		"size": "42.56",
 		"installedSize": "620",
 		"sbu": 0.6,
-		"sbu2": 0,
+		"sbu2": 0.6,
 		"multilibSupport": false,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/emacs-27.2.tar.xz",
 		"scripts": [
