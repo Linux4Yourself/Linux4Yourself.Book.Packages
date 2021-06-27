@@ -45,7 +45,7 @@ libcap-2.51.tar.xz
 libffi-3.3.tar.gz
 libpipeline-1.5.3.tar.gz
 libtool-2.4.6.tar.xz
-linux-5.12.12.tar.xz
+linux-5.12.13.tar.xz
 m4-1.4.19.tar.xz
 make-4.3.tar.gz
 man-db-2.9.4.tar.xz
@@ -74,7 +74,7 @@ texinfo-6.7.tar.xz
 tzdata2021a.tar.gz
 udev.tar.xz
 util-linux-2.37.tar.xz
-vim-8.2.3017.tar.gz
+vim-8.2.3060.tar.gz
 nano-5.8.tar.xz
 XML-Parser-2.46.tar.gz
 xz-5.2.5.tar.xz
