@@ -245,7 +245,7 @@
 		"size": "0.74",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 4,
 		"scripts": [
 			"build",
 			"configure",
@@ -323,7 +323,7 @@
 		"size": "0.59",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/dejagnu-1.6.3.tar.gz",
 		"multilibSupport": false,
 		"scripts": [
@@ -394,7 +394,7 @@
 		"size": "42.56",
 		"installedSize": "620",
 		"sbu": 0.6,
-		"sbu2": 0,
+		"sbu2": 0.6,
 		"multilibSupport": false,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/emacs-27.2.tar.xz",
 		"scripts": [
@@ -417,7 +417,7 @@
 		"size": "8.76",
 		"installedSize": 0.16,
 		"sbu": 0.8,
-		"sbu2": 0,
+		"sbu2": 0.9,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/elfutils-0.185.tar.bz2",
 		"multilibSupport": false,
 		"scripts": [
@@ -503,7 +503,7 @@
 		"size": "0.60",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.2,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/expect5.45.4.tar.gz",
 		"multilibSupport": false,
 		"scripts": [
@@ -807,7 +807,7 @@
 		"size": "3.95",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.5,
 		"scripts": [
 			"build",
 			"configure",
@@ -829,7 +829,7 @@
 		"size": "6.28",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 1,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/grub-2.06.tar.xz",
 		"multilibSupport": false,
 		"scripts": [
@@ -877,7 +877,7 @@
 		"size": "0.56",
 		"installedSize": 0.5,
 		"sbu": 0.01,
-		"sbu2": 0,
+		"sbu2": 0.01,
 		"files": [
 			{
 				"name": "/etc/protocols",
@@ -930,7 +930,7 @@
 		"size": "0.15",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.01,
 		"scripts": [
 			"build",
 			"configure",
@@ -1080,7 +1080,7 @@
 		"size": "0.12",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"scripts": [
 			"install"
 		],
@@ -1154,7 +1154,7 @@
 		"size": "0.95",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"scripts": [
 			"build",
 			"configure",
@@ -1205,7 +1205,7 @@
 		"size": "112.69",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 4.4,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.13.tar.xz",
 		"scripts": []
 	},
@@ -1269,7 +1269,7 @@
 		"size": "1.82",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.5,
 		"scripts": [
 			"build",
 			"configure",
@@ -1777,7 +1777,7 @@
 		"size": "9.78",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 3.8,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/tcl8.6.11-src.tar.gz",
 		"multilibSupport": false,
 		"scripts": [
@@ -1802,7 +1802,7 @@
 		"size": "4.14",
 		"installedSize": 0,
 		"sbu": 0.3,
-		"sbu2": 0,
+		"sbu2": 0.7,
 		"scripts": [
 			"build",
 			"configure",
@@ -1895,7 +1895,7 @@
 		"size": "14.85",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 2.1,
 		"scripts": [
 			"build",
 			"configure",
@@ -1920,7 +1920,7 @@
 		"size": "1.39",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.2,
 		"scripts": [
 			"build",
 			"configure",
