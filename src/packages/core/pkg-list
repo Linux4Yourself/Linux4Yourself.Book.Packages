@@ -42,7 +42,7 @@ kmod-29.tar.xz
 less-581.2.tar.gz
 bootscripts.tar.xz
 libcap-2.51.tar.xz
-libffi-3.3.tar.gz
+libffi-3.4.2.tar.gz
 libpipeline-1.5.3.tar.gz
 libtool-2.4.6.tar.xz
 linux-5.12.13.tar.xz
@@ -61,7 +61,7 @@ perl-5.34.0.tar.xz
 pkg-config-0.29.2.tar.gz
 procps-ng-3.3.17.tar.xz
 psmisc-23.4.tar.xz
-Python-3.9.5.tar.xz
+Python-3.9.6.tar.xz
 readline-8.1.tar.gz
 sed-4.8.tar.xz
 shadow-4.8.1.tar.xz

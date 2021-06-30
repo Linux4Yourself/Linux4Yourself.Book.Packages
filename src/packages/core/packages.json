@@ -1116,15 +1116,15 @@
 	},
 	{
 		"name": "libffi",
-		"fileName": "libffi-3.3.tar.gz",
+		"fileName": "libffi-3.4.2.tar.gz",
 		"description": "Переносимый, высокоуровневый интерфейс по различным соглашениям о вызовах. Программы во время компиляции могут не знать об аргументах, которые были переданы функции. Например, интерпретатору можно указать во время выполнения количество аргументов и указать их тип, для вызова функции. Libffi может использоваться в программах как 'мост' от интерпретатора к скомпилированному коду.",
-		"url": "https://sourceware.org/pub/libffi/libffi-3.3.tar.gz",
-		"homeUrl": "https://sourceware.org/libffi",
-		"version": "3.3",
-		"releasesUrl": "https://sourceware.org/pub/libffi/",
+		"url": "https://github.com/libffi/libffi/releases/download/v3.4.2/libffi-3.4.2.tar.gz",
+		"homeUrl": "https://github.com/libffi/libffi",
+		"version": "3.4.2",
+		"releasesUrl": "https://github.com/libffi/libffi/releases",
 		"priority": "important",
-		"md5": "6313289e32f1d38a9df4770b014a2ca7",
-		"size": "1.24",
+		"md5": "294b921e6cf9ab0fbaea4b639f8fdbe8",
+		"size": "1.29",
 		"installedSize": 0.08,
 		"sbu": 0,
 		"sbu2": 0.1,
@@ -1139,7 +1139,7 @@
 			"test"
 		],
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/libffi-3.3.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/libffi-3.4.2.tar.gz"
 	},
 	{
 		"name": "libpipeline",
@@ -1562,15 +1562,15 @@
 	},
 	{
 		"name": "python",
-		"fileName": "Python-3.9.5.tar.xz",
+		"fileName": "Python-3.9.6.tar.xz",
 		"description": "Высокоуровневый язык программирования общего назначения, ориентированный на повышение производительности разработчика и читаемости кода. Содержит среду разработки для объектно-ориентированного программирования, написания сценариев, прототипирования крупных программ и разработки полноценных приложений.",
-		"url": "https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tar.xz",
+		"url": "https://www.python.org/ftp/python/3.9.6/Python-3.9.6.tar.xz",
 		"homeUrl": "https://www.python.org",
-		"version": "3.9.5",
+		"version": "3.9.6",
 		"releasesUrl": "https://www.python.org/ftp/python/",
 		"priority": "important",
-		"md5": "71f7ada6bec9cdbf4538adc326120cfd",
-		"size": "18.18",
+		"md5": "ecc29a7688f86e550d29dba2ee66cf80",
+		"size": "18.17",
 		"installedSize": 165.1,
 		"sbu": 1.2,
 		"sbu2": 9.5,
@@ -1581,7 +1581,7 @@
 			"test"
 		],
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/Python-3.9.5.tar.xz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/Python-3.9.6.tar.xz"
 	},
 	{
 		"name": "readline",
