@@ -1,4 +1,4 @@
-CC="gcc -m32" CXX="gcc -m32" ./configure               \
+CC="gcc -m32" CXX="gcc -m32" PKG_CONFIG_PATH="/usr/lib32/pkgconfig"  ./configure               \
     --prefix=/usr                       \
     --sysconfdir=/etc                   \
     --with-trust-paths=/etc/pki/anchors \
