@@ -2190,7 +2190,7 @@
 		"sbu": "0",
 		"sbu2": 0.2,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/libtasn1-4.17.0.tar.gz",
-		"multilibSupport": true,
+		"multilibSupport": false,
 		"scripts": [
 			"build",
 			"configure",
@@ -2334,6 +2334,23 @@
 		"sbu": 0,
 		"sbu2": 0,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/sysvinit-2.99-consolidated-1.patch",
+		"scripts": []
+	},
+	{
+		"name": "gcc-patch",
+		"fileName": "gcc-11.1.0-upstream_fixes-1.patch",
+		"description": "",
+		"url": "https://raw.githubusercontent.com/Linux4Yourself/Linux4Yourself.Book.Packages/develop/patches/gcc-11.1.0-upstream_fixes-1.patch",
+		"homeUrl": "",
+		"version": "11.1.0-upstream_fixes-1",
+		"releasesUrl": "",
+		"priority": "required",
+		"md5": "27266d2a771f2ff812cb6ec9c8b456b4",
+		"size": "0.02",
+		"installedSize": 0,
+		"sbu": 0,
+		"sbu2": 0,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/gcc-11.1.0-upstream_fixes-1.patch",
 		"scripts": []
 	},
 	{
