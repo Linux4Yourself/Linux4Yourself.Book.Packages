@@ -628,6 +628,9 @@
 		"installedSize": 161,
 		"sbu": 14.8,
 		"sbu2": 25,
+		"patches": [
+			"gcc-patch"
+		],
 		"scripts": [
 			"build",
 			"configure",
