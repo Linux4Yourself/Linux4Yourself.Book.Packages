@@ -4,7 +4,4 @@ cd       build
              LD=ld                       \
              --disable-bootstrap         \
              --with-system-zlib          \
-             --enable-languages=c,c++  --disable-multilib
-
-
-             
+             --enable-languages=c,c++  --disable-multilib          
