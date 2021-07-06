@@ -2,6 +2,7 @@ build
 configure
 install
 multi_configure
+patch
 postinstall
 prepare
 test
