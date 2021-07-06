@@ -2,7 +2,7 @@
 	{
 		"name": "mc",
 		"fileName": "mc-4.8.26.tar.xz",
-		"description": "один из файловых менеджеров с текстовым интерфейсом типа Norton Commander для UNIX-подобных операционных систем, а также Microsoft Windows и Windows NT, OS/2, macOS.",
+		"description": "Один из файловых менеджеров с текстовым интерфейсом типа Norton Commander для UNIX-подобных операционных систем, а также Microsoft Windows и Windows NT, OS/2, macOS.",
 		"url": "http://ftp.midnight-commander.org/mc-4.8.26.tar.xz",
 		"homeUrl": "https://midnight-commander.org/",
 		"version": "4.8.26",

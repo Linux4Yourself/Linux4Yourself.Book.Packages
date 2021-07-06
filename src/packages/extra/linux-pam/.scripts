@@ -1,7 +1,5 @@
 build
 configure
 install
-patch
 postinstall
 prepare
-test

@@ -6,3 +6,4 @@ multi_configure
 multi_install
 multi_prepare
 postinstall
+test

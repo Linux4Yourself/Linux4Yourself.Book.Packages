@@ -42,6 +42,7 @@ packages.forEach(pkg => {
 
 		if (fs.existsSync(pkgScriptsFolder)) {
 			const scripts = [];
+
 			fs.readdirSync(pkgScriptsFolder).forEach(file => {
 				if (!file.startsWith('.')) {
 					const stats = fs.statSync(`${pkgScriptsFolder}/${file}`)
@@ -49,13 +50,12 @@ packages.forEach(pkg => {
 					if (fileSizeInBytes > 0) {
 						pkg.multilibSupport = file.startsWith('multi');
 						scripts.push(file);
-					}else {
+					} else {
 						fs.unlinkSync(`${pkgScriptsFolder}/${file}`);
 					}
 				}
 			});
 			pkg.scripts = scripts;
-
 		}
 
 		pkg.downloadUrl = `${downloadsUrl}${pkg.fileName}`;

@@ -51,6 +51,8 @@ packages.forEach(pkg => {
 				if (fileSizeInBytes > 0) {
 					pkg.multilibSupport = file.startsWith('multi');
 					scripts.push(file);
+				} else {
+					fs.unlinkSync(`${pkgScriptsFolder}/${file}`);
 				}
 			});
 			pkg.scripts = scripts;

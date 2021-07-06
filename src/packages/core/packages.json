@@ -2,7 +2,7 @@
 	{
 		"name": "acl",
 		"fileName": "acl-2.3.1.tar.xz",
-		"description": "Access Control List или ACL — список управления доступом, который определяет, кто или что может получать доступ к объекту (программе, процессу или файлу), и какие именно операции разрешено или запрещено выполнять субъекту (пользователю, группе пользователей).Данный пакет содержит утилиты для администрирования списками управления доступом (ACL).",
+		"description": "Access Control List или ACL — список управления доступом, который определяет, кто или что может получать доступ к объекту (программе, процессу или файлу), и какие именно операции разрешено или запрещено выполнять субъекту (пользователю, группе пользователей). Данный пакет содержит утилиты для администрирования списками управления доступом (ACL).",
 		"url": "https://download.savannah.gnu.org/releases/acl/acl-2.3.1.tar.xz",
 		"homeUrl": "https://savannah.nongnu.org/projects/acl/",
 		"version": "2.3.1",
@@ -56,7 +56,7 @@
 	{
 		"name": "autoconf",
 		"fileName": "autoconf-2.71.tar.xz",
-		"description": "Программы для воспроизведения сценариев командной оболочки которые могут выполнять автоматическую настройку исходного кода из определенного пользовательского файла-шаблона. Они также необходимы для повторной компиляции пакета после обновления процедур сборки.",
+		"description": "Программы для воспроизведения сценариев командной оболочки, которые могут выполнять автоматическую настройку исходного кода из определенного пользовательского файла-шаблона. Они также необходимы для повторной компиляции пакета после обновления процедур сборки.",
 		"url": "https://ftp.gnu.org/gnu/autoconf/autoconf-2.71.tar.xz",
 		"homeUrl": "https://www.gnu.org/software/autoconf",
 		"version": "2.71",
@@ -103,7 +103,7 @@
 	{
 		"name": "bash",
 		"fileName": "bash-5.1.8.tar.gz",
-		"description": "Усовершенствованная и модернизированная вариация командной оболочки Bourne shell. Этот пакет выполняет требования стандарта LSB Core для обеспечения интерфейса Bourne Shell в системе. Он был выбран из числа других оболочек из-за широкого распространения, возможностей которые выходят далеко за пределы базовых функций программ-оболочек.",
+		"description": "Усовершенствованная и модернизированная вариация командной оболочки Bourne shell. Этот пакет выполняет требования стандарта LSB Core для обеспечения интерфейса Bourne Shell в системе. Он был выбран из числа других оболочек из-за широкого распространения и возможностей, которые выходят далеко за пределы базовых функций программ-оболочек.",
 		"url": "https://ftp.gnu.org/gnu/bash/bash-5.1.8.tar.gz",
 		"homeUrl": "https://www.gnu.org/software/bash",
 		"version": "5.1.8",
@@ -181,7 +181,7 @@
 	{
 		"name": "bison",
 		"fileName": "bison-3.7.6.tar.xz",
-		"description": "Пакет содержит GNU версию yacc (Ещё один компилятор компиляторов) необходимый для сборки некоторых пакетов",
+		"description": "Пакет содержит GNU версию yacc (ещё один компилятор компиляторов), необходимый для сборки некоторых пакетов",
 		"url": "https://ftp.gnu.org/gnu/bison/bison-3.7.6.tar.xz",
 		"homeUrl": "https://www.gnu.org/software/bison",
 		"version": "3.7.6",
@@ -204,7 +204,7 @@
 	{
 		"name": "bzip2",
 		"fileName": "bzip2-1.0.8.tar.gz",
-		"description": "Пакет содержит программы для сжатия и распаковки файлов. Он необходим для распаковки многих пакетов. Сжатие текстовых файлов при помощи программы bzip2 даёт больший процент сжатия чем gzip.",
+		"description": "Пакет содержит программы для сжатия и распаковки файлов. Он необходим для распаковки многих пакетов. Сжатие текстовых файлов при помощи программы bzip2 даёт больший процент сжатия, чем gzip.",
 		"url": "https://www.sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
 		"homeUrl": "https://www.sourceware.org/bzip2",
 		"version": "1.0.8",
@@ -245,7 +245,7 @@
 		"size": "0.74",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 4,
 		"scripts": [
 			"build",
 			"configure",
@@ -305,7 +305,8 @@
 			"multi_configure",
 			"multi_install",
 			"multi_prepare",
-			"postinstall"
+			"postinstall",
+			"test"
 		],
 		"multilibSupport": false,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/dbus-1.12.20.tar.gz"
@@ -313,7 +314,7 @@
 	{
 		"name": "dejagnu",
 		"fileName": "dejagnu-1.6.3.tar.gz",
-		"description": "Платформа для тестирования",
+		"description": "Платформа для тестирования, в книге используется для тестирования gcc и binutils.",
 		"url": "https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.3.tar.gz",
 		"homeUrl": "https://www.gnu.org/software/dejagnu",
 		"version": "1.6.2",
@@ -323,7 +324,7 @@
 		"size": "0.59",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/dejagnu-1.6.3.tar.gz",
 		"multilibSupport": false,
 		"scripts": [
@@ -384,7 +385,7 @@
 	{
 		"name": "emacs",
 		"fileName": "emacs-27.2.tar.xz",
-		"description": "Пакет Emacs содержит расширяемый, настраиваемый, самодокументирующийся редактор отображения в реальном времени. ",
+		"description": "Пакет Emacs содержит расширяемый, настраиваемый, самодокументирующийся редактор отображения в реальном времени.",
 		"url": "https://ftp.gnu.org/gnu/emacs/emacs-27.2.tar.xz",
 		"homeUrl": "https://www.gnu.org/software/emacs/",
 		"version": "27.2",
@@ -394,7 +395,7 @@
 		"size": "42.56",
 		"installedSize": "620",
 		"sbu": 0.6,
-		"sbu2": 0,
+		"sbu2": 0.6,
 		"multilibSupport": false,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/emacs-27.2.tar.xz",
 		"scripts": [
@@ -417,7 +418,7 @@
 		"size": "8.76",
 		"installedSize": 0.16,
 		"sbu": 0.8,
-		"sbu2": 0,
+		"sbu2": 0.9,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/elfutils-0.185.tar.bz2",
 		"multilibSupport": false,
 		"scripts": [
@@ -503,7 +504,7 @@
 		"size": "0.60",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.2,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/expect5.45.4.tar.gz",
 		"multilibSupport": false,
 		"scripts": [
@@ -544,7 +545,7 @@
 	{
 		"name": "findutils",
 		"fileName": "findutils-4.8.0.tar.xz",
-		"description": "Пакет содержит программы для поиска файлов. Программы предоставляют способы для рекурсивного поиска файлов по дереву каталогов, создания, обслуживания и поиска в базе данных (как правильно поиск выполняется быстрее, чем рекурсивный поиск, но менее надёжен, если база данных не в актуальном состоянии).",
+		"description": "Пакет содержит программы для поиска файлов. Программы предоставляют способы для рекурсивного поиска файлов по дереву каталогов, создания, обслуживания и поиска в базе данных (как правило, поиск выполняется быстрее, чем рекурсивный поиск, но менее надёжен, если база данных не в актуальном состоянии).",
 		"url": "https://ftp.gnu.org/gnu/findutils/findutils-4.8.0.tar.xz",
 		"homeUrl": "https://gnu.org/software/findutils",
 		"version": "4.8.0",
@@ -616,7 +617,7 @@
 	{
 		"name": "gcc",
 		"fileName": "gcc-11.1.0.tar.xz",
-		"description": "Пакет содержит набор компиляторов GNU, для таких языков как Си и Си++.",
+		"description": "Пакет содержит набор компиляторов GNU для таких языков как Си и Си++.",
 		"url": "https://ftp.gnu.org/gnu/gcc/gcc-11.1.0/gcc-11.1.0.tar.xz",
 		"homeUrl": "https://gnu.org/software/gcc",
 		"version": "11.1.0",
@@ -642,7 +643,7 @@
 	{
 		"name": "gdbm",
 		"fileName": "gdbm-1.20.tar.gz",
-		"description": "Библиотека функций базы данных, которая использует расширяемое хэширование и работает аналогично стандартным функциям dbm UNIX. Эти процедуры предоставляются программисту, которому необходимо создать и обработать хешированную базу данных. Основное предназначение gdbm — хранить пары ключ/данные в файле данных. Каждый ключ должен быть уникальным и сопряженным только с одним элементом данных. Ключи не могут быть напрямую доступны в отсортированном порядке.",
+		"description": "Библиотека функций базы данных, которая использует расширяемое хэширование и работает аналогично стандартным функциям dbm UNIX. Эти процедуры предоставляются программисту, которому необходимо создать и обработать хешированную базу данных. Основное предназначение gdbm — хранение пары ключ/данные в файле данных. Каждый ключ должен быть уникальным и сопряженным только с одним элементом данных. Ключи не могут быть напрямую доступны в отсортированном порядке.",
 		"url": "https://ftp.gnu.org/gnu/gdbm/gdbm-1.20.tar.gz",
 		"homeUrl": "https://gnu.org/software/gdbm",
 		"version": "1.20",
@@ -665,7 +666,7 @@
 	{
 		"name": "gettext",
 		"fileName": "gettext-0.21.tar.xz",
-		"description": "Пакет содержит утилиты и библиотеки для работы с локализацией и интернационализацией необходимые для некоторых пакетов. Что позволяет программам, которые скомпилированы с поддержкой NLS (Поддержка нативных языков), показывать сообщения в пользовательском нативном языке.",
+		"description": "Пакет содержит утилиты и библиотеки для работы с локализацией и интернационализацией, необходимые для некоторых пакетов, что позволяет программам, которые скомпилированы с поддержкой NLS (поддержка нативных языков), показывать сообщения в пользовательском нативном языке.",
 		"url": "https://ftp.gnu.org/gnu/gettext/gettext-0.21.tar.xz",
 		"homeUrl": "https://gnu.org/software/gettext",
 		"version": "0.21",
@@ -675,7 +676,7 @@
 		"size": "9.26",
 		"installedSize": 0,
 		"sbu": 4.5,
-		"sbu2": 0,
+		"sbu2": 3,
 		"scripts": [
 			"build",
 			"configure",
@@ -688,7 +689,7 @@
 	{
 		"name": "glibc",
 		"fileName": "glibc-2.33.tar.xz",
-		"description": "Пакет содержит стандартную библиотеку языка Си (GNU C Library). Эта библиотека предоставляет функции для выделения памяти, поиска каталогов, открытия и закрытия файлов, чтения и записи файлов, обработку строк, соответствия шаблонов (pattern matching), арифметические операции, и так далее.",
+		"description": "Пакет содержит стандартную библиотеку языка Си (GNU C Library). Эта библиотека предоставляет функции для выделения памяти, поиска каталогов, открытия и закрытия файлов, чтения и записи файлов, обработки строк, соответствия шаблонов (pattern matching), арифметических операций, и т.д.",
 		"url": "https://ftp.gnu.org/gnu/glibc/glibc-2.33.tar.xz",
 		"homeUrl": "https://gnu.org/software/glibc",
 		"version": "2.33",
@@ -807,7 +808,7 @@
 		"size": "3.95",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.5,
 		"scripts": [
 			"build",
 			"configure",
@@ -829,7 +830,7 @@
 		"size": "6.28",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 1,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/grub-2.06.tar.xz",
 		"multilibSupport": false,
 		"scripts": [
@@ -877,7 +878,7 @@
 		"size": "0.56",
 		"installedSize": 0.5,
 		"sbu": 0.01,
-		"sbu2": 0,
+		"sbu2": 0.01,
 		"files": [
 			{
 				"name": "/etc/protocols",
@@ -930,7 +931,7 @@
 		"size": "0.15",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.01,
 		"scripts": [
 			"build",
 			"configure",
@@ -969,7 +970,7 @@
 	{
 		"name": "isl",
 		"fileName": "isl-0.24.tar.xz",
-		"description": "Библиотека, используемая gcc.",
+		"description": "isl (библиотека целочисленных наборов) - это переносимая библиотека C для управления наборами и отношениями целочисленных точек, ограниченных линейными ограничениями.",
 		"url": "http://isl.gforge.inria.fr/isl-0.24.tar.xz",
 		"homeUrl": "http://isl.gforge.inria.fr",
 		"version": "0.24",
@@ -1021,7 +1022,7 @@
 	{
 		"name": "kmod",
 		"fileName": "kmod-29.tar.xz",
-		"description": "Содержит библиотеки и утилиты для загрузки модулей ядра",
+		"description": "Содержит библиотеки и утилиты для загрузки модулей ядра.",
 		"url": "https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-29.tar.xz",
 		"homeUrl": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git/about",
 		"version": "29",
@@ -1048,7 +1049,7 @@
 	{
 		"name": "less",
 		"fileName": "less-581.2.tar.gz",
-		"description": "Программа Less используется для просмотра (но не изменения) содержимого текстовых файлов на экране.Она также используется пакетом Man-DB для просмотра страниц руководств.",
+		"description": "Программа Less используется для просмотра (но не изменения) содержимого текстовых файлов на экране. Она также используется пакетом Man-DB для просмотра страниц руководств.",
 		"url": "https://www.greenwoodsoftware.com/less/less-581.2.tar.gz",
 		"homeUrl": "https://www.greenwoodsoftware.com/less",
 		"version": "581.2",
@@ -1070,7 +1071,7 @@
 	{
 		"name": "bootscripts",
 		"fileName": "bootscripts.tar.xz",
-		"description": "Скрипты загрузки и системной конфигурации",
+		"description": "Скрипты загрузки и системной конфигурации.",
 		"url": "https://github.com/Linux4Yourself/bootscripts/releases/download/1.0/bootscripts.tar.xz",
 		"homeUrl": "https://github.com/Linux4Yourself/bootscripts",
 		"version": "1.0",
@@ -1080,7 +1081,7 @@
 		"size": "0.12",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"scripts": [
 			"install"
 		],
@@ -1089,14 +1090,14 @@
 	},
 	{
 		"name": "libcap",
-		"fileName": "libcap-2.50.tar.xz",
+		"fileName": "libcap-2.51.tar.xz",
 		"description": "Пакет Libcap реализует интерфейсы пользовательского пространства для возможностей POSIX 1003.1 e, доступных в ядрах Linux. Эти возможности представляют собой разделение привилегий All powerful root на набор различных привилегий.",
-		"url": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.50.tar.xz",
+		"url": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.51.tar.xz",
 		"homeUrl": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/",
-		"version": "2.50",
+		"version": "2.51",
 		"releasesUrl": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/",
 		"priority": "important",
-		"md5": "66a561afa81666236ff973544ff4e864",
+		"md5": "4c9febc1bf0afca6a4d9f86fcdb6d900",
 		"size": "0.14",
 		"installedSize": 0.19,
 		"sbu": 0,
@@ -1112,19 +1113,19 @@
 			"test"
 		],
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/libcap-2.50.tar.xz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/libcap-2.51.tar.xz"
 	},
 	{
 		"name": "libffi",
-		"fileName": "libffi-3.3.tar.gz",
+		"fileName": "libffi-3.4.2.tar.gz",
 		"description": "Переносимый, высокоуровневый интерфейс по различным соглашениям о вызовах. Программы во время компиляции могут не знать об аргументах, которые были переданы функции. Например, интерпретатору можно указать во время выполнения количество аргументов и указать их тип, для вызова функции. Libffi может использоваться в программах как 'мост' от интерпретатора к скомпилированному коду.",
-		"url": "https://sourceware.org/pub/libffi/libffi-3.3.tar.gz",
-		"homeUrl": "https://sourceware.org/libffi",
-		"version": "3.3",
-		"releasesUrl": "https://sourceware.org/pub/libffi/",
+		"url": "https://github.com/libffi/libffi/releases/download/v3.4.2/libffi-3.4.2.tar.gz",
+		"homeUrl": "https://github.com/libffi/libffi",
+		"version": "3.4.2",
+		"releasesUrl": "https://github.com/libffi/libffi/releases",
 		"priority": "important",
-		"md5": "6313289e32f1d38a9df4770b014a2ca7",
-		"size": "1.24",
+		"md5": "294b921e6cf9ab0fbaea4b639f8fdbe8",
+		"size": "1.29",
 		"installedSize": 0.08,
 		"sbu": 0,
 		"sbu2": 0.1,
@@ -1139,12 +1140,12 @@
 			"test"
 		],
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/libffi-3.3.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/libffi-3.4.2.tar.gz"
 	},
 	{
 		"name": "libpipeline",
 		"fileName": "libpipeline-1.5.3.tar.gz",
-		"description": "Библиотека для манипулирования работы с подпроцессами гибким и удобным способом.",
+		"description": "Библиотека для манипулирования подпроцессами гибким и удобным способом.",
 		"url": "https://download.savannah.gnu.org/releases/libpipeline/libpipeline-1.5.3.tar.gz",
 		"homeUrl": "https://savannah.nongnu.org/projects/libpipeline",
 		"version": "1.5.3",
@@ -1154,7 +1155,7 @@
 		"size": "0.95",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.1,
 		"scripts": [
 			"build",
 			"configure",
@@ -1194,19 +1195,19 @@
 	},
 	{
 		"name": "linux",
-		"fileName": "linux-5.12.12.tar.xz",
+		"fileName": "linux-5.12.13.tar.xz",
 		"description": "Ядро операционной системы.",
-		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.12.tar.xz",
+		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.13.tar.xz",
 		"homeUrl": "https://www.kernel.org",
-		"version": "5.12.12",
+		"version": "5.12.13",
 		"releasesUrl": "https://www.kernel.org",
 		"priority": "required",
-		"md5": "13e4c7f6d84a817afd4890337800df1a",
+		"md5": "9b0ebe154197ea04f407fe35b0937adc",
 		"size": "112.69",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.12.tar.xz",
+		"sbu2": 4.4,
+		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.13.tar.xz",
 		"scripts": []
 	},
 	{
@@ -1236,7 +1237,7 @@
 	{
 		"name": "make",
 		"fileName": "make-4.3.tar.gz",
-		"description": "Пакет содержит программы которые автоматизируют процесс преобразования файлов из одной формы в другую. Чаще всего это компиляция исходного кода в объектные файлы и последующая компоновка в исполняемые файлы или библиотеки. Он необходим для сборки пакетов.",
+		"description": "Пакет содержит программы, которые автоматизируют процесс преобразования файлов из одной формы в другую. Чаще всего это компиляция исходного кода в объектные файлы и последующая компоновка в исполняемые файлы или библиотеки. Он необходим для сборки пакетов.",
 		"url": "https://ftp.gnu.org/gnu/make/make-4.3.tar.gz",
 		"homeUrl": "https://www.gnu.org/software/make",
 		"version": "4.3",
@@ -1269,7 +1270,7 @@
 		"size": "1.82",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.5,
 		"scripts": [
 			"build",
 			"configure",
@@ -1281,19 +1282,19 @@
 	},
 	{
 		"name": "man-pages",
-		"fileName": "man-pages-5.11.tar.xz",
+		"fileName": "man-pages-5.12.tar.xz",
 		"description": "Пакет Man-pages содержит более чем 2.200 справочных страниц.",
-		"url": "https://www.kernel.org/pub/linux/docs/man-pages/man-pages-5.11.tar.xz",
+		"url": "https://www.kernel.org/pub/linux/docs/man-pages/man-pages-5.12.tar.xz",
 		"homeUrl": "https://www.kernel.org",
-		"version": "5.11",
+		"version": "5.12",
 		"releasesUrl": "https://www.kernel.org/pub/linux/docs/man-pages/",
 		"priority": "optional",
-		"md5": "9f40e8fff6766563837d98d7d7c6e19b",
-		"size": "1.68",
+		"md5": "192132118f07369c88df267a92f3ef16",
+		"size": "1.70",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 0,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/man-pages-5.11.tar.xz",
+		"downloadUrl": "https://lx4u.ru/downloads/packages/man-pages-5.12.tar.xz",
 		"scripts": []
 	},
 	{
@@ -1321,7 +1322,7 @@
 	{
 		"name": "mpc",
 		"fileName": "mpc-1.2.1.tar.gz",
-		"description": "Пакет MPC содержит функции предназначенные для вычислений с плавающей запятой, целыми и рациональными числами с произвольной точностью. Он необходим пакету GCC.",
+		"description": "Пакет MPC содержит функции, предназначенные для вычислений с плавающей запятой, целыми и рациональными числами с произвольной точностью. Он необходим пакету GCC.",
 		"url": "https://ftp.gnu.org/gnu/mpc/mpc-1.2.1.tar.gz",
 		"homeUrl": "https://www.gnu.org/software/mpc",
 		"version": "1.2.1",
@@ -1367,7 +1368,7 @@
 	{
 		"name": "ncurses",
 		"fileName": "ncurses-6.2.tar.gz",
-		"description": "Пакет содержит библиотеку, предназначенную для управления вводом-выводом на терминал, в числе прочего, библиотека позволяет задавать экранные координаты (в знакоместах) и цвет выводимых символов. Предоставляет программисту уровень абстракции, позволяющий не беспокоиться об аппаратных различиях терминалов и писать переносимый код. Он необходим для ряда пакетов.",
+		"description": "Пакет содержит библиотеку, предназначенную для управления вводом-выводом на терминал. В числе прочего, библиотека позволяет задавать экранные координаты (в знакоместах) и цвет выводимых символов. Предоставляет программисту уровень абстракции, позволяющий не беспокоиться об аппаратных различиях терминалов и писать переносимый код. Он необходим для ряда пакетов.",
 		"url": "https://ftp.gnu.org/gnu/ncurses/ncurses-6.2.tar.gz",
 		"homeUrl": "https://www.gnu.org/software/ncurses",
 		"version": "6.2",
@@ -1396,7 +1397,7 @@
 	{
 		"name": "ninja",
 		"fileName": "ninja-1.10.2.tar.gz",
-		"description": "Ninja - утилита для сборки программ, фокусирующая на скорости. От других систем сборки программ она отличается двумя основными аспектами: для работы используется свой формат входных файлов, созданных системой построения более высокого уровня, и она предназначена для быстрой сборки программ.",
+		"description": "Ninja - утилита для сборки программ, фокусирующаяся на скорости. От других систем сборки программ она отличается двумя основными аспектами: для работы используется свой формат входных файлов, созданных системой построения более высокого уровня, и она предназначена для быстрой сборки программ.",
 		"url": "https://github.com/ninja-build/ninja/archive/v1.10.2/ninja-1.10.2.tar.gz",
 		"homeUrl": "https://ninja-build.org/",
 		"version": "1.10.2",
@@ -1446,7 +1447,7 @@
 	{
 		"name": "patch",
 		"fileName": "patch-2.7.6.tar.xz",
-		"description": "Пакет содержит программу предназначенную для переноса правок (изменений) между разными версиями текстовых файлов. Информация о правке обычно содержится в отдельном файле, называемом 'заплаткой' (patch), 'правкой' или 'файлом правки' (англ. patch file). Подобный файл, как правило, создается с помощью другой утилиты Unix — diff, позволяющей автоматически извлечь информацию о различиях в тексте файлов. Он необходим для выполнения сборки некоторых пакетов.",
+		"description": "Пакет содержит программу, предназначенную для переноса правок (изменений) между разными версиями текстовых файлов. Информация о правке обычно содержится в отдельном файле, называемом 'заплаткой' (patch), 'правкой' или 'файлом правки' (англ. patch file). Подобный файл, как правило, создается с помощью другой утилиты Unix — diff, позволяющей автоматически извлечь информацию о различиях в тексте файлов. Он необходим для выполнения сборки некоторых пакетов.",
 		"url": "https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.xz",
 		"homeUrl": "https://www.gnu.org/software/patch",
 		"version": "2.7.6",
@@ -1562,15 +1563,15 @@
 	},
 	{
 		"name": "python",
-		"fileName": "Python-3.9.5.tar.xz",
+		"fileName": "Python-3.9.6.tar.xz",
 		"description": "Высокоуровневый язык программирования общего назначения, ориентированный на повышение производительности разработчика и читаемости кода. Содержит среду разработки для объектно-ориентированного программирования, написания сценариев, прототипирования крупных программ и разработки полноценных приложений.",
-		"url": "https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tar.xz",
+		"url": "https://www.python.org/ftp/python/3.9.6/Python-3.9.6.tar.xz",
 		"homeUrl": "https://www.python.org",
-		"version": "3.9.5",
+		"version": "3.9.6",
 		"releasesUrl": "https://www.python.org/ftp/python/",
 		"priority": "important",
-		"md5": "71f7ada6bec9cdbf4538adc326120cfd",
-		"size": "18.18",
+		"md5": "ecc29a7688f86e550d29dba2ee66cf80",
+		"size": "18.17",
 		"installedSize": 165.1,
 		"sbu": 1.2,
 		"sbu2": 9.5,
@@ -1581,7 +1582,7 @@
 			"test"
 		],
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/Python-3.9.5.tar.xz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/Python-3.9.6.tar.xz"
 	},
 	{
 		"name": "readline",
@@ -1615,7 +1616,7 @@
 	{
 		"name": "sed",
 		"fileName": "sed-4.8.tar.xz",
-		"description": "Sed - потоковый текстовый редактор (а также язык программирования), применяющий различные предопределённые текстовые преобразования к последовательному потоку текстовых данных. Он необходим для многих пакетов, на этапе конфигурирования.",
+		"description": "Sed - потоковый текстовый редактор (а также язык программирования), применяющий различные предопределённые текстовые преобразования к последовательному потоку текстовых данных. Он необходим для многих пакетов на этапе конфигурирования.",
 		"url": "https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz",
 		"homeUrl": "https://www.gnu.org/software/sed",
 		"version": "4.8",
@@ -1690,7 +1691,7 @@
 	{
 		"name": "systemd",
 		"fileName": "systemd-stable-248.3.tar.gz",
-		"description": "Системный менеджер, демон инициализации других демонов в Linux, пришедший на замену используемого ранее SysVinit. Его особенностью является интенсивное распараллеливание запуска служб в процессе загрузки системы, что позволяет существенно ускорить запуск операционной системы. Systemd используется во многих коммерческих дистрибутивах.",
+		"description": "Системный менеджер, демон инициализации других демонов в Linux, пришедший на замену используемому ранее SysVinit. Его особенностью является интенсивное распараллеливание запуска служб в процессе загрузки системы, что позволяет существенно ускорить запуск операционной системы. Systemd используется во многих коммерческих дистрибутивах.",
 		"url": "https://github.com/systemd/systemd-stable/archive/refs/tags/v248.3.tar.gz",
 		"homeUrl": "https://systemd.io/",
 		"version": "248.3",
@@ -1744,7 +1745,7 @@
 	{
 		"name": "tar",
 		"fileName": "tar-1.34.tar.xz",
-		"description": "Этот пакет обеспечивает возможности архивирования и извлечения почти всех пакетов",
+		"description": "Этот пакет обеспечивает возможности архивирования и извлечения почти всех пакетов.",
 		"url": "https://ftp.gnu.org/gnu/tar/tar-1.34.tar.xz",
 		"homeUrl": "https://www.gnu.org/software/tar",
 		"version": "1.34",
@@ -1777,7 +1778,7 @@
 		"size": "9.78",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 3.8,
 		"downloadUrl": "https://lx4u.ru/downloads/packages/tcl8.6.11-src.tar.gz",
 		"multilibSupport": false,
 		"scripts": [
@@ -1802,7 +1803,7 @@
 		"size": "4.14",
 		"installedSize": 0,
 		"sbu": 0.3,
-		"sbu2": 0,
+		"sbu2": 0.7,
 		"scripts": [
 			"build",
 			"configure",
@@ -1816,7 +1817,7 @@
 	{
 		"name": "tzdata",
 		"fileName": "tzdata2021a.tar.gz",
-		"description": "База данных часовых поясов",
+		"description": "База данных часовых поясов.",
 		"url": "https://www.iana.org/time-zones/repository/releases/tzdata2021a.tar.gz",
 		"homeUrl": "https://www.iana.org/time-zones",
 		"version": "2021a",
@@ -1833,7 +1834,7 @@
 	{
 		"name": "udev",
 		"fileName": "udev.tar.xz",
-		"description": "Дополнительные правила и файлы, используемые в окружении",
+		"description": "Дополнительные правила и файлы, используемые в окружении.",
 		"url": "https://github.com/Linux4Yourself/Linux4Yourself.Udev/releases/download/0.1/udev.tar.xz",
 		"homeUrl": "https://github.com/Linux4Yourself/Linux4Yourself.Udev",
 		"version": "20171102",
@@ -1850,7 +1851,7 @@
 	{
 		"name": "util-linux",
 		"fileName": "util-linux-2.37.tar.xz",
-		"description": "Содержит стандартный набор служебных утилит командной строки, такие как - утилиты для работы с файловой системой, консолью, разделами, и сообщениями.",
+		"description": "Содержит стандартный набор служебных утилит командной строки, такие как: утилиты для работы с файловой системой, консолью, разделами, и сообщениями.",
 		"url": "https://www.kernel.org/pub/linux/utils/util-linux/v2.37/util-linux-2.37.tar.xz",
 		"homeUrl": "https://en.wikipedia.org/wiki/Util-linux",
 		"version": "2.37.0",
@@ -1884,18 +1885,18 @@
 	},
 	{
 		"name": "vim",
-		"fileName": "vim-8.2.3017.tar.gz",
+		"fileName": "vim-8.2.3060.tar.gz",
 		"description": "Один из мощнейших текстовых редакторов с полной свободой настройки и автоматизации, возможными благодаря расширениям и надстройкам.",
-		"url": "https://github.com/vim/vim/archive/refs/tags/v8.2.3017.tar.gz",
+		"url": "https://github.com/vim/vim/archive/refs/tags/v8.2.3060.tar.gz",
 		"homeUrl": "https://www.vim.org/",
-		"version": "8.2.3017",
+		"version": "8.2.3060",
 		"releasesUrl": "https://github.com/vim/vim/releases",
 		"priority": "optional",
-		"md5": "b39b903e88ebcd5c9f8d1bc23f170ca9",
-		"size": "14.82",
+		"md5": "63986be615cef730b3362dcce4bf1352",
+		"size": "14.85",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 2.1,
 		"scripts": [
 			"build",
 			"configure",
@@ -1905,12 +1906,12 @@
 			"test"
 		],
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/vim-8.2.3017.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/vim-8.2.3060.tar.gz"
 	},
 	{
 		"name": "nano",
 		"fileName": "nano-5.8.tar.xz",
-		"description": "консольный текстовый редактор для UNIX и Unix-подобных операционных систем, основанный на библиотеке curses.",
+		"description": "Консольный текстовый редактор для UNIX и Unix-подобных операционных систем, основанный на библиотеке curses.",
 		"url": "https://www.nano-editor.org/dist/v5/nano-5.8.tar.xz",
 		"homeUrl": "https://www.nano-editor.org/",
 		"version": "5.8",
@@ -1920,7 +1921,7 @@
 		"size": "1.39",
 		"installedSize": 0,
 		"sbu": 0,
-		"sbu2": 0,
+		"sbu2": 0.2,
 		"scripts": [
 			"build",
 			"configure",
@@ -1957,7 +1958,7 @@
 	{
 		"name": "xz",
 		"fileName": "xz-5.2.5.tar.xz",
-		"description": "Пакет содержит программы для сжатия и распаковки файлов. Он обеспечивает высокое сжатие и используется для распаковки пакетов форматов XZ и LZMA. Сжатие текстовых файлов при помощи программы xzдаёт больший процент сжатия чем gzip или bzip2.",
+		"description": "Пакет содержит программы для сжатия и распаковки файлов. Он обеспечивает высокое сжатие и используется для распаковки пакетов форматов XZ и LZMA. Сжатие текстовых файлов при помощи программы xz даёт больший процент сжатия, чем gzip или bzip2.",
 		"url": "https://tukaani.org/xz/xz-5.2.5.tar.xz",
 		"homeUrl": "https://tukaani.org/xz",
 		"version": "5.2.5",
@@ -1985,7 +1986,7 @@
 	{
 		"name": "zlib-ng",
 		"fileName": "zlib-ng-2.0.3.tar.gz",
-		"description": "Пакет Zlib содержит библиотеку для сжатия и распаковки, которую используют некоторые программы. Zlib-ng - это форк Zlib с улучшенной оптимизацией и дополнительными патчами",
+		"description": "Пакет Zlib содержит библиотеку для сжатия и распаковки, которую используют некоторые программы. Zlib-ng - это форк Zlib с улучшенной оптимизацией и дополнительными патчами.",
 		"url": "https://github.com/zlib-ng/zlib-ng/archive/refs/tags/2.0.3.tar.gz",
 		"homeUrl": "https://github.com/zlib-ng/zlib-ng",
 		"version": "2.0.3",
@@ -2113,7 +2114,7 @@
 	{
 		"name": "efibootmgr",
 		"fileName": "efibootmgr-17.tar.gz",
-		"description": "Пакет для управления переменными EFI.",
+		"description": "Приложение efibootmgr взаимодействует с прошивкой UEFI в системе. Это популярное приложение для изменения настроек EFI с целью создания и изменения загрузочных записей, с помощью которых можно загрузить Linux (или любую другую EFI операционную систему). С помощью efibootmgr можно создавать, менять местами, обновлять и удалять загрузочные записи.",
 		"url": "https://github.com/rhboot/efibootmgr/archive/17/efibootmgr-17.tar.gz",
 		"homeUrl": "https://github.com/rhboot/efibootmgr/",
 		"version": "17",
@@ -2135,7 +2136,7 @@
 	{
 		"name": "dosfstools",
 		"fileName": "dosfstools-4.2.tar.gz",
-		"description": "Dosfstools обеспечивает работу с файловыми системами семейства FAT",
+		"description": "Dosfstools обеспечивает работу с файловыми системами семейства FAT.",
 		"url": "https://github.com/dosfstools/dosfstools/releases/download/v4.2/dosfstools-4.2.tar.gz",
 		"homeUrl": " https://github.com/dosfstools/dosfstools",
 		"version": "4.2",
@@ -2178,7 +2179,7 @@
 	{
 		"name": "libtasn1",
 		"fileName": "libtasn1-4.17.0.tar.gz",
-		"description": "портативная библиотека C, которая кодирует и декодирует данные DER / BER в соответствии со схемой ASN.1.",
+		"description": "Портативная библиотека C, которая кодирует и декодирует данные DER/BER в соответствии со схемой ASN.1.",
 		"url": "https://ftp.gnu.org/gnu/libtasn1/libtasn1-4.17.0.tar.gz",
 		"homeUrl": "https://www.gnu.org/software/libtasn1/",
 		"version": "4.17.0",
@@ -2197,23 +2198,24 @@
 			"multi_build",
 			"multi_configure",
 			"multi_install",
-			"multi_prepare"
+			"multi_prepare",
+			"test"
 		]
 	},
 	{
 		"name": "p11-kit",
-		"fileName": "p11-kit-0.23.22.tar.xz",
+		"fileName": "p11-kit-0.24.0.tar.xz",
 		"description": "Пакет предоставляет способ загрузки и перечисления модулей PKCS #11 (стандарт интерфейса криптографических токенов).",
-		"url": "https://github.com/p11-glue/p11-kit/releases/download/0.23.22/p11-kit-0.23.22.tar.xz",
+		"url": "https://github.com/p11-glue/p11-kit/releases/download/0.24.0/p11-kit-0.24.0.tar.xz",
 		"homeUrl": "https://github.com/p11-glue/p11-kit/",
-		"version": "0.23.22",
+		"version": "0.24.0",
 		"priority": "optional",
-		"md5": "03f93a4eb62127b5d40e345c624a0665",
-		"size": "0.79",
+		"md5": "8ccf11c4a2e2e505b8e516d8549e64a5",
+		"size": "0.80",
 		"installedSize": "0",
 		"sbu": "0",
 		"sbu2": 0.2,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/p11-kit-0.23.22.tar.xz",
+		"downloadUrl": "https://lx4u.ru/downloads/packages/p11-kit-0.24.0.tar.xz",
 		"multilibSupport": false,
 		"scripts": [
 			"build",
