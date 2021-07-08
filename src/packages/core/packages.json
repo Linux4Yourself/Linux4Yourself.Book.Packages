@@ -1199,19 +1199,19 @@
 	},
 	{
 		"name": "linux",
-		"fileName": "linux-5.12.13.tar.xz",
+		"fileName": "linux-5.13.1.tar.xz",
 		"description": "Ядро операционной системы.",
-		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.13.tar.xz",
+		"url": "https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.13.1.tar.xz",
 		"homeUrl": "https://www.kernel.org",
-		"version": "5.12.13",
+		"version": "5.31.1",
 		"releasesUrl": "https://www.kernel.org",
 		"priority": "required",
-		"md5": "9b0ebe154197ea04f407fe35b0937adc",
-		"size": "112.69",
+		"md5": "6499bdaa4ee1ef873ffd6533492140e7",
+		"size": "113.76",
 		"installedSize": 0,
 		"sbu": 0,
 		"sbu2": 4.4,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.12.13.tar.xz",
+		"downloadUrl": "https://lx4u.ru/downloads/packages/linux-5.13.1.tar.xz",
 		"scripts": []
 	},
 	{
@@ -1694,15 +1694,15 @@
 	},
 	{
 		"name": "systemd",
-		"fileName": "systemd-stable-248.3.tar.gz",
+		"fileName": "systemd-stable-249.tar.gz",
 		"description": "Системный менеджер, демон инициализации других демонов в Linux, пришедший на замену используемому ранее SysVinit. Его особенностью является интенсивное распараллеливание запуска служб в процессе загрузки системы, что позволяет существенно ускорить запуск операционной системы. Systemd используется во многих коммерческих дистрибутивах.",
-		"url": "https://github.com/systemd/systemd-stable/archive/refs/tags/v248.3.tar.gz",
+		"url": "https://github.com/systemd/systemd-stable/archive/refs/tags/v249.tar.gz",
 		"homeUrl": "https://systemd.io/",
-		"version": "248.3",
+		"version": "249",
 		"releasesUrl": "https://github.com/systemd/systemd/releases",
 		"priority": "required",
-		"md5": "bb412cc7f9c9c54bcfdb8e7a90f5a8b1",
-		"size": "9.84",
+		"md5": "fb0481dfe8f30ea06d270005f1039364",
+		"size": "10.10",
 		"installedSize": 23.9,
 		"sbu": 0,
 		"sbu2": 1.3,
@@ -1719,7 +1719,7 @@
 			"prepare"
 		],
 		"multilibSupport": false,
-		"downloadUrl": "https://lx4u.ru/downloads/packages/systemd-stable-248.3.tar.gz"
+		"downloadUrl": "https://lx4u.ru/downloads/packages/systemd-stable-249.tar.gz"
 	},
 	{
 		"name": "sysvinit",
